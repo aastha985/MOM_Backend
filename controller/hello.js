@@ -1,5 +1,11 @@
+const pool = require("../database.js");
+
 exports.hello = (req, res) => {
-    res.send({
-        hello: ["awsd", "ads"],
+    pool.query("select * from user", function (err, rows, fields) {
+        if (err) {
+            console.log(err);
+        } else {
+            res.json(rows);
+        }
     });
 };
