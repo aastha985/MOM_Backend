@@ -130,3 +130,22 @@ exports.createProfile = (req, res) => {
         }
     );
 };
+
+exports.premium = (req, res) => {
+    pool.query(
+        "insert into `premium member` (DurationInDays,TransactionID,StartDate,UserID) values (?,?,?,?)",
+        [
+            req.body.DurationInDays,
+            req.body.TransactionID,
+            req.body.StartDate,
+            req.body.UserID,
+        ],
+        (err, result) => {
+            if (err) {
+                console.log(err);
+            } else {
+                res.send({ message: result });
+            }
+        }
+    );
+};
