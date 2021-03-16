@@ -34,11 +34,11 @@ exports.login = (req, res) => {
                 res.send({ err: err });
             }
 
-            if (result.length > 0) {
+            if (result && result.length > 0) {
                 bcrypt.compare(password, result[0].hash, (error, response) => {
                     if (response) {
                         req.session.user = result;
-                        // console.log(req.session.user);
+                        console.log(req.session.user);
                         res.send(result);
                     } else {
                         res.send({
@@ -48,6 +48,20 @@ exports.login = (req, res) => {
                 });
             } else {
                 res.send({ message: "Invalid username" });
+            }
+        }
+    );
+};
+
+exports.profile = (req, res) => {
+    pool.query(
+        "select * from user where userID = ?",
+        req.body.userID,
+        function (err, rows, fields) {
+            if (err) {
+                console.log(err);
+            } else {
+                res.json(rows);
             }
         }
     );
