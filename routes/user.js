@@ -7,5 +7,6 @@ router.post("/signup", user.signup);
 router.get("/login", user.login);
 router.get("/profile", user.profile);
 router.post("/createProfile", user.createProfile);
+router.get("/isProfileCreated", user.IsProfileCreated);
 
 module.exports = router;

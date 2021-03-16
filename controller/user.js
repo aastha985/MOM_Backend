@@ -71,6 +71,20 @@ exports.profile = (req, res) => {
     );
 };
 
+exports.IsProfileCreated = (req, res) => {
+    pool.query(
+        "select count(*) as profileCreated from user where UserID = ?",
+        req.body.UserID,
+        function (err, rows, fields) {
+            if (err) {
+                console.log(err);
+            } else {
+                res.json(rows);
+            }
+        }
+    );
+};
+
 exports.createProfile = (req, res) => {
     const userId = req.body.UserID;
     const firstName = req.body.FirstName;
