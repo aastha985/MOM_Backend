@@ -16,7 +16,11 @@ exports.signup = (req, res) => {
             "INSERT INTO login_credentials (username, hash) VALUES (?,?)",
             [username, hash],
             (err, result) => {
-                console.log(err);
+                if (err) {
+                    console.log(err);
+                } else {
+                    res.send({ message: result });
+                }
             }
         );
     });
@@ -55,13 +59,59 @@ exports.login = (req, res) => {
 
 exports.profile = (req, res) => {
     pool.query(
-        "select * from user where userID = ?",
-        req.body.userID,
+        "select * from user where UserID = ?",
+        req.body.UserID,
         function (err, rows, fields) {
             if (err) {
                 console.log(err);
             } else {
                 res.json(rows);
+            }
+        }
+    );
+};
+
+exports.createProfile = (req, res) => {
+    const userId = req.body.UserID;
+    const firstName = req.body.FirstName;
+    const lastName = req.body.LastName;
+    const gender = req.body.Gender;
+    const phoneNumber1 = req.body.PhoneNumber1;
+    const phoneNumber2 = req.body.PhoneNumber2;
+    const emailAddress = req.body.EmailAddress;
+    const state = req.body.State;
+    const city = req.body.City;
+    const street = req.body.Street;
+    const apartmentNo = req.body.ApartmentNumber;
+    const pincode = req.body.Pincode;
+    const landmark = req.body.Landmark;
+    const isPremiumMember = 0;
+    const DOB = req.body.DOB;
+
+    pool.query(
+        "INSERT INTO user (UserID,FirstName,LastName, Gender, PhoneNumber1,PhoneNumber2,EmailAddress, State, City,Street,ApartmentNumber, Pincode, Landmark,IsPremiumMember,DOB) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+        [
+            userId,
+            firstName,
+            lastName,
+            gender,
+            phoneNumber1,
+            phoneNumber2,
+            emailAddress,
+            state,
+            city,
+            street,
+            apartmentNo,
+            pincode,
+            landmark,
+            isPremiumMember,
+            DOB,
+        ],
+        (err, result) => {
+            if (err) {
+                console.log(err);
+            } else {
+                res.send({ message: result });
             }
         }
     );

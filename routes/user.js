@@ -6,5 +6,6 @@ const pool = require("../database.js");
 router.post("/signup", user.signup);
 router.get("/login", user.login);
 router.get("/profile", user.profile);
+router.post("/createProfile", user.createProfile);
 
 module.exports = router;
