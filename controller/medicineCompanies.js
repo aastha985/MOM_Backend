@@ -59,3 +59,14 @@ exports.medicines = (req, res) => {
         }
     );
 };
+
+exports.medicineSales = (req, res) => {
+    pool.query(
+        "select m.Name, sum(Quantity) as quantitySold from medicines m join order_item o on m.MedicineID = o.MedicineID where CompanyID=? group by m.MedicineID order by quantitySold desc;",
+        req.body.CompanyID,
+        function (err, rows, fields) {
+            if (err) console.log(err);
+            else res.json(rows);
+        }
+    );
+};
