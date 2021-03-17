@@ -30,3 +30,18 @@ exports.medicineByCategory = (req, res) => {
         }
     );
 };
+
+exports.medicineByName = (req, res) => {
+    const name = "%" + req.body.Name + "%";
+    pool.query(
+        "select * from medicines where Name like ?",
+        name,
+        function (err, rows, fields) {
+            if (err) {
+                console.log(err);
+            } else {
+                res.json(rows);
+            }
+        }
+    );
+};
