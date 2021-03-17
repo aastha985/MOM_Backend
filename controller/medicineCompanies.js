@@ -3,7 +3,7 @@ const pool = require("../database.js");
 exports.topMedicines = (req, res) => {
     pool.query(
         `select rank() over (order by quantitySold desc) Ranking, Name as "Medicine Name",CompanyName,quantitySold from(
-            select sum(quantity) as quantitySold,medicines.Name,medicines.CompanyName from order_item join medicines where order_item.MedicineID = medicines.MedicineID group by order_item.MedicineID order by quantitySold desc limit 5
+            select sum(quantity) as quantitySold,medicines.Name,medicines.CompanyName from order_item join medicines on order_item.MedicineID = medicines.MedicineID group by order_item.MedicineID order by quantitySold desc limit 5
             ) as topMedicines;`,
         req.body.limit,
         function (err, rows, fields) {
@@ -19,7 +19,7 @@ exports.topMedicines = (req, res) => {
 exports.rankingBySales = (req, res) => {
     pool.query(
         `select rank() over (order by total_sale desc) Rank_by_Sales,CompanyName,total_sale from
-	(select medicines.CompanyName , sum(order_item.Cost * order_item.Quantity) as total_sale from medicines join order_item where order_item.MedicineID = medicines.MedicineID 
+	(select medicines.CompanyName , sum(order_item.Cost * order_item.Quantity) as total_sale from medicines join order_item on order_item.MedicineID = medicines.MedicineID 
 	group by medicines.CompanyName) as sales`,
         function (err, rows, fields) {
             if (err) {
@@ -50,7 +50,7 @@ exports.login = (req, res) => {
 
 exports.medicines = (req, res) => {
     pool.query(
-        "select m.Name,m.Description,m.Cost,m.Category,m.IsPrescibed,m.`Packaging Condition ( In Celcius)` from medicines as m join medicine_companies where m.CompanyID = medicine_companies.CompanyID and m.CompanyID=?;",
+        "select m.Name,m.Description,m.Cost,m.Category,m.IsPrescibed,m.`Packaging Condition ( In Celcius)` from medicines as m join medicine_companies on m.CompanyID = medicine_companies.CompanyID where m.CompanyID=?;",
         req.body.CompanyID,
         function (err, rows, fields) {
             if (err) {
