@@ -31,6 +31,7 @@ app.use(
 app.use("/", require("./routes/hello"));
 app.use("/user", require("./routes/user"));
 app.use("/medicine", require("./routes/medicine"));
+app.use("/pharmacy", require("./routes/pharmacy"));
 
 const PORT = process.env.PORT || 3001;
 
