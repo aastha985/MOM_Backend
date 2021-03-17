@@ -3,8 +3,11 @@
 Create `.env` file:
 ```
 PORT=3001
-DB_PASS=db_password_here
 SECRET=express_session_secret_here
+HOST=host_here
+DB=db_name_here
+USER=user_here
+PASSWORD=password_here 
 ```
 
 
