@@ -51,7 +51,7 @@ exports.login = (req, res) => {
 exports.medicines = (req, res) => {
     pool.query(
         "select m.Name,m.Description,m.Cost,m.Category,m.IsPrescibed,m.`Packaging Condition ( In Celcius)` from medicines as m join medicine_companies on m.CompanyID = medicine_companies.CompanyID where m.CompanyID=?;",
-        req.body.CompanyID,
+        req.params.CompanyID,
         function (err, rows, fields) {
             if (err) {
                 console.log(err);
@@ -63,7 +63,7 @@ exports.medicines = (req, res) => {
 exports.medicineSales = (req, res) => {
     pool.query(
         "select m.Name, sum(Quantity) as quantitySold from medicines m join order_item o on m.MedicineID = o.MedicineID where CompanyID=? group by m.MedicineID order by quantitySold desc;",
-        req.body.CompanyID,
+        req.params.CompanyID,
         function (err, rows, fields) {
             if (err) console.log(err);
             else res.json(rows);
