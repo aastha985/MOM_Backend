@@ -149,3 +149,41 @@ exports.premium = (req, res) => {
         }
     );
 };
+
+exports.IsDoctor = (req, res) => {
+    pool.query(
+        "select count(*) as IsDoctor from doctor where UserID = ?",
+        req.body.UserID,
+        (err, result) => {
+            if (err) console.log(err);
+            else res.json(result);
+        }
+    );
+};
+
+exports.doctor = (req, res) => {
+    pool.query(
+        "insert into doctor (UserID,LicenseNo,Degree,Department) values (?,?,?,?)",
+        [
+            req.body.UserID,
+            req.body.LicenseNo,
+            req.body.Degree,
+            req.body.Department,
+        ],
+        (err, result) => {
+            if (err) console.log(err);
+            else res.send({ message: result });
+        }
+    );
+};
+
+exports.doctorProfile = (req, res) => {
+    pool.query(
+        "select * from doctor where UserID = ?",
+        req.body.UserID,
+        (err, result) => {
+            if (err) console.log(err);
+            else res.json(result);
+        }
+    );
+};

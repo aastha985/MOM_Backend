@@ -9,4 +9,9 @@ router.post("/createProfile", user.createProfile);
 router.get("/isProfileCreated", user.IsProfileCreated);
 router.post("/premium", user.premium);
 
+// doctor routes
+router.get("/isDoctor", user.IsDoctor);
+router.post("/doctor/createProfile", user.doctor);
+router.get("/doctor/profile", user.doctorProfile);
+
 module.exports = router;
