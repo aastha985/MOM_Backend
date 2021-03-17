@@ -47,3 +47,15 @@ exports.login = (req, res) => {
         );
     } else res.send({ message: "Incorrect OTP" });
 };
+
+exports.medicines = (req, res) => {
+    pool.query(
+        "select m.Name,m.Description,m.Cost,m.Category,m.IsPrescibed,m.`Packaging Condition ( In Celcius)` from medicines as m join medicine_companies where m.CompanyID = medicine_companies.CompanyID and m.CompanyID=?;",
+        req.body.CompanyID,
+        function (err, rows, fields) {
+            if (err) {
+                console.log(err);
+            } else res.json(rows);
+        }
+    );
+};
