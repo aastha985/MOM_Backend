@@ -15,3 +15,18 @@ exports.allMedicines = (req, res) => {
         }
     );
 };
+
+exports.medicineByCategory = (req, res) => {
+    const category = req.params.category.replace(/\+/g, " ");
+    pool.query(
+        "select * from medicines where Category = ?",
+        category,
+        function (err, rows, fields) {
+            if (err) {
+                console.log(err);
+            } else {
+                res.json(rows);
+            }
+        }
+    );
+};
