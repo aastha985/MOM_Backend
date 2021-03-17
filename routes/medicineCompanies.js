@@ -4,5 +4,6 @@ medicineCompanies = require("../controller/medicineCompanies");
 
 router.get("/topMedicines", medicineCompanies.topMedicines);
 router.get("/rankingBySales", medicineCompanies.rankingBySales);
+router.get("/login", medicineCompanies.login);
 
 module.exports = router;

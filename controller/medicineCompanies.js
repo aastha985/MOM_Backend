@@ -30,3 +30,20 @@ exports.rankingBySales = (req, res) => {
         }
     );
 };
+
+exports.login = (req, res) => {
+    const oneTimePassword = 1234; //can be replaced with an API for OTP
+    if (req.body.OTP == oneTimePassword) {
+        pool.query(
+            "select * from medicine_companies where Email = ?;",
+            req.body.Email,
+            function (err, rows, fields) {
+                if (err) {
+                    console.log(err);
+                } else {
+                    res.json(rows);
+                }
+            }
+        );
+    } else res.send({ message: "Incorrect OTP" });
+};
