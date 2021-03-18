@@ -1,12 +1,24 @@
 const pool = require("../database.js");
 
+const table_name = "pharmacies";
+
 exports.allPharmacies = (req,res) =>
 {
-	console.log("req");
+	const columns =
+	[
+		"Name",
+		"Description"
+	];
+
+	let myQuery = "SELECT "
+	for(let column of columns)
+		myQuery += column + ", ";
+	myQuery = myQuery.slice(0,-2);	
+	myQuery += " FROM " + table_name;
 
 	pool.query
 	(
-		"select Name, Description from pharmacies" ,
+		myQuery,
 		function (err, rows, fields)
 		{
 			if (err)
@@ -19,33 +31,15 @@ exports.allPharmacies = (req,res) =>
 
 exports.profile = (req,res) =>
 {
-	const columns = 
-	[
-		"Name" ,
-		"License No." ,
-		"Phone Number 1" ,
-		"Phone Number 2" ,
-		"Website" ,
-		"Email Address" ,
-		"Description" ,
-		"Apartment No." ,
-		"Street" ,
-		"Landmark" ,
-		"City" ,
-		"State" ,
-		"Pincode"
-	];
-
-	let queryString = "SELECT ";
-	for(column of columns)
-		queryString += "'" + column + "', ";
-	queryString = queryString.slice(0,-2);
-	queryString += " FROM Pharmacies WHERE PharmacyID = ?";
+	let myQuery = "SELECT ";
+	myQuery += "*";	
+	myQuery += " FROM " + table_name;
+	myQuery += " WHERE PharmacyID = ? ";
 
 	pool.query
 	(
-		queryString ,
-		req.params.PharmacyID ,
+		myQuery ,
+		req.params.pharmacyID,
 		function (err, rows, fields)
 		{
 			if (err)
