@@ -225,3 +225,36 @@ exports.prescribe = (req, res) => {
         }
     );
 };
+
+exports.viewCart = (req, res) => {
+    pool.query(
+        "select * from cart_items where UserID = ?",
+        req.params.UserID,
+        (err, result) => {
+            if (err) console.log(err);
+            else res.json(result);
+        }
+    );
+};
+
+exports.updateCartItem = (req, res) => {
+    pool.query(
+        "update cart_items set Quantity=? where ItemID = ?",
+        [req.body.Quantity, req.params.ItemID],
+        (err, result) => {
+            if (err) console.log(err);
+            else res.json(result);
+        }
+    );
+};
+
+exports.deleteCartItem = (req, res) => {
+    pool.query(
+        "delete from cart_items where ItemID = ?",
+        req.params.ItemID,
+        (err, result) => {
+            if (err) console.log(err);
+            else res.json(result);
+        }
+    );
+};
