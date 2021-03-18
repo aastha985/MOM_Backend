@@ -187,3 +187,41 @@ exports.doctorProfile = (req, res) => {
         }
     );
 };
+
+exports.doctorPrescriptions = (req, res) => {
+    pool.query(
+        `SELECT PrescriptionID,ImageURL as Prescription,PrescriptionDate,CONCAT(FirstName," ",LastName) as "Patient Name",PhoneNumber1 as "Patient Phone Number" FROM prescription join user on prescription.PatientUserID = user.UserID where prescription.DoctorUserID=?`,
+        req.body.UserID,
+        (err, result) => {
+            if (err) console.log(err);
+            else res.json(result);
+        }
+    );
+};
+
+exports.userPrescriptions = (req, res) => {
+    pool.query(
+        `SELECT PrescriptionID,ImageURL,PrescriptionDate,CONCAT(FirstName," ",LastName) as "Doctor's Name",PhoneNumber1 as "Doctor's Phone Number" FROM prescription join user on user.UserID = prescription.DoctorUserID where PatientUserID = ?`,
+        req.body.UserID,
+        (err, result) => {
+            if (err) console.log(err);
+            else res.json(result);
+        }
+    );
+};
+
+exports.prescribe = (req, res) => {
+    pool.query(
+        "insert into prescription (ImageURL,PrescriptionDate,DoctorUserID,PatientUserID) values (?,?,?,?)",
+        [
+            req.body.url,
+            req.body.date,
+            req.body.doctorUserID,
+            req.body.patientUserID,
+        ],
+        (err, result) => {
+            if (err) console.log(err);
+            else res.json(result);
+        }
+    );
+};
