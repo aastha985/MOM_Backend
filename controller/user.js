@@ -237,10 +237,21 @@ exports.viewCart = (req, res) => {
     );
 };
 
+exports.insertCartItem = (req, res) => {
+    pool.query(
+        "insert into cart_items (UserID,MedicineID) values(?,?)",
+        [req.params.UserID, req.body.MedicineID],
+        (err, result) => {
+            if (err) console.log(err);
+            else res.json(result);
+        }
+    );
+};
+
 exports.updateCartItem = (req, res) => {
     pool.query(
-        "update cart_items set Quantity=? where ItemID = ?",
-        [req.body.Quantity, req.params.ItemID],
+        "update cart_items set Quantity=? where UserID = ? and MedicineID = ?",
+        [req.body.Quantity, req.params.UserID, req.body.MedicineID],
         (err, result) => {
             if (err) console.log(err);
             else res.json(result);
@@ -250,8 +261,8 @@ exports.updateCartItem = (req, res) => {
 
 exports.deleteCartItem = (req, res) => {
     pool.query(
-        "delete from cart_items where ItemID = ?",
-        req.params.ItemID,
+        "delete from cart_items where UserID = ? and MedicineID = ?",
+        [req.params.UserID, req.body.MedicineID],
         (err, result) => {
             if (err) console.log(err);
             else res.json(result);
