@@ -3,7 +3,10 @@ router = express.Router();
 pharmacy = require("../controller/pharmacy");
 const pool = require("../database.js");
 
-router.get("/", pharmacy.allPharmacies);
-router.get("/profile/:pharmacyID", pharmacy.profile);
+router.get("/signup", pharmacy.signup);
+router.get("/login", pharmacy.login);
+router.get("/profile", pharmacy.profile);
+router.post("/createProfile", pharmacy.createProfile);
+router.get("/isProfileCreated", pharmacy.isProfileCreated);
 
 module.exports = router;
