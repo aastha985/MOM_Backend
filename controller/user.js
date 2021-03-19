@@ -269,3 +269,79 @@ exports.deleteCartItem = (req, res) => {
         }
     );
 };
+
+exports.orders = (req, res) => {
+    pool.query(
+        "select * from orders where UserID = ?",
+        req.body.UserID,
+        (err, result) => {
+            if (err) console.log(err);
+            else res.json(result);
+        }
+    );
+};
+
+exports.createOrder = (req, res) => {
+    pool.query(
+        "insert into orders(ItemsQuantity,State,City,Street,ApartmentNumber,Pincode,Landmark,Discount,DeliveryCost,TotalAmount,ModeOfPayment,TransactionID,OrderDate,DeliveryDate,SubscriptionID,PharmacyID,PrescriptionID,UserID,Status) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+        [
+            req.body.ItemsQuantity,
+            req.body.State,
+            req.body.City,
+            req.body.Street,
+            req.body.ApartmentNumber,
+            req.body.Pincode,
+            req.body.Landmark,
+            req.body.Discount,
+            req.body.DeliveryCost,
+            req.body.TotalAmount,
+            req.body.ModeOfPayment,
+            req.body.TransactionID,
+            req.body.OrderDate,
+            req.body.DeliveryDate,
+            req.body.SubscriptionID,
+            req.body.PharamcyID,
+            req.body.PrescriptionID,
+            req.body.UserID,
+            req.body.Status,
+        ],
+        (err, result) => {
+            if (err) console.log(err);
+            else res.json(result);
+        }
+    );
+};
+
+exports.placeOrder = (req, res) => {
+    pool.query(
+        "insert into order_item (Cost,Quantity,OrderID,MedicineID)(select m.Cost, c.Quantity,? as OrderID,c.MedicineID from cart_items c join medicines m on c.MedicineID =m.MedicineID where UserID = ?)",
+        [req.body.OrderID, req.body.UserID],
+        (err, result) => {
+            if (err) res.json({ message: "Failed to fetch items from cart" });
+            else {
+                pool.query(
+                    "update orders set status = 2 where OrderID = ?",
+                    req.body.OrderID,
+                    (error, response) => {
+                        if (error)
+                            res.json({
+                                message: "Failed to place order",
+                            });
+                        else res.json(response);
+                    }
+                );
+            }
+        }
+    );
+};
+
+exports.updateOrderStatus = (req, res) => {
+    pool.query(
+        "update orders set Status = ? where OrderID = ?",
+        [req.body.status, req.body.OrderID],
+        (err, result) => {
+            if (err) console.log(err);
+            else res.json(result);
+        }
+    );
+};
