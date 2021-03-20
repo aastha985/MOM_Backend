@@ -121,8 +121,6 @@ exports.isProfileCreated = (req, res) =>
 
 exports.createProfile = (req, res) =>
 {
-	// console.log(req.body);
-
 	const pharmacyId = req.body.UserID;
 	const name = req.body.UserName;
 
@@ -142,7 +140,7 @@ exports.createProfile = (req, res) =>
 
 	const accountNumber = req.body.Account;
 	const ifscCode = req.body.IfscCode;
-	const upiID = req.body.UpiId;
+	const upiID = req.body.UpiID;
 
 	const values = 
 	[
@@ -168,18 +166,13 @@ exports.createProfile = (req, res) =>
 		upiID
 	];
 
-	// for(let value of values)
-	// 	console.log(value)
-
-	// console.log(values);
-
     const columns =
 	[
 		"PharmacyID",
 		"Name",
 
-		"Phone Number 2",
 		"Phone Number 1",
+		"Phone Number 2",
 		"Street",
 		"Apartment No.",
 		"Landmark",
@@ -200,7 +193,7 @@ exports.createProfile = (req, res) =>
 	let myQuery = "INSERT INTO " +  tableName;
 	myQuery += " ( ";
 	for(let column of columns)
-		myQuery += "'" + column + "'" + ", ";
+		myQuery += "`" + column + "`" + ", ";
 	myQuery = myQuery.slice(0,-2);
 	myQuery += " ) ";
 	myQuery	+= "VALUES";
@@ -210,34 +203,10 @@ exports.createProfile = (req, res) =>
 	myQuery = myQuery.slice(0,-2);
 	myQuery += " )";
 
-	// console.log(myQuery);
-
 	pool.query
 	(
 		myQuery,
-		// values,
-		[
-			pharmacyId,
-			name,
-	
-			phoneNumber1,
-			phoneNumber2,
-			street,
-			apartment,
-			landmark,
-			city,
-			state,
-			pincode,
-	
-			description,
-			license,
-			email,
-			website,
-	
-			accountNumber,
-			ifscCode,
-			upiID
-		],
+		values,
 		function (err, result)
 		{
 			if (err)
