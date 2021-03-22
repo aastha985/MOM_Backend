@@ -1,8 +1,7 @@
 const express = require("express");
 router = express.Router();
 delivery = require("../controller/delivery");
-const pool = require("../database.js");
 
-
+router.get('/profile',delivery.profile);
 
 module.exports = router;
