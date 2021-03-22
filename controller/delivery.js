@@ -2,7 +2,7 @@ const pool = require("../database.js");
 
 const tableName1 = "delivery_agent";
 
-exports.profile = (request, response) =>
+exports.agentProfile = (request, response) =>
 {
 	const agentID = request.body.AgentID;
 
@@ -22,7 +22,7 @@ exports.profile = (request, response) =>
 	);
 };
 
-exports.createProfile = (request, response) =>
+exports.createAgentProfile = (request, response) =>
 {
 	const agentID = request.body.AgentID;
 	const firstName = request.body.FirstName;
