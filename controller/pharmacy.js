@@ -29,7 +29,7 @@ exports.signup = (req, res) =>
 			(
 				myQuery,
 				[username, hash],
-				function(err, result)
+				function (err, result)
 				{
 					if (err)
 						console.log(err);
@@ -93,12 +93,12 @@ exports.profile = (req,res) =>
 	(
 		myQuery ,
 		req.body.UserID,
-		function (err, rows, fields)
+		function (err, result)
 		{
 			if (err)
 				console.log(err);
 			else
-				res.json(rows);
+				res.send(result);
 		}
 	);
 };
@@ -111,12 +111,12 @@ exports.isProfileCreated = (req, res) =>
 	(
 		myQuery,
 		req.body.UserID,
-		function (err, rows, fields)
+		function (err, result)
 		{
 			if (err)
 				console.log(err);
 			else
-				res.json(rows);
+				res.send(result);
 		}
 	);
 };
@@ -330,7 +330,7 @@ exports.dueOrders = (req, res) =>
 	const keys = 
 	[
 		tableName3 + "." + "PharmacyID"
-	]
+	];
 
 	const notKeys = [];
 	for(let i = 0; i < due.length; i++)
@@ -342,7 +342,7 @@ exports.dueOrders = (req, res) =>
 		... due,
 		resultsPerPage,
 		offset
-	]
+	];
 
 	const joinType = "INNER JOIN";
 
@@ -414,7 +414,7 @@ exports.completedOrders = (req, res) =>
 	[
 		tableName3 + "." + "PharmacyID",
 		tableName3 + "." + "Status"
-	]
+	];
 
 	const values = 
 	[
@@ -422,7 +422,7 @@ exports.completedOrders = (req, res) =>
 		completed,
 		resultsPerPage,
 		offset
-	]
+	];
 
 	const joinType = "INNER JOIN";
 
