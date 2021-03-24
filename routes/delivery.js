@@ -6,4 +6,6 @@ router.get('/agent/profile',delivery.agentProfile);
 router.post('/agent/createProfile',delivery.createAgentProfile);
 router.get('/agent/dueOrders',delivery.agentDueOrders);
 
+router.get('/allOrders',delivery.allOrders);
+
 module.exports = router;

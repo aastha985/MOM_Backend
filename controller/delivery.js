@@ -193,3 +193,44 @@ exports.agentDueOrders = (request, response) =>
 		}
 	);
 };
+
+exports.allOrders = (request, response) =>
+{
+	const resultsPerPage = 10;
+
+	const offset = (request.body.PageNumber - 1) * resultsPerPage;
+	
+	const columns =
+	[
+		"OrderID",
+		"PharmacyID",
+		"AgentID",
+		"DeliveryDate"
+	];
+	
+	const values = 
+	[
+		resultsPerPage,
+		offset
+	];
+
+	let myQuery = "SELECT " ;	
+	for(let column of columns)
+		myQuery += tableName2 + "." + "`" + column + "`" + ", ";
+	myQuery = myQuery.slice(0,-2);
+	myQuery	+= " FROM " + tableName2 ;
+	myQuery += " LIMIT " + "?" + " OFFSET " + "?" + " ;";
+
+	pool.query
+	(
+		myQuery,
+		values,
+		function (error, result)
+		{
+			if (error)
+				console.log(error);
+			else
+				response.send(result);
+		}
+	);
+};
