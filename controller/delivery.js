@@ -1,6 +1,7 @@
 const pool = require("../database.js");
 
 const tableName1 = "delivery_agent";
+const tableName2 = "orders";
 
 exports.agentProfile = (request, response) =>
 {
@@ -125,6 +126,70 @@ exports.createAgentProfile = (request, response) =>
 				console.log(error);
 			else
 				response.send({ message: result });
+		}
+	);
+};
+
+exports.agentDueOrders = (request, response) =>
+{
+	const resultsPerPage = 10;
+
+	const agentId = request.body.AgentID;
+	const offset = (request.body.PageNumber - 1) * resultsPerPage;
+
+	const due = 
+	[
+		"Delivered",
+		"Cancelled"
+	];
+	
+	const columns =
+	[
+		"OrderID",
+		"PharmacyID",
+		"DeliveryDate"
+	];
+	
+	const keys = 
+	[
+		tableName2 + "." + "AgentID"
+	];
+
+	const notKeys = [];
+	for(let i = 0; i < due.length; i++)
+		notKeys.push(tableName2 + "." + "Status");
+
+	const values = 
+	[
+		agentId,
+		... due,
+		resultsPerPage,
+		offset
+	];
+
+	let myQuery = "SELECT " ;	
+	for(let column of columns)
+		myQuery += tableName2 + "." + "`" + column + "`" + ", ";
+	myQuery = myQuery.slice(0,-2);
+	myQuery	+= " FROM " + tableName2 ;
+	myQuery += " WHERE ";
+	for(let key of keys)
+		myQuery += key + " = " + "?" + " AND ";
+	for(let key of notKeys)
+		myQuery += key + " != " + "?" + " AND ";
+	myQuery = myQuery.slice(0,-4);
+	myQuery += " LIMIT " + "?" + " OFFSET " + "? ;";
+
+	pool.query
+	(
+		myQuery,
+		values,
+		function (error, result)
+		{
+			if (error)
+				console.log(error);
+			else
+				response.send(result);
 		}
 	);
 };
