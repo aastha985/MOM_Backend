@@ -7,5 +7,6 @@ router.post('/agent/createProfile',delivery.createAgentProfile);
 router.get('/agent/dueOrders',delivery.agentDueOrders);
 
 router.get('/allOrders',delivery.allOrders);
+router.get('/dueOrders',delivery.dueOrders);
 
 module.exports = router;
