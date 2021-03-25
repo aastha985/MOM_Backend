@@ -291,3 +291,51 @@ exports.dueOrders = (request, response) =>
 		}
 	);
 };
+
+exports.onDateOrders = (request, response) =>
+{
+	const date = request.body.Date;
+	
+	const columns =
+	[
+		"OrderID",
+		"PharmacyID",
+		"AgentID",
+		"Status",
+		"DeliveryDate"
+	];
+
+	const keys = 
+	[
+		tableName2 + "." + "DeliveryDate"
+	];
+
+	const values = 
+	[
+		date
+	];
+
+	let myQuery = "SELECT " ;	
+	for(let column of columns)
+		myQuery += tableName2 + "." + "`" + column + "`" + ", ";
+	myQuery = myQuery.slice(0,-2);
+	myQuery	+= " FROM " + tableName2 ;
+	myQuery += " WHERE ";
+	for(let key of keys)
+		myQuery += key + " = " + "?" + " AND ";
+	myQuery = myQuery.slice(0,-4);
+	myQuery += " ;";
+
+	pool.query
+	(
+		myQuery,
+		values,
+		function (error, result)
+		{
+			if (error)
+				console.log(error);
+			else
+				response.send(result);
+		}
+	);
+};

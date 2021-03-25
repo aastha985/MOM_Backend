@@ -8,5 +8,6 @@ router.get('/agent/dueOrders',delivery.agentDueOrders);
 
 router.get('/allOrders',delivery.allOrders);
 router.get('/dueOrders',delivery.dueOrders);
+router.get('/onDateOrders',delivery.onDateOrders);
 
 module.exports = router;
