@@ -205,6 +205,7 @@ exports.allOrders = (request, response) =>
 		"OrderID",
 		"PharmacyID",
 		"AgentID",
+		"Status",
 		"DeliveryDate"
 	];
 	
