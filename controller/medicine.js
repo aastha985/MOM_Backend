@@ -32,6 +32,7 @@ exports.medicineByCategory = (req, res) => {
 };
 
 exports.medicineByName = (req, res) => {
+    console.log(req.body);
     const name = "%" + req.body.Name + "%";
     pool.query(
         "select * from medicines where Name like ?",
