@@ -4,6 +4,6 @@ medicine = require("../controller/medicine");
 
 router.get("/", medicine.allMedicines);
 router.get("/show/:category", medicine.medicineByCategory);
-router.get("/search", medicine.medicineByName);
+router.post("/search", medicine.medicineByName);
 
 module.exports = router;
