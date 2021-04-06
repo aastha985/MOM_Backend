@@ -4,6 +4,7 @@ user = require("../controller/user");
 
 router.post("/signup", user.signup);
 router.post("/login", user.login);
+router.post("/logout", user.logout);
 router.post("/profile", user.profile);
 router.post("/createProfile", user.createProfile);
 router.post("/isProfileCreated", user.IsProfileCreated);

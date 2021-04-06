@@ -2,7 +2,6 @@ const express = require("express");
 const pool = require("./database");
 const cors = require("cors");
 const app = express();
-const bodyParser = require("body-parser");
 const cookieParser = require("cookie-parser");
 const session = require("express-session");
 
@@ -14,7 +13,7 @@ app.use(
     })
 );
 app.use(cookieParser());
-app.use(bodyParser.json());
+app.use(express.json());
 
 app.use(
     session({
@@ -35,7 +34,7 @@ app.use("/pharmacy", require("./routes/pharmacy"));
 app.use("/medicineCompanies", require("./routes/medicineCompanies"));
 app.use("/delivery", require("./routes/delivery"));
 
-app.use("/debugging",require("./routes/debugging"));
+app.use("/debugging", require("./routes/debugging"));
 
 const PORT = process.env.PORT || 3001;
 

@@ -56,6 +56,11 @@ exports.login = (req, res) => {
     );
 };
 
+exports.logout = (req, res) => {
+    req.session.user = null;
+    res.json({ message: "Successfully logged out!" });
+};
+
 exports.profile = (req, res) => {
     pool.query(
         "select * from user where UserID = ?",
