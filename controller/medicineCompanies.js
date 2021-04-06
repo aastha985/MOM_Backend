@@ -8,7 +8,7 @@ exports.topMedicines = (req, res) => {
         req.body.limit,
         function (err, rows, fields) {
             if (err) {
-                console.log(err);
+                res.json({ error: err });
             } else {
                 res.json(rows);
             }
@@ -23,7 +23,7 @@ exports.rankingBySales = (req, res) => {
 	group by medicines.CompanyName) as sales`,
         function (err, rows, fields) {
             if (err) {
-                console.log(err);
+                res.json({ error: err });
             } else {
                 res.json(rows);
             }
@@ -39,7 +39,7 @@ exports.login = (req, res) => {
             req.body.Email,
             function (err, rows, fields) {
                 if (err) {
-                    console.log(err);
+                    res.json({ error: err });
                 } else {
                     res.json(rows);
                 }
@@ -54,7 +54,7 @@ exports.medicines = (req, res) => {
         req.params.CompanyID,
         function (err, rows, fields) {
             if (err) {
-                console.log(err);
+                res.json({ error: err });
             } else res.json(rows);
         }
     );
@@ -65,7 +65,7 @@ exports.medicineSales = (req, res) => {
         "select m.Name, sum(Quantity) as quantitySold from medicines m join order_item o on m.MedicineID = o.MedicineID where CompanyID=? group by m.MedicineID order by quantitySold desc;",
         req.params.CompanyID,
         function (err, rows, fields) {
-            if (err) console.log(err);
+            if (err) res.json({ error: err });
             else res.json(rows);
         }
     );

@@ -8,7 +8,7 @@ exports.allMedicines = (req, res) => {
         [resultsPerPage, offset],
         function (err, rows, fields) {
             if (err) {
-                console.log(err);
+                res.json({ error: err });
             } else {
                 res.json(rows);
             }
@@ -23,7 +23,7 @@ exports.medicineByCategory = (req, res) => {
         category,
         function (err, rows, fields) {
             if (err) {
-                console.log(err);
+                res.json({ error: err });
             } else {
                 res.json(rows);
             }
@@ -32,14 +32,13 @@ exports.medicineByCategory = (req, res) => {
 };
 
 exports.medicineByName = (req, res) => {
-    // console.log(req.body);
     const name = "%" + req.body.Name + "%";
     pool.query(
         "select * from medicines where Name like ?",
         name,
         function (err, rows, fields) {
             if (err) {
-                console.log(err);
+                res.json({ error: err });
             } else {
                 res.json(rows);
             }
