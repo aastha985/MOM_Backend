@@ -41,11 +41,17 @@ exports.login = (req, res) => {
                 if (err) {
                     res.json({ error: err });
                 } else {
+                    req.session.user = rows;
                     res.json(rows);
                 }
             }
         );
     } else res.send({ message: "Incorrect OTP" });
+};
+
+exports.logout = (req, res) => {
+    req.session.user = null;
+    res.json({ message: "Successfully logged out!" });
 };
 
 exports.medicines = (req, res) => {

@@ -5,6 +5,7 @@ const pool = require("../database.js");
 
 router.post("/signup", pharmacy.signup);
 router.get("/login", pharmacy.login);
+router.post("/logout", pharmacy.logout);
 router.get("/profile", pharmacy.profile);
 router.post("/createProfile", pharmacy.createProfile);
 router.get("/isProfileCreated", pharmacy.isProfileCreated);
