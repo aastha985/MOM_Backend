@@ -9,7 +9,7 @@ exports.signup = (req, res) => {
 
     bcrypt.hash(password, saltRounds, (err, hash) => {
         if (err) {
-            res.json({error: err});
+            res.json({ error: err });
         }
 
         pool.query(
@@ -17,7 +17,7 @@ exports.signup = (req, res) => {
             [username, hash],
             (err, result) => {
                 if (err) {
-                    res.json({error: err});
+                    res.json({ error: err });
                 } else {
                     res.json({ message: result });
                 }
@@ -62,7 +62,7 @@ exports.profile = (req, res) => {
         req.body.UserID,
         function (err, rows, fields) {
             if (err) {
-                res.json({error: err});
+                res.json({ error: err });
             } else {
                 res.json(rows);
             }
@@ -76,7 +76,7 @@ exports.IsProfileCreated = (req, res) => {
         req.body.UserID,
         function (err, rows, fields) {
             if (err) {
-                res.json({error: err});
+                res.json({ error: err });
             } else {
                 res.json(rows);
             }
@@ -122,7 +122,7 @@ exports.createProfile = (req, res) => {
         ],
         (err, result) => {
             if (err) {
-                res.json({error: err});
+                res.json({ error: err });
             } else {
                 res.json({ message: result });
             }
@@ -141,7 +141,7 @@ exports.premium = (req, res) => {
         ],
         (err, result) => {
             if (err) {
-                res.json({error: err});
+                res.json({ error: err });
             } else {
                 res.json({ message: result });
             }
@@ -154,7 +154,7 @@ exports.IsDoctor = (req, res) => {
         "select count(*) as IsDoctor from doctor where UserID = ?",
         req.body.UserID,
         (err, result) => {
-            if (err) res.json({error: err});
+            if (err) res.json({ error: err });
             else res.json(result);
         }
     );
@@ -170,7 +170,7 @@ exports.doctor = (req, res) => {
             req.body.Department,
         ],
         (err, result) => {
-            if (err) res.json({error: err});
+            if (err) res.json({ error: err });
             else res.json({ message: result });
         }
     );
@@ -181,7 +181,7 @@ exports.doctorProfile = (req, res) => {
         "select * from doctor where UserID = ?",
         req.body.UserID,
         (err, result) => {
-            if (err) res.json({error: err});
+            if (err) res.json({ error: err });
             else res.json(result);
         }
     );
@@ -192,7 +192,7 @@ exports.doctorPrescriptions = (req, res) => {
         `SELECT PrescriptionID,ImageURL as Prescription,PrescriptionDate,CONCAT(FirstName," ",LastName) as "Patient Name",PhoneNumber1 as "Patient Phone Number" FROM prescription join user on prescription.PatientUserID = user.UserID where prescription.DoctorUserID=?`,
         req.body.UserID,
         (err, result) => {
-            if (err) res.json({error: err});
+            if (err) res.json({ error: err });
             else res.json(result);
         }
     );
@@ -203,7 +203,7 @@ exports.userPrescriptions = (req, res) => {
         `SELECT PrescriptionID,ImageURL,PrescriptionDate,CONCAT(FirstName," ",LastName) as "Doctor's Name",PhoneNumber1 as "Doctor's Phone Number" FROM prescription join user on user.UserID = prescription.DoctorUserID where PatientUserID = ?`,
         req.body.UserID,
         (err, result) => {
-            if (err) res.json({error: err});
+            if (err) res.json({ error: err });
             else res.json(result);
         }
     );
@@ -219,7 +219,7 @@ exports.prescribe = (req, res) => {
             req.body.patientUserID,
         ],
         (err, result) => {
-            if (err) res.json({error: err});
+            if (err) res.json({ error: err });
             else res.json(result);
         }
     );
@@ -230,7 +230,7 @@ exports.viewCart = (req, res) => {
         "select * from cart_items where UserID = ?",
         req.params.UserID,
         (err, result) => {
-            if (err) res.json({error: err});
+            if (err) res.json({ error: err });
             else res.json(result);
         }
     );
@@ -241,7 +241,7 @@ exports.insertCartItem = (req, res) => {
         "insert into cart_items (UserID,MedicineID) values(?,?)",
         [req.params.UserID, req.body.MedicineID],
         (err, result) => {
-            if (err) res.json({error: err});
+            if (err) res.json({ error: err });
             else res.json(result);
         }
     );
@@ -252,7 +252,7 @@ exports.updateCartItem = (req, res) => {
         "update cart_items set Quantity=? where UserID = ? and MedicineID = ?",
         [req.body.Quantity, req.params.UserID, req.body.MedicineID],
         (err, result) => {
-            if (err) res.json({error: err});
+            if (err) res.json({ error: err });
             else res.json(result);
         }
     );
@@ -263,7 +263,7 @@ exports.deleteCartItem = (req, res) => {
         "delete from cart_items where UserID = ? and MedicineID = ?",
         [req.params.UserID, req.body.MedicineID],
         (err, result) => {
-            if (err) res.json({error: err});
+            if (err) res.json({ error: err });
             else res.json(result);
         }
     );
@@ -274,7 +274,7 @@ exports.orders = (req, res) => {
         "select * from orders where UserID = ?",
         req.body.UserID,
         (err, result) => {
-            if (err) res.json({error: err});
+            if (err) res.json({ error: err });
             else res.json(result);
         }
     );
@@ -305,7 +305,7 @@ exports.createOrder = (req, res) => {
             req.body.Status,
         ],
         (err, result) => {
-            if (err) res.json({error: err});
+            if (err) res.json({ error: err });
             else res.json(result);
         }
     );
@@ -323,10 +323,25 @@ exports.placeOrder = (req, res) => {
                     req.body.OrderID,
                     (error, response) => {
                         if (error)
-                            res.json({
+                            response.json({
                                 message: "Failed to place order",
                             });
-                        else res.json(response);
+                        else {
+                            pool.query(
+                                "delete from cart_items where UserID = ?",
+                                req.body.UserID,
+                                (err, ress) => {
+                                    if (err) {
+                                        res.json({
+                                            error:
+                                                "Order Placed. Couldn't remove items from the cart.",
+                                        });
+                                    } else {
+                                        res.json(ress);
+                                    }
+                                }
+                            );
+                        }
                     }
                 );
             }
@@ -339,7 +354,7 @@ exports.updateOrderStatus = (req, res) => {
         "update orders set Status = ? where OrderID = ?",
         [req.body.status, req.body.OrderID],
         (err, result) => {
-            if (err) res.json({error: err});
+            if (err) res.json({ error: err });
             else res.json(result);
         }
     );
