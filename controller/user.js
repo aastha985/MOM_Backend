@@ -321,14 +321,15 @@ exports.placeOrder = (req, res) => {
         "insert into order_item (Cost,Quantity,OrderID,MedicineID)(select m.Cost, c.Quantity,? as OrderID,c.MedicineID from cart_items c join medicines m on c.MedicineID =m.MedicineID where UserID = ?)",
         [req.body.OrderID, req.body.UserID],
         (err, result) => {
-            if (err) res.json({ message: "Failed to fetch items from cart" });
+            if (err)
+                return res.json({ message: "Failed to fetch items from cart" });
             else {
                 pool.query(
                     "update orders set status = 2 where OrderID = ?",
                     req.body.OrderID,
                     (error, response) => {
                         if (error)
-                            response.json({
+                            return response.json({
                                 message: "Failed to place order",
                             });
                         else {
@@ -337,12 +338,12 @@ exports.placeOrder = (req, res) => {
                                 req.body.UserID,
                                 (err, ress) => {
                                     if (err) {
-                                        res.json({
+                                        return res.json({
                                             error:
                                                 "Order Placed. Couldn't remove items from the cart.",
                                         });
                                     } else {
-                                        res.json(ress);
+                                        return res.json(ress);
                                     }
                                 }
                             );
@@ -410,15 +411,14 @@ exports.generateOrderFromSubscription = (req, res) => {
         "insert into order_item (Cost,Quantity,OrderID,MedicineID)(select Cost,Quantity,? as OrderID,MedicineID from subscription where UserID = ? and Status = 1);",
         [req.body.OrderID, req.body.UserID],
         (err, result) => {
-            if (err) res.json({ error: err });
+            if (err) return res.json({ error: err });
             else {
-                res.json(result);
                 pool.query(
                     "update orders set status = 2 where OrderID = ?",
                     req.body.OrderID,
                     (error, response) => {
                         if (error)
-                            response.json({
+                            return res.json({
                                 message: "Failed to place order",
                             });
                         else {
@@ -426,8 +426,8 @@ exports.generateOrderFromSubscription = (req, res) => {
                                 "update subscription set LastOrderDate = curdate() where UserID = ? and Status = 1",
                                 req.body.UserID,
                                 (errr, ress) => {
-                                    if (errr) res.json({ error: errr });
-                                    else res.json(ress);
+                                    if (errr) return res.json({ error: errr });
+                                    else return res.json(ress);
                                 }
                             );
                         }
