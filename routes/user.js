@@ -23,6 +23,13 @@ router.post("/orders/confirm", user.placeOrder);
 router.post("/orders", user.orders);
 router.post("/orders/update", user.updateOrderStatus);
 
+//subscription routes
+router.post("/subscriptions/new", user.createSubscription);
+router.post("/subscriptions", user.allSubscriptions);
+router.post("/subscriptions/update", user.updateSubscriptionStatus);
+router.post("/subscriptions/createOrder", user.createOrder);
+router.post("/subscriptions/placeOrder", user.generateOrderFromSubscription);
+
 // doctor routes
 router.post("/isDoctor", user.IsDoctor);
 router.post("/doctor/createProfile", user.doctor);

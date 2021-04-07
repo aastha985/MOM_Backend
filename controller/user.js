@@ -287,7 +287,7 @@ exports.orders = (req, res) => {
 
 exports.createOrder = (req, res) => {
     pool.query(
-        "insert into orders(ItemsQuantity,State,City,Street,ApartmentNumber,Pincode,Landmark,Discount,DeliveryCost,TotalAmount,ModeOfPayment,TransactionID,OrderDate,DeliveryDate,SubscriptionID,PharmacyID,PrescriptionID,UserID,Status) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+        "insert into orders(ItemsQuantity,State,City,Street,ApartmentNumber,Pincode,Landmark,Discount,DeliveryCost,TotalAmount,ModeOfPayment,TransactionID,OrderDate,DeliveryDate,Subscription,PharmacyID,PrescriptionID,UserID,Status) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
         [
             req.body.ItemsQuantity,
             req.body.State,
@@ -303,7 +303,7 @@ exports.createOrder = (req, res) => {
             req.body.TransactionID,
             req.body.OrderDate,
             req.body.DeliveryDate,
-            req.body.SubscriptionID,
+            req.body.Subscription,
             req.body.PharamcyID,
             req.body.PrescriptionID,
             req.body.UserID,
@@ -361,6 +361,79 @@ exports.updateOrderStatus = (req, res) => {
         (err, result) => {
             if (err) res.json({ error: err });
             else res.json(result);
+        }
+    );
+};
+
+exports.createSubscription = (req, res) => {
+    pool.query(
+        "insert into subscription(MedicineID,Cost,Quantity,StartDate,UserID,Duration_In_Days,Status,LastOrderDate) values (?,?,?,?,?,?,1,curdate())",
+        [
+            req.body.MedicineID,
+            req.body.Cost,
+            req.body.Quantity,
+            req.body.StartDate,
+            req.body.UserID,
+            req.body.DurationInDays,
+        ],
+        (err, result) => {
+            if (err) res.json({ error: err });
+            else res.json(result);
+        }
+    );
+};
+
+exports.allSubscriptions = (req, res) => {
+    pool.query(
+        "select * from subscription where UserID = ?",
+        req.body.UserID,
+        (err, result) => {
+            if (err) res.json({ error: err });
+            else res.json(result);
+        }
+    );
+};
+
+exports.updateSubscriptionStatus = (req, res) => {
+    pool.query(
+        "update subscription set Status = ? where SubscriptionID = ?",
+        [req.body.Status, req.body.SubscriptionID],
+        (err, result) => {
+            if (err) res.json({ error: err });
+            else res.json(result);
+        }
+    );
+};
+
+exports.generateOrderFromSubscription = (req, res) => {
+    pool.query(
+        "insert into order_item (Cost,Quantity,OrderID,MedicineID)(select Cost,Quantity,? as OrderID,MedicineID from subscription where UserID = ? and Status = 1);",
+        [req.body.OrderID, req.body.UserID],
+        (err, result) => {
+            if (err) res.json({ error: err });
+            else {
+                res.json(result);
+                pool.query(
+                    "update orders set status = 2 where OrderID = ?",
+                    req.body.OrderID,
+                    (error, response) => {
+                        if (error)
+                            response.json({
+                                message: "Failed to place order",
+                            });
+                        else {
+                            pool.query(
+                                "update subscription set LastOrderDate = curdate() where UserID = ? and Status = 1",
+                                req.body.UserID,
+                                (errr, ress) => {
+                                    if (errr) res.json({ error: errr });
+                                    else res.json(ress);
+                                }
+                            );
+                        }
+                    }
+                );
+            }
         }
     );
 };
