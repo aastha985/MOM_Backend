@@ -37,4 +37,9 @@ router.post("/doctor/profile", user.doctorProfile);
 router.post("/doctor/prescriptions", user.doctorPrescriptions);
 router.post("/doctor/prescribe", user.prescribe);
 
+//complaint routes
+router.post("/complaints", user.allComplaints);
+router.post("/complaints/new", user.newComplaint);
+router.post("/complaints/updateStatus", user.updateComplaintStatus);
+
 module.exports = router;

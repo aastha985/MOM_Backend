@@ -437,3 +437,41 @@ exports.generateOrderFromSubscription = (req, res) => {
         }
     );
 };
+
+exports.allComplaints = (req, res) => {
+    pool.query(
+        "select * from complaints where UserID = ?",
+        req.body.UserID,
+        (err, result) => {
+            if (err) res.json({ error: err });
+            else res.json(result);
+        }
+    );
+};
+
+exports.newComplaint = (req, res) => {
+    pool.query(
+        "insert into complaints (Description,RelatedTo,ComplaintDate,UserID,OrderID_If_Applicable) values (?,?,curdate(),?,?)",
+        [
+            req.body.Description,
+            req.body.RelatedTo,
+            req.body.UserID,
+            req.body.OrderID,
+        ],
+        (err, result) => {
+            if (err) res.json({ error: err });
+            else res.json(result);
+        }
+    );
+};
+
+exports.updateComplaintStatus = (req, res) => {
+    pool.query(
+        "update complaints set Pending = ? where ComplaintsID = ?",
+        [req.body.status, req.body.complaintsID],
+        (err, result) => {
+            if (err) res.json({ error: err });
+            else res.json(result);
+        }
+    );
+};
