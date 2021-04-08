@@ -20,7 +20,7 @@ exports.signup = (req, res) => {
 
         pool.query(myQuery, [username, hash], function (err, result) {
             if (err) console.log(err);
-            else res.send({ message: result });
+            else res.json({ message: result });
         });
     });
 };
@@ -37,17 +37,17 @@ exports.login = (req, res) => {
     let myQuery = "SELECT * FROM " + tableName2 + " WHERE username = ? ;";
 
     pool.query(myQuery, username, (err, result) => {
-        if (err) res.send({ err: err });
+        if (err) res.json({ err: err });
 
         if (result && result.length > 0) {
             bcrypt.compare(password, result[0].hash, (error, response) => {
                 if (response) {
                     req.session.user = result;
                     console.log(req.session.user);
-                    res.send(result);
-                } else res.send({ message: "Incorrect password" });
+                    res.json(result);
+                } else res.json({ message: "Incorrect password" });
             });
-        } else res.send({ message: "Invalid username" });
+        } else res.json({ message: "Invalid username" });
     });
 };
 
@@ -59,7 +59,7 @@ exports.profile = (req, res) => {
 
     pool.query(myQuery, req.body.UserID, function (err, result) {
         if (err) console.log(err);
-        else res.send(result);
+        else res.json(result);
     });
 };
 
@@ -71,7 +71,7 @@ exports.isProfileCreated = (req, res) => {
 
     pool.query(myQuery, req.body.UserID, function (err, result) {
         if (err) console.log(err);
-        else res.send(result);
+        else res.json(result);
     });
 };
 
@@ -156,7 +156,7 @@ exports.createProfile = (req, res) => {
 
     pool.query(myQuery, values, function (err, result) {
         if (err) console.log(err);
-        else res.send({ message: result });
+        else res.json({ message: result });
     });
 };
 
@@ -211,7 +211,7 @@ exports.allOrders = (req, res) => {
 
     pool.query(myQuery, values, function (err, result) {
         if (err) console.log(err);
-        else res.send(result);
+        else res.json(result);
     });
 };
 
@@ -273,7 +273,7 @@ exports.dueOrders = (req, res) => {
 
     pool.query(myQuery, values, function (err, result) {
         if (err) console.log(err);
-        else res.send(result);
+        else res.json(result);
     });
 };
 
@@ -330,6 +330,6 @@ exports.completedOrders = (req, res) => {
 
     pool.query(myQuery, values, function (err, result) {
         if (err) console.log(err);
-        else res.send(result);
+        else res.json(result);
     });
 };
