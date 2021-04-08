@@ -18,7 +18,7 @@ exports.agentProfile = (request, response) =>
 			if(error)
 				console.log(error);
 			else
-				response.send(result);
+				response.json(result);
 		}
 	);
 };
@@ -125,7 +125,7 @@ exports.createAgentProfile = (request, response) =>
 			if (error)
 				console.log(error);
 			else
-				response.send({ message: result });
+				response.json({ message: result });
 		}
 	);
 };
@@ -189,7 +189,7 @@ exports.agentDueOrders = (request, response) =>
 			if (error)
 				console.log(error);
 			else
-				response.send(result);
+				response.json(result);
 		}
 	);
 };
@@ -231,7 +231,7 @@ exports.allOrders = (request, response) =>
 			if (error)
 				console.log(error);
 			else
-				response.send(result);
+				response.json(result);
 		}
 	);
 };
@@ -287,7 +287,7 @@ exports.dueOrders = (request, response) =>
 			if (error)
 				console.log(error);
 			else
-				response.send(result);
+				response.json(result);
 		}
 	);
 };
@@ -335,7 +335,7 @@ exports.onDateOrders = (request, response) =>
 			if (error)
 				console.log(error);
 			else
-				response.send(result);
+				response.json(result);
 		}
 	);
 };
@@ -385,7 +385,7 @@ exports.betweenDateOrders = (request, response) =>
 			if (error)
 				console.log(error);
 			else
-				response.send(result);
+				response.json(result);
 		}
 	);
 };
