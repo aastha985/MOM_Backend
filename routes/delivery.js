@@ -2,13 +2,13 @@ const express = require("express");
 router = express.Router();
 delivery = require("../controller/delivery");
 
-router.get('/agent/profile',delivery.agentProfile);
+router.post('/agent/profile',delivery.agentProfile);
 router.post('/agent/createProfile',delivery.createAgentProfile);
-router.get('/agent/dueOrders',delivery.agentDueOrders);
+router.post('/agent/dueOrders',delivery.agentDueOrders);
 
-router.get('/allOrders',delivery.allOrders);
-router.get('/dueOrders',delivery.dueOrders);
-router.get('/onDateOrders',delivery.onDateOrders);
-router.get('/betweenDateOrders',delivery.betweenDateOrders);
+router.post('/allOrders',delivery.allOrders);
+router.post('/dueOrders',delivery.dueOrders);
+router.post('/onDateOrders',delivery.onDateOrders);
+router.post('/betweenDateOrders',delivery.betweenDateOrders);
 
 module.exports = router;

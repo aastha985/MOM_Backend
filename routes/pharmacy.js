@@ -4,14 +4,14 @@ pharmacy = require("../controller/pharmacy");
 const pool = require("../database.js");
 
 router.post("/signup", pharmacy.signup);
-router.get("/login", pharmacy.login);
+router.post("/login", pharmacy.login);
 router.post("/logout", pharmacy.logout);
-router.get("/profile", pharmacy.profile);
+router.post("/profile", pharmacy.profile);
 router.post("/createProfile", pharmacy.createProfile);
-router.get("/isProfileCreated", pharmacy.isProfileCreated);
+router.post("/isProfileCreated", pharmacy.isProfileCreated);
 
-router.get("/allOrders", pharmacy.allOrders);
-router.get("/dueOrders", pharmacy.dueOrders);
-router.get("/completedOrders", pharmacy.completedOrders);
+router.post("/allOrders", pharmacy.allOrders);
+router.post("/dueOrders", pharmacy.dueOrders);
+router.post("/completedOrders", pharmacy.completedOrders);
 
 module.exports = router;
