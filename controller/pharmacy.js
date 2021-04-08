@@ -43,7 +43,6 @@ exports.login = (req, res) => {
             bcrypt.compare(password, result[0].hash, (error, response) => {
                 if (response) {
                     req.session.user = result;
-                    console.log(req.session.user);
                     res.json(result);
                 } else res.json({ message: "Incorrect password" });
             });
