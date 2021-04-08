@@ -42,4 +42,8 @@ router.post("/complaints", user.allComplaints);
 router.post("/complaints/new", user.newComplaint);
 router.post("/complaints/updateStatus", user.updateComplaintStatus);
 
+//donation routes
+router.post("/donate", user.donate);
+router.post("/donate/addItem", user.addDonationItem);
+
 module.exports = router;

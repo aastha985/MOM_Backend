@@ -475,3 +475,30 @@ exports.updateComplaintStatus = (req, res) => {
         }
     );
 };
+
+exports.donate = (req, res) => {
+    pool.query(
+        "insert into donations (UserID,Request_Date,Pickup_Date) values(?,curdate(),?)",
+        [req.body.UserID, req.body.pickupDate],
+        (err, result) => {
+            if (err) res.json({ error: err });
+            else res.json(result);
+        }
+    );
+};
+
+exports.addDonationItem = (req, res) => {
+    pool.query(
+        "insert into donation_item (DonationID,MedicineID,Quantity,Total_MRP) values (?,?,?,?)",
+        [
+            req.body.DonationID,
+            req.body.MedicineID,
+            req.body.Quantity,
+            req.body.Total_MRP,
+        ],
+        (err, result) => {
+            if (err) res.json({ error: err });
+            else res.json(result);
+        }
+    );
+};
