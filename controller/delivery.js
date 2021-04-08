@@ -16,7 +16,7 @@ exports.agentProfile = (request, response) =>
 		(error, result) =>
 		{
 			if(error)
-				console.log(error);
+				response.json({error: error}) ;
 			else
 				response.json(result);
 		}
@@ -123,7 +123,7 @@ exports.createAgentProfile = (request, response) =>
 		function (error, result)
 		{
 			if (error)
-				console.log(error);
+				response.json({error: error}) ;
 			else
 				response.json({ message: result });
 		}
@@ -187,7 +187,7 @@ exports.agentDueOrders = (request, response) =>
 		function (error, result)
 		{
 			if (error)
-				console.log(error);
+				response.json({error: error}) ;
 			else
 				response.json(result);
 		}
@@ -229,7 +229,7 @@ exports.allOrders = (request, response) =>
 		function (error, result)
 		{
 			if (error)
-				console.log(error);
+				response.json({error: error}) ;
 			else
 				response.json(result);
 		}
@@ -285,7 +285,7 @@ exports.dueOrders = (request, response) =>
 		function (error, result)
 		{
 			if (error)
-				console.log(error);
+				response.json({error: error}) ;
 			else
 				response.json(result);
 		}
@@ -333,7 +333,7 @@ exports.onDateOrders = (request, response) =>
 		function (error, result)
 		{
 			if (error)
-				console.log(error);
+				response.json({error: error}) ;
 			else
 				response.json(result);
 		}
@@ -383,7 +383,7 @@ exports.betweenDateOrders = (request, response) =>
 		function (error, result)
 		{
 			if (error)
-				console.log(error);
+				response.json({error: error}) ;
 			else
 				response.json(result);
 		}
