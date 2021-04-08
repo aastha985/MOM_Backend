@@ -13,13 +13,13 @@ exports.signup = (req, res) => {
     const password = req.body.password;
 
     bcrypt.hash(password, saltRounds, (err, hash) => {
-        if (err) console.log(err);
+        if (err) res.json({error: err});
 
         let myQuery = "INSERT INTO " + tableName2;
         myQuery += "( username, hash ) VALUES " + " ( ?, ? )";
 
         pool.query(myQuery, [username, hash], function (err, result) {
-            if (err) console.log(err);
+            if (err) res.json({error: err});
             else res.json({ message: result });
         });
     });
@@ -58,7 +58,7 @@ exports.profile = (req, res) => {
     myQuery += " WHERE PharmacyID = ? ";
 
     pool.query(myQuery, req.body.UserID, function (err, result) {
-        if (err) console.log(err);
+        if (err) res.json({error: err});
         else res.json(result);
     });
 };
@@ -70,7 +70,7 @@ exports.isProfileCreated = (req, res) => {
         " WHERE PharmacyID = ? ";
 
     pool.query(myQuery, req.body.UserID, function (err, result) {
-        if (err) console.log(err);
+        if (err) res.json({error: err});
         else res.json(result);
     });
 };
@@ -155,7 +155,7 @@ exports.createProfile = (req, res) => {
     myQuery += " )";
 
     pool.query(myQuery, values, function (err, result) {
-        if (err) console.log(err);
+        if (err) res.json({error: err});
         else res.json({ message: result });
     });
 };
@@ -210,7 +210,7 @@ exports.allOrders = (req, res) => {
     myQuery += " LIMIT " + "?" + " OFFSET " + "?";
 
     pool.query(myQuery, values, function (err, result) {
-        if (err) console.log(err);
+        if (err) res.json({error: err});
         else res.json(result);
     });
 };
@@ -272,7 +272,7 @@ exports.dueOrders = (req, res) => {
     myQuery += " LIMIT " + "?" + " OFFSET " + "?";
 
     pool.query(myQuery, values, function (err, result) {
-        if (err) console.log(err);
+        if (err) res.json({error: err});
         else res.json(result);
     });
 };
@@ -329,7 +329,7 @@ exports.completedOrders = (req, res) => {
     myQuery += " LIMIT " + "?" + " OFFSET " + "?";
 
     pool.query(myQuery, values, function (err, result) {
-        if (err) console.log(err);
+        if (err) res.json({error: err});
         else res.json(result);
     });
 };
