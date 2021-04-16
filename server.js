@@ -34,8 +34,6 @@ app.use("/pharmacy", require("./routes/pharmacy"));
 app.use("/medicineCompanies", require("./routes/medicineCompanies"));
 app.use("/delivery", require("./routes/delivery"));
 
-app.use("/debugging", require("./routes/debugging"));
-
 const PORT = process.env.PORT || 3001;
 
 app.listen(PORT, () =>
