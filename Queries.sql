@@ -37,7 +37,7 @@ select * from doctor where UserID = 23;
 SELECT PrescriptionID,ImageURL as Prescription,PrescriptionDate,CONCAT(FirstName," ",LastName) as "Patient Name",PhoneNumber1 as "Patient Phone Number" FROM prescription join user on prescription.PatientUserID = user.UserID where prescription.DoctorUserID=14;
 
 # 13. Display All Prescriptions of User along with Doctor's Name and Phone Number
-SELECT PrescriptionID,ImageURL,PrescriptionDate,CONCAT(FirstName," ",LastName) as "Doctor's Name",PhoneNumber1 as "Doctor's Phone Number" FROM prescription join user on user.UserID = prescription.DoctorUserID where PatientUserID = 2;
+SELECT PrescriptionID,ImageURL,PrescriptionDate,CONCAT(FirstName," ",LastName) as "DoctorName",PhoneNumber1 as "DoctorPhoneNumber" FROM prescription join user on user.UserID = prescription.DoctorUserID where PatientUserID = 2;
 
 # 14. Add a new Prescription
 insert into prescription (ImageURL,PrescriptionDate,DoctorUserID,PatientUserID) values ("https://www.google.com","2021-03-01",1,3);
