@@ -9,6 +9,7 @@ router.post("/profile", user.profile);
 router.post("/createProfile", user.createProfile);
 router.post("/isProfileCreated", user.IsProfileCreated);
 router.post("/premium", user.premium);
+router.post("/premiumDetails", user.premiumDetails);
 router.post("/prescriptions", user.userPrescriptions);
 
 // cart routes

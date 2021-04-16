@@ -137,13 +137,32 @@ exports.createProfile = (req, res) => {
 
 exports.premium = (req, res) => {
     pool.query(
-        "insert into `premium member` (DurationInDays,TransactionID,StartDate,UserID) values (?,?,?,?)",
-        [
-            req.body.DurationInDays,
-            req.body.TransactionID,
-            req.body.StartDate,
-            req.body.UserID,
-        ],
+        "insert into `premium member` (DurationInDays,TransactionID,StartDate,UserID) values (?,?,curdate(),?)",
+        [req.body.DurationInDays, req.body.TransactionID, req.body.UserID],
+        (err, result) => {
+            if (err) {
+                res.json({ error: err });
+            } else {
+                pool.query(
+                    "update user set IsPremiumMember = 1 where UserID = ?",
+                    req.body.UserID,
+                    (error, result_) => {
+                        if (error) {
+                            res.json({ error: error });
+                        } else {
+                            res.json({ message: result_ });
+                        }
+                    }
+                );
+            }
+        }
+    );
+};
+
+exports.premiumDetails = (req, res) => {
+    pool.query(
+        "select * from `premium member` where UserID = ?",
+        req.body.UserID,
         (err, result) => {
             if (err) {
                 res.json({ error: err });
