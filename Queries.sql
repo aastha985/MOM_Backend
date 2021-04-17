@@ -163,7 +163,7 @@ SELECT orders.`OrderID`, orders.`ItemsQuantity`, orders.`OrderDate`, orders.`Age
 SELECT * FROM delivery_agent WHERE AgentID = ? ;
 
 # 53. Creating a new Delivery Agent
-INSERT INTO delivery_agent ( `AgentID`, `First Name`, `Last Name`, `DOB`, `Gender`, `Phone Number 1`, `Phone Number 2`, `Email Address`, `Drving License No.`, `Description`, `Apartment No.`, `Street`, `Landmark`, `City`, `State`, `Pincode`, `salary`, `Bank A/C No.`, `IFSC Code`, `UPI ID` ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) ;
+INSERT INTO delivery_agent ( `AgentID`, `FirstName`, `LastName`, `DOB`, `Gender`, `PhoneNumber1`, `PhoneNumber2`, `EmailAddress`, `DrvingLicenseNo`, `Description`, `ApartmentNo`, `Street`, `Landmark`, `City`, `State`, `Pincode`, `salary`, `BankAC_No`, `IFSC_Code`, `UPI_ID` ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) ;
 
 # 54. Checking Due order for the Agent
 SELECT orders.`OrderID`, orders.`PharmacyID`, orders.`DeliveryDate` FROM orders WHERE orders.AgentID = ? AND orders.Status != `Delivered` AND orders.Status != `Cancelled` ;

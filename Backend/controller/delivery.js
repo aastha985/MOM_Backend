@@ -79,18 +79,18 @@ exports.createAgentProfile = (request, response) =>
 	const columns =
 	[
 		"AgentID",
-		"First Name",
-		"Last Name",
+		"FirstName",
+		"LastName",
 		"DOB",
 		"Gender",
 
-		"Phone Number 1",
-		"Phone Number 2",
-		"Email Address",
-		"Drving License No.",
+		"PhoneNumber1",
+		"PhoneNumber2",
+		"EmailAddress",
+		"DrvingLicenseNo",
 		"Description",
 
-		"Apartment No.",
+		"ApartmentNo",
 		"Street",
 		"Landmark",
 		"City",
@@ -98,9 +98,9 @@ exports.createAgentProfile = (request, response) =>
 		"Pincode",
 		
 		"salary",
-		"Bank A/C No.",
-		"IFSC Code",
-		"UPI ID"
+		"BankAC_No",
+		"IFSC_Code",
+		"UPI_ID"
 	];
 	
 	let myQuery = "INSERT INTO " +  tableName1;
