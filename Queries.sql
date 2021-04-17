@@ -135,4 +135,26 @@ select m.Name,m.Description,m.Cost,m.Category,m.IsPrescibed,m.`Packaging Conditi
 # 43. Display Details about quantity of different medicines sold by the company
 select m.Name, sum(Quantity) as quantitySold from medicines m join order_item o on m.MedicineID = o.MedicineID where CompanyID=? group by m.MedicineID order by quantitySold desc;
 
+# 44. Pharmacy Signup
+INSERT INTO pharmacy_credentials ( username, hash ) VALUES ( ?, ? ) ;
 
+# 45. Pharmacy Login
+SELECT * FROM pharmacy_credentials WHERE username = ? ;
+
+# 46. View Pharmacy Profile
+SELECT * FROM pharmacies WHERE PharmacyID = ? ; 
+
+# 47. Checking if a Pharmacy Profile already Created
+SELECT COUNT(*) AS profileCreated FROM pharmacies WHERE PharmacyID = ? ;
+
+# 48. Creating a new profile for Pharmacy
+INSERT INTO pharmacies ( `PharmacyID`, `Name`, `Phone Number 1`, `Phone Number 2`, `Street`, `Apartment No.`, `Landmark`, `City`, `State`, `Pincode`, `Description`, `License No.`, `Email Address`, `Website`, `A/C No.`, `IFSC Code`, `UPI ID` ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) ; 
+
+# 49. Viewing all the orders taken by the Pharmacy
+SELECT orders.`OrderID`, orders.`ItemsQuantity`, orders.`OrderDate`, orders.`AgentID`, orders.`Status`, order_item.`Order Item No.`, order_item.`MedicineID`, order_item.`Quantity` FROM orders INNER JOIN order_item ON orders.OrderID = order_item.OrderID WHERE orders.PharmacyID = ? LIMIT 10 OFFSET ? ;
+
+# 50. Viewing pending orders of the Pharmacy
+SELECT orders.`OrderID`, orders.`ItemsQuantity`, orders.`OrderDate`, orders.`AgentID`, orders.`Status`, order_item.`Order Item No.`, order_item.`MedicineID`, order_item.`Quantity` FROM orders INNER JOIN order_item ON orders.OrderID = order_item.OrderID WHERE orders.PharmacyID = ? AND orders.Status != 'Delivered' AND orders.Status != 'Cancelled' LIMIT 10 OFFSET ? ;
+
+# 51. Viewing completed orders of the Pharmacy
+SELECT orders.`OrderID`, orders.`ItemsQuantity`, orders.`OrderDate`, orders.`AgentID`, orders.`Status`, order_item.`Order Item No.`, order_item.`MedicineID`, order_item.`Quantity` FROM orders INNER JOIN order_item ON orders.OrderID = order_item.OrderID WHERE orders.PharmacyID = ? AND orders.Status = 'Delivered' LIMIT 10 OFFSET ? ; 
