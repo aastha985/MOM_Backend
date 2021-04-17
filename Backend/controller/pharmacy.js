@@ -56,7 +56,7 @@ exports.profile = (req, res) => {
     myQuery += " FROM " + tableName1;
     myQuery += " WHERE PharmacyID = ? ";
 
-    pool.query(myQuery, req.body.UserID, function (err, result) {
+    pool.query(myQuery, req.body.PharmacyID, function (err, result) {
         if (err) res.json({error: err});
         else res.json(result);
     });
@@ -68,14 +68,14 @@ exports.isProfileCreated = (req, res) => {
         tableName1 +
         " WHERE PharmacyID = ? ";
 
-    pool.query(myQuery, req.body.UserID, function (err, result) {
+    pool.query(myQuery, req.body.PharmacyID, function (err, result) {
         if (err) res.json({error: err});
         else res.json(result);
     });
 };
 
 exports.createProfile = (req, res) => {
-    const pharmacyId = req.body.UserID;
+    const pharmacyId = req.body.PharmacyID;
     const name = req.body.UserName;
 
     const phoneNumber1 = req.body.PhoneNumber1;
@@ -162,7 +162,7 @@ exports.createProfile = (req, res) => {
 exports.allOrders = (req, res) => {
     const resultsPerPage = 10;
 
-    const pharmacyId = req.body.UserID;
+    const pharmacyId = req.body.PharmacyID;
     const offset = (req.body.PageNumber - 1) * resultsPerPage;
 
     const columns1 = [
@@ -217,7 +217,7 @@ exports.allOrders = (req, res) => {
 exports.dueOrders = (req, res) => {
     const resultsPerPage = 10;
 
-    const pharmacyId = req.body.UserID;
+    const pharmacyId = req.body.PharmacyID;
     const offset = (req.body.PageNumber - 1) * resultsPerPage;
 
     const due = ["Delivered", "Cancelled"];
@@ -279,7 +279,7 @@ exports.dueOrders = (req, res) => {
 exports.completedOrders = (req, res) => {
     const resultsPerPage = 10;
 
-    const pharmacyId = req.body.UserID;
+    const pharmacyId = req.body.PharmacyID;
     const offset = (req.body.PageNumber - 1) * resultsPerPage;
 
     const completed = "Delivered";
