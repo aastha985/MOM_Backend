@@ -132,10 +132,7 @@ exports.createAgentProfile = (request, response) =>
 
 exports.agentDueOrders = (request, response) =>
 {
-	const resultsPerPage = 10;
-
 	const agentId = request.body.AgentID;
-	const offset = (request.body.PageNumber - 1) * resultsPerPage;
 
 	const due = 
 	[
@@ -162,9 +159,7 @@ exports.agentDueOrders = (request, response) =>
 	const values = 
 	[
 		agentId,
-		... due,
-		resultsPerPage,
-		offset
+		... due
 	];
 
 	let myQuery = "SELECT " ;	
@@ -178,8 +173,7 @@ exports.agentDueOrders = (request, response) =>
 	for(let key of notKeys)
 		myQuery += key + " != " + "?" + " AND ";
 	myQuery = myQuery.slice(0,-4);
-	myQuery += " LIMIT " + "?" + " OFFSET " + "? ;";
-
+	
 	pool.query
 	(
 		myQuery,
@@ -196,10 +190,6 @@ exports.agentDueOrders = (request, response) =>
 
 exports.allOrders = (request, response) =>
 {
-	const resultsPerPage = 10;
-
-	const offset = (request.body.PageNumber - 1) * resultsPerPage;
-	
 	const columns =
 	[
 		"OrderID",
@@ -208,24 +198,16 @@ exports.allOrders = (request, response) =>
 		"Status",
 		"DeliveryDate"
 	];
-	
-	const values = 
-	[
-		resultsPerPage,
-		offset
-	];
 
 	let myQuery = "SELECT " ;	
 	for(let column of columns)
 		myQuery += tableName2 + "." + "`" + column + "`" + ", ";
 	myQuery = myQuery.slice(0,-2);
 	myQuery	+= " FROM " + tableName2 ;
-	myQuery += " LIMIT " + "?" + " OFFSET " + "?" + " ;";
 
 	pool.query
 	(
 		myQuery,
-		values,
 		function (error, result)
 		{
 			if (error)
@@ -238,10 +220,6 @@ exports.allOrders = (request, response) =>
 
 exports.dueOrders = (request, response) =>
 {
-	const resultsPerPage = 10;
-
-	const offset = (request.body.PageNumber - 1) * resultsPerPage;
-	
 	const columns =
 	[
 		"OrderID",
@@ -262,9 +240,7 @@ exports.dueOrders = (request, response) =>
 
 	const values = 
 	[
-		... due,
-		resultsPerPage,
-		offset
+		... due
 	];
 
 	let myQuery = "SELECT " ;	
@@ -276,7 +252,6 @@ exports.dueOrders = (request, response) =>
 	for(let key of notKeys)
 		myQuery += key + " != " + "?" + " AND ";
 	myQuery = myQuery.slice(0,-4);
-	myQuery += " LIMIT " + "?" + " OFFSET " + "?" + " ;";
 
 	pool.query
 	(
