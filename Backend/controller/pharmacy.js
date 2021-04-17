@@ -160,10 +160,8 @@ exports.createProfile = (req, res) => {
 };
 
 exports.allOrders = (req, res) => {
-    const resultsPerPage = 10;
 
     const pharmacyId = req.body.PharmacyID;
-    const offset = (req.body.PageNumber - 1) * resultsPerPage;
 
     const columns1 = [
         "OrderID",
@@ -179,7 +177,7 @@ exports.allOrders = (req, res) => {
 
     const keys = [tableName3 + "." + "PharmacyID"];
 
-    const values = [pharmacyId, resultsPerPage, offset];
+    const values = [pharmacyId];
 
     const joinType = "INNER JOIN";
 
@@ -206,7 +204,6 @@ exports.allOrders = (req, res) => {
     myQuery += "WHERE ";
     for (let key of keys) myQuery += key + " = " + "?" + " AND ";
     myQuery = myQuery.slice(0, -4);
-    myQuery += " LIMIT " + "?" + " OFFSET " + "?";
 
     pool.query(myQuery, values, function (err, result) {
         if (err) res.json({error: err});
@@ -215,10 +212,8 @@ exports.allOrders = (req, res) => {
 };
 
 exports.dueOrders = (req, res) => {
-    const resultsPerPage = 10;
 
     const pharmacyId = req.body.PharmacyID;
-    const offset = (req.body.PageNumber - 1) * resultsPerPage;
 
     const due = ["Delivered", "Cancelled"];
 
@@ -240,7 +235,7 @@ exports.dueOrders = (req, res) => {
     for (let i = 0; i < due.length; i++)
         notKeys.push(tableName3 + "." + "Status");
 
-    const values = [pharmacyId, ...due, resultsPerPage, offset];
+    const values = [pharmacyId, ...due];
 
     const joinType = "INNER JOIN";
 
@@ -268,7 +263,6 @@ exports.dueOrders = (req, res) => {
     for (let key of keys) myQuery += key + " = " + "?" + " AND ";
     for (let key of notKeys) myQuery += key + " != " + "?" + " AND ";
     myQuery = myQuery.slice(0, -4);
-    myQuery += " LIMIT " + "?" + " OFFSET " + "?";
 
     pool.query(myQuery, values, function (err, result) {
         if (err) res.json({error: err});
@@ -277,10 +271,8 @@ exports.dueOrders = (req, res) => {
 };
 
 exports.completedOrders = (req, res) => {
-    const resultsPerPage = 10;
 
     const pharmacyId = req.body.PharmacyID;
-    const offset = (req.body.PageNumber - 1) * resultsPerPage;
 
     const completed = "Delivered";
 
@@ -298,7 +290,7 @@ exports.completedOrders = (req, res) => {
 
     const keys = [tableName3 + "." + "PharmacyID", tableName3 + "." + "Status"];
 
-    const values = [pharmacyId, completed, resultsPerPage, offset];
+    const values = [pharmacyId, completed];
 
     const joinType = "INNER JOIN";
 
@@ -325,7 +317,6 @@ exports.completedOrders = (req, res) => {
     myQuery += "WHERE ";
     for (let key of keys) myQuery += key + " = " + "?" + " AND ";
     myQuery = myQuery.slice(0, -4);
-    myQuery += " LIMIT " + "?" + " OFFSET " + "?";
 
     pool.query(myQuery, values, function (err, result) {
         if (err) res.json({error: err});
