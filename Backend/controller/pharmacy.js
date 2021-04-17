@@ -123,23 +123,23 @@ exports.createProfile = (req, res) => {
         "PharmacyID",
         "Name",
 
-        "Phone Number 1",
-        "Phone Number 2",
+        "PhoneNumber1",
+        "PhoneNumber2",
         "Street",
-        "Apartment No.",
+        "ApartmentNo",
         "Landmark",
         "City",
         "State",
         "Pincode",
 
         "Description",
-        "License No.",
-        "Email Address",
+        "LicenseNo",
+        "EmailAddress",
         "Website",
 
-        "A/C No.",
-        "IFSC Code",
-        "UPI ID",
+        "AC_No",
+        "IFSC_Code",
+        "UPI_ID",
     ];
 
     let myQuery = "INSERT INTO " + tableName1;
@@ -171,7 +171,7 @@ exports.allOrders = (req, res) => {
         "Status",
     ];
 
-    const columns2 = ["Order Item No.", "MedicineID", "Quantity"];
+    const columns2 = ["OrderItemNo", "MedicineID", "Quantity"];
 
     const joinKeys = [["OrderID", "OrderID"]];
 
@@ -225,7 +225,7 @@ exports.dueOrders = (req, res) => {
         "Status",
     ];
 
-    const columns2 = ["Order Item No.", "MedicineID", "Quantity"];
+    const columns2 = ["OrderItemNo", "MedicineID", "Quantity"];
 
     const joinKeys = [["OrderID", "OrderID"]];
 
@@ -284,7 +284,7 @@ exports.completedOrders = (req, res) => {
         "Status",
     ];
 
-    const columns2 = ["Order Item No.", "MedicineID", "Quantity"];
+    const columns2 = ["OrderItemNo", "MedicineID", "Quantity"];
 
     const joinKeys = [["OrderID", "OrderID"]];
 

@@ -148,16 +148,16 @@ SELECT * FROM pharmacies WHERE PharmacyID = ? ;
 SELECT COUNT(*) AS profileCreated FROM pharmacies WHERE PharmacyID = ? ;
 
 # 48. Creating a new profile for Pharmacy
-INSERT INTO pharmacies ( `PharmacyID`, `Name`, `Phone Number 1`, `Phone Number 2`, `Street`, `Apartment No.`, `Landmark`, `City`, `State`, `Pincode`, `Description`, `License No.`, `Email Address`, `Website`, `A/C No.`, `IFSC Code`, `UPI ID` ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) ; 
+INSERT INTO pharmacies ( `PharmacyID`, `Name`, `PhoneNumber1`, `PhoneNumber2`, `Street`, `ApartmentNo`, `Landmark`, `City`, `State`, `Pincode`, `Description`, `LicenseNo`, `EmailAddress`, `Website`, `AC_No`, `IFSC_Code`, `UPI_ID` ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) ; 
 
 # 49. Viewing all the orders taken by the Pharmacy
-SELECT orders.`OrderID`, orders.`ItemsQuantity`, orders.`OrderDate`, orders.`AgentID`, orders.`Status`, order_item.`Order Item No.`, order_item.`MedicineID`, order_item.`Quantity` FROM orders INNER JOIN order_item ON orders.OrderID = order_item.OrderID WHERE orders.PharmacyID = ? ;
+SELECT orders.`OrderID`, orders.`ItemsQuantity`, orders.`OrderDate`, orders.`AgentID`, orders.`Status`, order_item.`OrderItemNo`, order_item.`MedicineID`, order_item.`Quantity` FROM orders INNER JOIN order_item ON orders.OrderID = order_item.OrderID WHERE orders.PharmacyID = ? ;
 
 # 50. Viewing pending orders of the Pharmacy
-SELECT orders.`OrderID`, orders.`ItemsQuantity`, orders.`OrderDate`, orders.`AgentID`, orders.`Status`, order_item.`Order Item No.`, order_item.`MedicineID`, order_item.`Quantity` FROM orders INNER JOIN order_item ON orders.OrderID = order_item.OrderID WHERE orders.PharmacyID = ? AND orders.Status != `Delivered` AND orders.Status != `Cancelled` ;
+SELECT orders.`OrderID`, orders.`ItemsQuantity`, orders.`OrderDate`, orders.`AgentID`, orders.`Status`, order_item.`OrderItemNo`, order_item.`MedicineID`, order_item.`Quantity` FROM orders INNER JOIN order_item ON orders.OrderID = order_item.OrderID WHERE orders.PharmacyID = ? AND orders.Status != `Delivered` AND orders.Status != `Cancelled` ;
 
 # 51. Viewing completed orders of the Pharmacy
-SELECT orders.`OrderID`, orders.`ItemsQuantity`, orders.`OrderDate`, orders.`AgentID`, orders.`Status`, order_item.`Order Item No.`, order_item.`MedicineID`, order_item.`Quantity` FROM orders INNER JOIN order_item ON orders.OrderID = order_item.OrderID WHERE orders.PharmacyID = ? AND orders.Status = `Delivered` ;
+SELECT orders.`OrderID`, orders.`ItemsQuantity`, orders.`OrderDate`, orders.`AgentID`, orders.`Status`, order_item.`OrderItemNo`, order_item.`MedicineID`, order_item.`Quantity` FROM orders INNER JOIN order_item ON orders.OrderID = order_item.OrderID WHERE orders.PharmacyID = ? AND orders.Status = `Delivered` ;
 
 # 52. Viewing Delivery Agent profile
 SELECT * FROM delivery_agent WHERE AgentID = ? ;
