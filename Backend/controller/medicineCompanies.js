@@ -55,7 +55,7 @@ exports.logout = (req, res) => {
 
 exports.medicines = (req, res) => {
     pool.query(
-        "select m.Name,m.Description,m.Cost,m.Category,m.IsPrescibed,m.`Packaging Condition ( In Celcius)` from medicines as m join medicine_companies on m.CompanyID = medicine_companies.CompanyID where m.CompanyID=?;",
+        "select m.Name,m.Description,m.Cost,m.Category,m.IsPrescibed,m.PackagingTemperature from medicines as m join medicine_companies on m.CompanyID = medicine_companies.CompanyID where m.CompanyID=?;",
         req.params.CompanyID,
         function (err, rows, fields) {
             if (err) {
