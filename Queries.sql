@@ -154,7 +154,28 @@ INSERT INTO pharmacies ( `PharmacyID`, `Name`, `Phone Number 1`, `Phone Number 2
 SELECT orders.`OrderID`, orders.`ItemsQuantity`, orders.`OrderDate`, orders.`AgentID`, orders.`Status`, order_item.`Order Item No.`, order_item.`MedicineID`, order_item.`Quantity` FROM orders INNER JOIN order_item ON orders.OrderID = order_item.OrderID WHERE orders.PharmacyID = ? LIMIT 10 OFFSET ? ;
 
 # 50. Viewing pending orders of the Pharmacy
-SELECT orders.`OrderID`, orders.`ItemsQuantity`, orders.`OrderDate`, orders.`AgentID`, orders.`Status`, order_item.`Order Item No.`, order_item.`MedicineID`, order_item.`Quantity` FROM orders INNER JOIN order_item ON orders.OrderID = order_item.OrderID WHERE orders.PharmacyID = ? AND orders.Status != 'Delivered' AND orders.Status != 'Cancelled' LIMIT 10 OFFSET ? ;
+SELECT orders.`OrderID`, orders.`ItemsQuantity`, orders.`OrderDate`, orders.`AgentID`, orders.`Status`, order_item.`Order Item No.`, order_item.`MedicineID`, order_item.`Quantity` FROM orders INNER JOIN order_item ON orders.OrderID = order_item.OrderID WHERE orders.PharmacyID = ? AND orders.Status != `Delivered` AND orders.Status != `Cancelled` LIMIT 10 OFFSET ? ;
 
 # 51. Viewing completed orders of the Pharmacy
-SELECT orders.`OrderID`, orders.`ItemsQuantity`, orders.`OrderDate`, orders.`AgentID`, orders.`Status`, order_item.`Order Item No.`, order_item.`MedicineID`, order_item.`Quantity` FROM orders INNER JOIN order_item ON orders.OrderID = order_item.OrderID WHERE orders.PharmacyID = ? AND orders.Status = 'Delivered' LIMIT 10 OFFSET ? ; 
+SELECT orders.`OrderID`, orders.`ItemsQuantity`, orders.`OrderDate`, orders.`AgentID`, orders.`Status`, order_item.`Order Item No.`, order_item.`MedicineID`, order_item.`Quantity` FROM orders INNER JOIN order_item ON orders.OrderID = order_item.OrderID WHERE orders.PharmacyID = ? AND orders.Status = `Delivered` LIMIT 10 OFFSET ? ; 
+
+# 52. Viewing Delivery Agent profile
+SELECT * FROM delivery_agent WHERE AgentID = ? ;
+
+# 53. Creating a new Delivery Agent
+INSERT INTO delivery_agent ( `AgentID`, `First Name`, `Last Name`, `DOB`, `Gender`, `Phone Number 1`, `Phone Number 2`, `Email Address`, `Drving License No.`, `Description`, `Apartment No.`, `Street`, `Landmark`, `City`, `State`, `Pincode`, `salary`, `Bank A/C No.`, `IFSC Code`, `UPI ID` ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) ;
+
+# 54. Checking Due order for the Agent
+SELECT orders.`OrderID`, orders.`PharmacyID`, orders.`DeliveryDate` FROM orders WHERE orders.AgentID = ? AND orders.Status != `Delivered` AND orders.Status != `Cancelled` LIMIT 10 OFFSET ? ;
+
+# 55. Viewing all orders ever came for delivery
+SELECT orders.`OrderID`, orders.`PharmacyID`, orders.`AgentID`, orders.`Status`, orders.`DeliveryDate` FROM orders LIMIT 10 OFFSET ? ;
+
+# 56. Checking orders left for delivery
+SELECT orders.`OrderID`, orders.`PharmacyID`, orders.`AgentID`, orders.`DeliveryDate` FROM orders WHERE orders.Status != `Delivered` AND orders.Status != `Cancelled` LIMIT 10 OFFSET ? ;
+
+# 57. Viewing orders of a particular Date
+SELECT orders.`OrderID`, orders.`PharmacyID`, orders.`AgentID`, orders.`Status`, orders.`DeliveryDate` FROM orders WHERE orders.DeliveryDate = ? ;
+
+# 58. Viewing orders between Dates
+SELECT orders.`OrderID`, orders.`PharmacyID`, orders.`AgentID`, orders.`Status`, orders.`DeliveryDate` FROM orders WHERE orders.DeliveryDate BETWEEN ? AND ? ;
