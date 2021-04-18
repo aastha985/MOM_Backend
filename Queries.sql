@@ -34,7 +34,7 @@ insert into doctor (UserID,LicenseNo,Degree,Department) values (23,210202,"MD","
 select * from doctor where UserID = 23;
 
 # 12. Display All Prescriptions of Doctor along with Patient Name's and Phone Number
-SELECT PrescriptionID,ImageURL as Prescription,PrescriptionDate,CONCAT(FirstName," ",LastName) as "Patient Name",PhoneNumber1 as "Patient Phone Number" FROM prescription join user on prescription.PatientUserID = user.UserID where prescription.DoctorUserID=14;
+SELECT PrescriptionID,ImageURL as Prescription,PrescriptionDate,CONCAT(FirstName," ",LastName) as "PatientName",PhoneNumber1 as "PatientPhoneNumber" FROM prescription join user on prescription.PatientUserID = user.UserID where prescription.DoctorUserID=14;
 
 # 13. Display All Prescriptions of User along with Doctor's Name and Phone Number
 SELECT PrescriptionID,ImageURL,PrescriptionDate,CONCAT(FirstName," ",LastName) as "DoctorName",PhoneNumber1 as "DoctorPhoneNumber" FROM prescription join user on user.UserID = prescription.DoctorUserID where PatientUserID = 2;
