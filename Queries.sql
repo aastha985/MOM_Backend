@@ -130,7 +130,7 @@ select rank() over (order by total_sale desc) Rank_by_Sales,CompanyName,total_sa
 select * from medicine_companies where Email = "info@avlbio.com";
 
 # 42. Display Medicines of the Company
-select m.Name,m.Description,m.Cost,m.Category,m.IsPrescibed,m.PackagingTemperature from medicines as m join medicine_companies on m.CompanyID = medicine_companies.CompanyID where m.CompanyID=?;
+select m.Name,m.Description,m.Cost,m.Category,m.IsPrescibed,m.PackagingTemperature from medicines as m join medicine_companies on m.CompanyID = medicine_companies.CompanyID where m.CompanyID=1;
 
 # 43. Display Details about quantity of different medicines sold by the company
 select m.Name, sum(Quantity) as quantitySold from medicines m join order_item o on m.MedicineID = o.MedicineID where CompanyID=? group by m.MedicineID order by quantitySold desc;
