@@ -213,7 +213,7 @@ exports.doctorProfile = (req, res) => {
 
 exports.doctorPrescriptions = (req, res) => {
     pool.query(
-        `SELECT PrescriptionID,ImageURL as Prescription,PrescriptionDate,CONCAT(FirstName," ",LastName) as "Patient Name",PhoneNumber1 as "Patient Phone Number" FROM prescription join user on prescription.PatientUserID = user.UserID where prescription.DoctorUserID=?`,
+        `SELECT PrescriptionID,ImageURL as Prescription,PrescriptionDate,CONCAT(FirstName," ",LastName) as "PatientName",PhoneNumber1 as "PatientPhoneNumber" FROM prescription join user on prescription.PatientUserID = user.UserID where prescription.DoctorUserID=?`,
         req.body.UserID,
         (err, result) => {
             if (err) res.json({ error: err });
