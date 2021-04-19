@@ -144,7 +144,7 @@ exports.createProfile = (req, res) => {
 
     let myQuery = "INSERT INTO " + tableName1;
     myQuery += " ( ";
-    for (let column of columns) myQuery += "`" + column + "`" + ", ";
+    for (let column of columns) myQuery += column + ", ";
     myQuery = myQuery.slice(0, -2);
     myQuery += " ) ";
     myQuery += "VALUES";
@@ -183,9 +183,9 @@ exports.allOrders = (req, res) => {
 
     let myQuery = "SELECT ";
     for (let column of columns1)
-        myQuery += tableName3 + "." + "`" + column + "`" + ", ";
+        myQuery += tableName3 + "." + column + ", ";
     for (let column of columns2)
-        myQuery += tableName4 + "." + "`" + column + "`" + ", ";
+        myQuery += tableName4 + "." + column + ", ";
     myQuery = myQuery.slice(0, -2);
     myQuery += " FROM ";
     myQuery += tableName3 + " " + joinType + " " + tableName4;
@@ -241,9 +241,9 @@ exports.dueOrders = (req, res) => {
 
     let myQuery = "SELECT ";
     for (let column of columns1)
-        myQuery += tableName3 + "." + "`" + column + "`" + ", ";
+        myQuery += tableName3 + "." + column + ", ";
     for (let column of columns2)
-        myQuery += tableName4 + "." + "`" + column + "`" + ", ";
+        myQuery += tableName4 + "." + column + ", ";
     myQuery = myQuery.slice(0, -2);
     myQuery += " FROM ";
     myQuery += tableName3 + " " + joinType + " " + tableName4;
@@ -296,9 +296,9 @@ exports.completedOrders = (req, res) => {
 
     let myQuery = "SELECT ";
     for (let column of columns1)
-        myQuery += tableName3 + "." + "`" + column + "`" + ", ";
+        myQuery += tableName3 + "." + column + ", ";
     for (let column of columns2)
-        myQuery += tableName4 + "." + "`" + column + "`" + ", ";
+        myQuery += tableName4 + "." + column + ", ";
     myQuery = myQuery.slice(0, -2);
     myQuery += " FROM ";
     myQuery += tableName3 + " " + joinType + " " + tableName4;
