@@ -82,7 +82,7 @@ select * from subscription where UserID = 1;
 update subscription set Status = 2 where SubscriptionID = 4;
 
 # 28. Generate order from subscription
-insert into order_item (Cost,Quantity,OrderID,MedicineID)(select Cost,Quantity,? as OrderID,MedicineID from subscription where UserID = ? and Status = 1);
+insert into order_item (Cost,Quantity,OrderID,MedicineID)(select Cost,Quantity,1 as OrderID,MedicineID from subscription where UserID = 1 and Status = 1);
 
 # 29. Set Order status to Order Placed
 update orders set status = 2 where OrderID = 20;
@@ -133,40 +133,40 @@ select * from medicine_companies where Email = "info@avlbio.com";
 select m.Name,m.Description,m.Cost,m.Category,m.IsPrescibed,m.PackagingTemperature from medicines as m join medicine_companies on m.CompanyID = medicine_companies.CompanyID where m.CompanyID=1;
 
 # 43. Display Details about quantity of different medicines sold by the company
-select m.Name, sum(Quantity) as quantitySold from medicines m join order_item o on m.MedicineID = o.MedicineID where CompanyID=? group by m.MedicineID order by quantitySold desc;
+select m.Name, sum(Quantity) as quantitySold from medicines m join order_item o on m.MedicineID = o.MedicineID where CompanyID=1 group by m.MedicineID order by quantitySold desc;
 
 # 44. Pharmacy Signup
-INSERT INTO pharmacy_credentials ( username, hash ) VALUES ( ?, ? ) ;
+INSERT INTO pharmacy_credentials ( username, hash ) VALUES ( "pharma", "11111" ) ;
 
 # 45. Pharmacy Login
-SELECT * FROM pharmacy_credentials WHERE username = ? ;
+SELECT * FROM pharmacy_credentials WHERE username = "pharma" ;
 
 # 46. View Pharmacy Profile
-SELECT * FROM pharmacies WHERE PharmacyID = ? ; 
+SELECT * FROM pharmacies WHERE PharmacyID = 1 ; 
 
 # 47. Checking if a Pharmacy Profile already Created
-SELECT COUNT(*) AS profileCreated FROM pharmacies WHERE PharmacyID = ? ;
+SELECT COUNT(*) AS profileCreated FROM pharmacies WHERE PharmacyID = 1 ;
 
 # 48. Creating a new profile for Pharmacy
-INSERT INTO pharmacies ( PharmacyID, Name, PhoneNumber1, PhoneNumber2, Street, ApartmentNo, Landmark, City, State, Pincode, Description, LicenseNo, EmailAddress, Website, AC_No, IFSC_Code, UPI_ID ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) ; 
+INSERT INTO pharmacies ( PharmacyID, Name, PhoneNumber1, PhoneNumber2, Street, ApartmentNo, Landmark, City, State, Pincode, Description, LicenseNo, EmailAddress, Website, AC_No, IFSC_Code, UPI_ID ) VALUES ( 10, "AGTG5888", "Alpha", "8745691230", null, "Alpha@med.com", "Alphamedicines.com", "medicines available 24/7", "Delhi", "RK ashram", "nk", "123", "110002", "near bus stop", "600024", "bank123", "600024@bank123" ) ; 
 
 # 49. Viewing all the orders taken by the Pharmacy
-SELECT orders.OrderID, orders.ItemsQuantity, orders.OrderDate, orders.AgentID, orders.Status, order_item.OrderItemNo, order_item.MedicineID, order_item.Quantity FROM orders INNER JOIN order_item ON orders.OrderID = order_item.OrderID WHERE orders.PharmacyID = ? ;
+SELECT orders.OrderID, orders.ItemsQuantity, orders.OrderDate, orders.AgentID, orders.Status, order_item.OrderItemNo, order_item.MedicineID, order_item.Quantity FROM orders INNER JOIN order_item ON orders.OrderID = order_item.OrderID WHERE orders.PharmacyID = 3 ;
 
 # 50. Viewing pending orders of the Pharmacy
-SELECT orders.OrderID, orders.ItemsQuantity, orders.OrderDate, orders.AgentID, orders.Status, order_item.OrderItemNo, order_item.MedicineID, order_item.Quantity FROM orders INNER JOIN order_item ON orders.OrderID = order_item.OrderID WHERE orders.PharmacyID = ? AND orders.Status != Delivered AND orders.Status != Cancelled ;
+SELECT orders.OrderID, orders.ItemsQuantity, orders.OrderDate, orders.AgentID, orders.Status, order_item.OrderItemNo, order_item.MedicineID, order_item.Quantity FROM orders INNER JOIN order_item ON orders.OrderID = order_item.OrderID WHERE orders.PharmacyID = 3 AND orders.Status != Delivered AND orders.Status != Cancelled ;
 
 # 51. Viewing completed orders of the Pharmacy
-SELECT orders.OrderID, orders.ItemsQuantity, orders.OrderDate, orders.AgentID, orders.Status, order_item.OrderItemNo, order_item.MedicineID, order_item.Quantity FROM orders INNER JOIN order_item ON orders.OrderID = order_item.OrderID WHERE orders.PharmacyID = ? AND orders.Status = Delivered ;
+SELECT orders.OrderID, orders.ItemsQuantity, orders.OrderDate, orders.AgentID, orders.Status, order_item.OrderItemNo, order_item.MedicineID, order_item.Quantity FROM orders INNER JOIN order_item ON orders.OrderID = order_item.OrderID WHERE orders.PharmacyID = 3 AND orders.Status = Delivered ;
 
 # 52. Viewing Delivery Agent profile
-SELECT * FROM delivery_agent WHERE AgentID = ? ;
+SELECT * FROM delivery_agent WHERE AgentID = 1 ;
 
 # 53. Creating a new Delivery Agent
-INSERT INTO delivery_agent ( AgentID, FirstName, LastName, DOB, Gender, PhoneNumber1, PhoneNumber2, EmailAddress, DrvingLicenseNo, Description, ApartmentNo, Street, Landmark, City, State, Pincode, salary, BankAC_No, IFSC_Code, UPI_ID ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) ;
+INSERT INTO delivery_agent ( AgentID, FirstName, LastName, DOB, Gender, PhoneNumber1, PhoneNumber2, EmailAddress, DrvingLicenseNo, Description, ApartmentNo, Street, Landmark, City, State, Pincode, salary, BankAC_No, IFSC_Code, UPI_ID ) VALUES ( 1, "Vinod", "Sharma", "1992-01-02", "Male", 11000, "DL78965441", "vinod hobbies is to listen songs and play cricket.", "delhi", "govindpuri", "M block", "41", "110096", "near gurudwara", "vinod@email.com", "8956231479", null, "785932", "bank789", "785932@bank789" ) ;
 
 # 54. Checking Due order for the Agent
-SELECT orders.OrderID, orders.PharmacyID, orders.DeliveryDate FROM orders WHERE orders.AgentID = ? AND orders.Status != Delivered AND orders.Status != Cancelled ;
+SELECT orders.OrderID, orders.PharmacyID, orders.DeliveryDate FROM orders WHERE orders.AgentID = 1 AND orders.Status != Delivered AND orders.Status != Cancelled ;
 
 # 55. Viewing all orders ever came for delivery
 SELECT orders.OrderID, orders.PharmacyID, orders.AgentID, orders.Status, orders.DeliveryDate FROM orders ;
@@ -175,7 +175,7 @@ SELECT orders.OrderID, orders.PharmacyID, orders.AgentID, orders.Status, orders.
 SELECT orders.OrderID, orders.PharmacyID, orders.AgentID, orders.DeliveryDate FROM orders WHERE orders.Status != Delivered AND orders.Status != Cancelled ;
 
 # 57. Viewing orders of a particular Date
-SELECT orders.OrderID, orders.PharmacyID, orders.AgentID, orders.Status, orders.DeliveryDate FROM orders WHERE orders.DeliveryDate = ? ;
+SELECT orders.OrderID, orders.PharmacyID, orders.AgentID, orders.Status, orders.DeliveryDate FROM orders WHERE orders.DeliveryDate = "2020-05-20" ;
 
 # 58. Viewing orders between Dates
-SELECT orders.OrderID, orders.PharmacyID, orders.AgentID, orders.Status, orders.DeliveryDate FROM orders WHERE orders.DeliveryDate BETWEEN ? AND ? ;
+SELECT orders.OrderID, orders.PharmacyID, orders.AgentID, orders.Status, orders.DeliveryDate FROM orders WHERE orders.DeliveryDate BETWEEN "2020-01-01" AND "2020-12-01" ;
