@@ -1,5 +1,13 @@
 # **MOM : Master Of Medicines**
 
+### API Documentation
+https://documenter.getpostman.com/view/11165950/TzCS6mRU
+
+### Server URL
+https://masterofmedicines.herokuapp.com/
+
+#
+
 CSE202 : Fundamentals of Database Management Systems
 
 ─
