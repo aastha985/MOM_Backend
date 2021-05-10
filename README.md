@@ -1,15 +1,32 @@
 # **MOM : Master Of Medicines**
 
+<a name="1"></a>
 ### API Documentation
 https://documenter.getpostman.com/view/11165950/TzCS6mRU
 
+<a name="2"></a>
 ### Server URL
 https://masterofmedicines.herokuapp.com/
 
+### Table of Contents
+1.  [API Documentation](#1)
+2.  [Server URL](#2)
+3.  [Group Members](#3)
+4.  [Problem Statement](#4)
+5.  [Objectives](#5)
+6.  [Problem Overview](#6)
+7.  [Some Salient Features](#7)
+8.  [Stakeholders](#8)
+9.  [Miniword](#9)
+10. [Data Entities and Attributes](#10)
+11. [ER Diagram](#11)
+12. [Relationships](#12)
+13. [Relational Schema](#13)
+14. [Keys, Constraints and Range Values](#14)
 #
 
 CSE202 : Fundamentals of Database Management Systems
-
+<a name="3"></a>
 ─
 
 Group - 45
@@ -24,11 +41,13 @@ Dhruv Mehta 2018335
 
 Vasu Kashyap 2019343
 
+<a name="4"></a>
 #
 ## Problem Statement
 
 Medical supplies are the need of the hour.How many times have you gone to a pharmacy and couldn&#39;t find the right medicines ? The pandemic showed us the significance of a good medicine supply network to aid the citizens and maintain health and well-being of a nation. Fake prescriptions are also one of the growing concerns which solicit irresponsible drug consumptions and in turn leads to shortage of supply to those who actually need it.
 
+<a name="5"></a>
 #
 ## Objectives
 
@@ -36,13 +55,14 @@ Medical supplies are the need of the hour.How many times have you gone to a phar
 2. Providing doctors/independent clinics a way to directly prescribe medicines to their patients without the use of a physical/handwritten prescription.
 3. Statistical analysis for medicine companies to further encourage the development of the healthcare industry.
 
+<a name="6"></a>
 #
 ## Project Overview
 
 Our platform caters to the medical needs by encompassing the whole industry into one app.It could also be considered as one-stop for all your medical needs be it medicines, medical equipments,etc.The main purpose of this application would be to ensure a user friendly way to buy medicines and keep track of your health requirements and at the same time helping budding medicine companies , pharmacies and clinics to boost their economy by selling , distributing and resourcing through our app respectively.
 
 #
-
+<a name="7"></a>
 #
 ## Some Salient Features
 
@@ -65,7 +85,7 @@ To uplift the healthcare of the nation, the common people play a major role by c
 Suggestions of ancient remedies that embody our culture and tradition passed down by the spirit of motherhood whenever you buy a medicine related to some such ailment.
 
 #
-
+<a name="8"></a>
 #
 ## Stakeholders
 
@@ -184,11 +204,13 @@ Suggestions of ancient remedies that embody our culture and tradition passed dow
 4. Is the particular medicine available at my pincode?
 5. When will my order arrive?
 
+<a name="9"></a>
 #
 ## MiniWord
 
 Consider a database of our app which centralises over the aspect of medicine selling and delivery.Each user can be categorized into two categories a regular customer/patient and a doctor.A regular customer can place orders for medicines, add subscriptions of medicines and can even file a complaint of some of the issues.Doctors apart from doing all this can also place orders for medical equipments and also prescribe medicines to their patients by directly adding an order.The medicines are supplied to the customer&#39;s doorstep through pharmacies, who keep the stock updated and receives the order.The delivery agent is responsible for the pick up of the medicine order from the pharmacy and deliver it to the customer.Medicine companies use the statistics gathered from this service to market and analyse their medicines.
 
+<a name="10"></a>
 #
 ## Data Entities &amp; Attributes
 
@@ -353,6 +375,7 @@ Consider a database of our app which centralises over the aspect of medicine sel
   3. Quantity
   4. Total MRP
 
+<a name="11"></a>
 #
 ## Relationships
 
@@ -379,11 +402,13 @@ Consider a database of our app which centralises over the aspect of medicine sel
 - Medicine Companies (1)-- gather stats --(1) Medicine
 - Order Item (1)-- has --(1) medicine
 
+<a name="12"></a>
 #
 ## E-R Diagram
 
 [https://lucid.app/lucidchart/invitations/accept/46955573-d169-4844-a35d-4b51550a1850](https://lucid.app/lucidchart/invitations/accept/46955573-d169-4844-a35d-4b51550a1850)
 
+<a name="13"></a>
 #
 ## Relational Schema
 
@@ -425,6 +450,7 @@ Donations(UserID, Request Date, PickUp Date, Donation ID)
 
 DonationItem(Donation ID, Medicine ID, Cost, Quantity)
 
+<a name="14"></a>
 #
 ## Keys, Constraints and Range Values
 
