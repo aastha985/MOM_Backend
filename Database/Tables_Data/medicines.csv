@@ -1,0 +1,1001 @@
+MedicineID,Name,Description,CompanyName,Cost,Category,IsPrescribed,PackagingTemperature,CompanyID,HomemadeRemedies
+1,Premarin,Ped cycle acc-pers NOS,"Cassin, Kuphal and Feeney",44.23,Pharmacy Medicine,0,1,2,practice haldi
+2,Sugar Cookie Antibacterial Hand Wash,Ureteral fistula,McKenzie Group,37.81,General Sales List,0,13,7,do boil water
+3,HallsMelon Splash,Opn cerebell lac-concuss,"Prosacco, Cronin and Wilderman",23.91,Pharmacy Medicine,1,-4,25,use haldi
+4,nicorelief,Oil & grease dermatitis,Wolf-Price,83.31,Controlled List,0,16,47,do padma-assan
+5,ZYLOPRIM,Contraceptive mangmt NOS,Wyman Inc,96.89,Controlled List,0,22,79,do padma-assan
+6,ISAKNOX AGELESS SERUM COMPACT 23,Cystic kidney diseas NOS,Kuphal LLC,730.69,Controlled List,1,7,29,follow sav-assan
+7,Coppertone Oil Free Faces,TB of ureter-histo dx,Stamm-Littel,80.46,General Sales List,1,16,27,take haldi
+8,ANTIBACTERIAL FOAMING HAND SP LEMONGRASS,Tick-borne hem fever NEC,Ebert and Sons,79.65,General Sales List,1,29,98,take haldi
+9,ADSOL Red Cell Preservation Solution System in Plastic Container (PL 146 Plastic),Tox eff lacrimogenic gas,Harris-Lesch,92.14,Controlled List,0,-3,43,take neem
+10,Alprazolam,Preop respiratory exam,Tillman-Waelchi,15.1,Controlled List,0,23,4,take sav-assan
+11,Colic,3rd deg burn ankle,Leffler Inc,17.66,Controlled List,1,16,76,use neem
+12,Paisley Peach Antibacterial Hand Moisturizer,Trunk injury-sites NEC,"Hyatt, Fisher and Crooks",5.57,Pharmacy Medicine,1,14,16,do vegetarian
+13,BACITRACIN,Neurohypophysis dis NEC,Kub-Aufderhar,63.87,General Sales List,0,1,72,do wake early
+14,Taurine,Mushroom workers' lung,Walter and Sons,97.42,General Sales List,1,-5,44,use wake early
+15,Moisture Renew,Lat schizo-subchr/exacer,Kuphal LLC,74.76,Controlled List,1,-2,29,use boil water
+16,Acetaminophen Rapid Release,Centric occl intrcsp dis,"Zieme, Lakin and Carter",47.43,Pharmacy Medicine,1,2,55,take padma-assan
+17,Loratadine,Undet circ-aircrft crash,"Simonis, Kling and Mraz",17.35,Pharmacy Medicine,1,13,71,do tulsi
+18,Temazepam,Injury median nerve,"Hermiston, Legros and Hand",75.21,Pharmacy Medicine,1,9,13,use haldi
+19,Naproxen,"Fx femur, midcervic-clos",Crona-Leannon,42.89,Controlled List,0,9,6,practice vegetarian
+20,Metaproterenol Sulfate,Maternal distress-unspec,"Predovic, Robel and Considine",63.34,Controlled List,1,10,1,do tulsi
+21,Good Neighbor Pharmacy Nicotine,Atrophy maxilla-minimal,Carter Inc,58.42,Controlled List,0,3,100,follow tulsi
+22,Lisinopril,Abrasion-enamel,Ebert and Sons,29.23,Controlled List,1,23,98,take wake early
+23,Fluoxetine hydrochloride,Necrosis of artery,"Raynor, Walker and Jakubowski",75.44,General Sales List,0,2,58,practice sav-assan
+24,Nesacaine,Congen CV dis preg-unsp,Leffler Inc,899.35,Controlled List,0,27,76,take tulsi
+25,Natelle One,Abn function study NEC,Zemlak and Sons,48.74,Controlled List,0,6,70,practice padma-assan
+26,Creamy Peach Antibacterial Foaming Hand Wash,Herpetic vulvovaginitis,Ankunding Inc,71.34,General Sales List,1,17,48,practice 8 hour sleep
+27,HGH-Pro,Pois-pertussis vaccine,"O'Conner, Kris and Schowalter",74.25,Pharmacy Medicine,1,12,54,use sav-assan
+28,Artificial Tears,Hepatic encephalopathy,"Welch, Turner and O'Reilly",98.01,Controlled List,1,5,89,practice 8 hour sleep
+29,Cepacol,Pituitary disorder NOS,Kautzer LLC,18.56,General Sales List,0,27,61,take padma-assan
+30,TIZANIDINE HYDROCHLORIDE,Spina bifida-lumbar,Crona-Leannon,102.1,General Sales List,1,23,6,follow tulsi
+31,DAILY MOISTURIZING,Adv eff corticosteroids,Gottlieb-Kemmer,98.35,Pharmacy Medicine,1,1,45,practice padma-assan
+32,OXYGEN,TB of thyroid-cult dx,Zemlak and Sons,24.26,General Sales List,0,12,70,follow sav-assan
+33,Anti-Fungal,Infected hydrocele,Fay-Rau,75.22,Pharmacy Medicine,1,20,87,practice neem
+34,Simply Right Loratadine,Hallucinations,Mayert LLC,60.66,Controlled List,0,22,41,do tulsi
+35,Ziprasidone Hydrochloride,Cardiovascular syph NEC,Schimmel-Hoeger,51.08,Pharmacy Medicine,0,20,80,use haldi
+36,SALIX NIGRA POLLEN,Salmonella osteomyelitis,Yost-Pouros,206.42,General Sales List,1,-1,85,use wake early
+37,Torsemide,Fet grwth ret 1500-1749g,Leffler Inc,33.74,Pharmacy Medicine,0,4,76,use boil water
+38,Cleocin Pediatric,Unilat ing hernia w obst,"Hermiston, Legros and Hand",92.69,Controlled List,1,16,13,use neem
+39,All Day Pain Relief,Coag def hemorr-antepart,Emard Group,63.99,Pharmacy Medicine,0,21,93,take wake early
+40,Ibuprofen,Opn skull/oth fx-concuss,Cummings-Labadie,41.76,Pharmacy Medicine,1,28,68,take wake early
+41,Metronidazole,Heart transplant status,Kub-Aufderhar,78.42,Pharmacy Medicine,0,3,72,use vegetarian
+42,Botrytis cinerea,Fx bimalleolar-open,"Paucek, Wehner and Kunde",515.61,General Sales List,0,7,66,practice boil water
+43,Simvastatin,Breast inf NEC-del w p/p,Gerhold and Sons,16.1,Controlled List,0,22,31,use wake early
+44,Denavir,Fail induction NOS-deliv,Kuphal LLC,82.38,General Sales List,1,25,29,take tulsi
+45,METFORMIN HYDROCHLORIDE,Counseling injry prevent,Dietrich-Denesik,41.08,Pharmacy Medicine,0,5,63,use tulsi
+46,Extra Strength Acetaminophen,Bipol I manc-sev w/o psy,Witting Inc,18.96,Controlled List,1,11,57,do vegetarian
+47,LANOXIN,Uterovag prolaps-incompl,Johns-Lowe,36.15,General Sales List,0,26,56,follow wake early
+48,ISOPROPYL WINTER GREEN RUBBING ALCOHOL,Bariatric surg-del w p/p,Fay-Rau,632.35,Pharmacy Medicine,1,5,87,take sav-assan
+49,Erythromycin,Adv eff mix bact vaccine,Kreiger Group,46.01,Controlled List,1,1,37,take neem
+50,Antiseptic Mouth Rinse,Ca in situ stomach,Lemke LLC,58.44,Pharmacy Medicine,0,-5,18,follow 8 hour sleep
+51,Carroll Ultrex Antimicrobial Wipes,"NB intraven hem,grade i",Ullrich LLC,59.21,Pharmacy Medicine,0,-5,81,do padma-assan
+52,risperidone,Villonod synovit-mult jt,"Zieme, Lakin and Carter",64.01,General Sales List,0,-1,55,take boil water
+53,Klor-Con M20,Late eff CV dis-dysphsia,"Dare, O'Reilly and Purdy",45.47,Pharmacy Medicine,1,22,50,do wake early
+54,ZENATANE,Unilat ing hernia w gang,Lemke LLC,139.47,Controlled List,0,26,18,do boil water
+55,Cod,Hypertelorism of orbit,Harris-Lesch,73.81,Pharmacy Medicine,1,-3,43,do haldi
+56,Lisinopril,Acq deformity of toe NOS,Herman-Marks,99.91,Controlled List,1,28,94,do wake early
+57,Mustard Seed,Tox eff noxious food NEC,McKenzie Group,70.91,Pharmacy Medicine,1,4,7,use vegetarian
+58,Junior Pain Relief,Longitudinal defic ulna,Rempel Inc,37.24,General Sales List,1,29,8,practice neem
+59,"Mucus Relief Cold, Flu and Sore Throat",Ben neo GI tract NEC/NOS,Ferry Group,96.93,General Sales List,0,10,74,take 8 hour sleep
+60,Sodium Chloride,Complcation-insulin pump,"Moen, Osinski and Weissnat",856.51,Pharmacy Medicine,0,-3,73,use neem
+61,K-TAB,Oth integument anomalies,Ullrich LLC,53.54,General Sales List,1,10,81,take padma-assan
+62,Head and Shoulders,Thyrotox-ect nod no cris,"Greenholt, Herman and Gislason",37.33,Controlled List,1,17,92,practice wake early
+63,Isopropyl Alcohol,Great vein anomaly NOS,Bradtke-Heathcote,55.57,Pharmacy Medicine,0,-4,78,follow haldi
+64,Duloxetine,"Keratoderma, acquired","Padberg, Heidenreich and Predovic",69.91,General Sales List,0,7,84,do boil water
+65,Salsalate,Pulm embol NEC-del w p/p,"Padberg, Heidenreich and Predovic",95.39,Controlled List,0,11,84,use wake early
+66,Nan San EASY FLEX Pain Relieving,Cl skul fx NEC-deep coma,Hamill-Goyette,920.32,General Sales List,0,5,59,do haldi
+67,Amlodipine Besylate,Monoc esotrop w v pattrn,"Dare, O'Reilly and Purdy",21.04,Controlled List,1,17,50,take vegetarian
+68,Atenolol and Chlorthalidone,Post-term infant,"Ryan, Nader and Murphy",84.32,Controlled List,0,18,97,practice padma-assan
+69,Benazepril Hydrochloride,"Gc sem vesiculitis, chr","Fay, Hessel and Borer",43.73,Controlled List,1,10,36,take haldi
+70,Povidone-Iodine Pad,Loc osteoarth NOS-hand,"Thompson, Lang and Crist",60.58,Controlled List,0,12,75,take 8 hour sleep
+71,Ampicillin,Fx humerus NOS-closed,"Ziemann, Carter and Crona",90.38,General Sales List,1,19,49,use tulsi
+72,Nighttime,Alternating esotropia,"Luettgen, Hayes and Ward",685.57,General Sales List,1,10,38,practice boil water
+73,Olanzapine and Fluoxetine,Exam ears & hearing NEC,Spinka-Crist,26.95,Controlled List,0,-2,40,practice neem
+74,Oxcarbazepine,Open wnd trunk NEC-compl,Koch-Graham,97.82,General Sales List,1,29,39,use padma-assan
+75,Nighttime Sleep Aid,Deep 3rd burn trunk NEC,Wolff-Hand,22.89,Pharmacy Medicine,1,-5,3,use haldi
+76,California Black Walnut,"Fx navicular, wrist-open",Feil-Mante,32.58,Pharmacy Medicine,0,-2,96,do wake early
+77,Low Sugar Cherry Flavor Fishermans Friend Menthol Cough Suppressant,Hepatitis A w/o coma,Harris-Lesch,28.96,General Sales List,0,13,43,take tulsi
+78,BRUSSEL SPROUTS,Malign neopl cerebrum,"Dare, O'Reilly and Purdy",111.41,Pharmacy Medicine,0,0,50,take neem
+79,HES CLEAN,Varicella pneumonitis,McKenzie Group,88.79,Controlled List,0,5,7,take boil water
+80,Kmart Corporation,Pediculosis NOS,Leffler Inc,75.2,General Sales List,0,-4,76,practice vegetarian
+81,Zoledronic acid,Burn NOS trunk NEC,"Hahn, Lubowitz and Halvorson",32.76,General Sales List,0,6,69,use boil water
+82,MiraLAX,Hpt C w hepatic coma NOS,"Hettinger, Becker and Walter",24.82,Pharmacy Medicine,0,12,26,use boil water
+83,Paroxetine,Chr mono leuk in relapse,Kautzer LLC,54.73,General Sales List,0,1,61,follow neem
+84,Argentum 0.4 Adult Size (cocoa butter) Special Order,Syst sclerosis lung dis,Kautzer LLC,780.32,Controlled List,0,1,61,take boil water
+85,XtraCare Wet Wipes,Dermatomyositis,Nitzsche and Sons,10.6,Pharmacy Medicine,1,11,21,follow wake early
+86,HYDROMORPHONE HYDROCHLORIDE,Prolapsed arm-unspec,Hane-Doyle,31.42,General Sales List,0,14,51,do neem
+87,LISINOPRIL,Hot substance accid NEC,"Goyette, Daniel and Leannon",95.6,General Sales List,0,24,5,take sav-assan
+88,PAMELOR,Arthropod virus NEC,"Douglas, Keeling and Murray",28.12,Pharmacy Medicine,0,4,42,follow wake early
+89,Rivastigmine Tartrate,Malig neuroendo ca NOS,Hettinger Inc,65.76,General Sales List,1,24,12,do padma-assan
+90,Isosorbide Dinitrate,Rhinovirus infect NOS,Gottlieb-Kemmer,922.66,Pharmacy Medicine,1,12,45,practice neem
+91,METFORMIN HYDROCHLORIDE,"Condctv hear loss,unilat",Nikolaus Inc,95.55,General Sales List,1,29,60,follow neem
+92,Irbesartan and Hydrochlorothiazide,Mv-train coll-pedest,Gottlieb-Kemmer,34.25,General Sales List,1,14,45,use boil water
+93,Alendronate Sodium,Macular keratitis,"Ziemann, Carter and Crona",73.59,Pharmacy Medicine,0,4,49,follow wake early
+94,Pantoprazole,"Panniculitis, unsp site",Johns-Lowe,76.21,Pharmacy Medicine,1,21,56,do haldi
+95,LBel,Cord around neck-antepar,Yost-Pouros,29.39,General Sales List,0,22,85,follow sav-assan
+96,PROVENCE MAKEUP BASE,Sleep arousal disorder,Yundt-Price,255.2,Controlled List,0,-1,15,use neem
+97,valsartan and hydrochlorothiazide,Inf arthritis NOS-up/arm,"Ziemann, Carter and Crona",17.77,General Sales List,1,13,49,take tulsi
+98,swiss hand guard,Dysthymic disorder,Anderson Group,92.49,General Sales List,0,22,77,follow padma-assan
+99,Sinus Rescue,Dysenter arthrit-ankle,Johnson Group,83.58,Pharmacy Medicine,0,25,90,practice vegetarian
+100,good sense pain relief pm,Cryptogenic organiz pneu,"Welch, Turner and O'Reilly",76.85,Pharmacy Medicine,1,14,89,take neem
+101,Candidiasis Yeast,3rd deg burn w loss-back,Dietrich-Denesik,23.35,Controlled List,0,7,63,use boil water
+102,Oxcarbazepine,Leptospiros icterohem,"O'Conner, Kris and Schowalter",464.09,Pharmacy Medicine,1,11,54,do neem
+103,"Standardized Mite, Dermatophagoides farinae, Bulk, 10000 AU per mL",Mgrn NOS w ntrc w st mgr,"Ortiz, Corkery and Koelpin",76.56,Controlled List,0,3,67,use sav-assan
+104,Ammonia Inhalants,Hepatopulmonary syndrome,"Douglas, Keeling and Murray",10.12,General Sales List,0,26,42,do haldi
+105,isosorbide mononitrate,Malposition NEC-unspec,Emard Group,79.17,Controlled List,1,26,93,use tulsi
+106,Eucalyptus e fol. 5,Gonorrhea-antepartum,"Bechtelar, Connelly and Boehm",19.02,Controlled List,1,6,82,do padma-assan
+107,Womens Gentle Laxative,Liver/bil trct disr-ante,"Greenholt, Herman and Gislason",19.41,Pharmacy Medicine,0,15,92,use vegetarian
+108,"Pollens - Weeds and Garden Plants, Scotch Broom Cytisus scoparius",Unsocial aggress-severe,Carter Inc,812.49,Pharmacy Medicine,0,16,100,take padma-assan
+109,Aldactone,Lung injury NOS-open,"Ortiz, Corkery and Koelpin",80.41,General Sales List,0,30,67,do sav-assan
+110,Donepezil hydrochloride,Unc behav neo testis,Kautzer LLC,25.63,Pharmacy Medicine,1,0,61,follow vegetarian
+111,Acephen,War inj:fragment IED NEC,"Fay, Hessel and Borer",37.83,Pharmacy Medicine,0,5,36,use sav-assan
+112,meloxicam,Burn NOS head-unspec,Anderson Group,12.06,Controlled List,1,17,77,use sav-assan
+113,Nisoldipine,Status amput above elbow,Braun-Bartoletti,18.14,Controlled List,0,-1,64,do padma-assan
+114,Likewise Hand Moisturizer - Sun Protectant SPF 50,Flccd hmiplg nondmnt sde,"Cremin, Rosenbaum and Bashirian",965.87,Controlled List,0,15,86,do haldi
+115,ZOLINZA,Insect bite forearm-inf,"Predovic, Robel and Considine",52.6,Pharmacy Medicine,0,23,1,do boil water
+116,Childrens Acetaminophen Melts,Enceph/encephmye oth dis,"Fay, Hessel and Borer",93.62,Pharmacy Medicine,1,-4,36,use sav-assan
+117,Pain Relief Maximum Strength,Gallstone ileus,Harris-Maggio,60.45,Pharmacy Medicine,0,14,22,take sav-assan
+118,L OCCITANE IMMORTELLE BRIGHTENING HAND CARE BROAD SPECTRUM SPF 20 SUNSCREEN,Post disloc elbow-closed,Nikolaus Inc,96.96,General Sales List,0,9,60,follow 8 hour sleep
+119,Disney PIXAR Cars Antibacterial Hand Wipes,Ileostomy status,Ferry Group,96.94,Controlled List,1,-5,74,do vegetarian
+120,Dr.eslee Sun Matte,Hodgkins sarcoma pelvic,Emard Group,797.73,Pharmacy Medicine,1,9,93,do boil water
+121,Walgreens,TB of hip-no exam,Mosciski Inc,47.57,Controlled List,1,18,20,practice wake early
+122,Yes To Carrots Daily Facial Moisturizer SPF 15,Ab NOS w pelv damag-comp,Schimmel-Hoeger,92.69,Pharmacy Medicine,0,4,80,practice boil water
+123,Norditropin,Arthropod hem fever NOS,Kautzer LLC,62.36,General Sales List,0,-2,61,take wake early
+124,TobraDex,"Postop shock, septic","Thompson, Lang and Crist",92.67,Pharmacy Medicine,1,7,75,take 8 hour sleep
+125,Cerebromax,Moyamoya disease,Schimmel-Hoeger,46.94,General Sales List,0,4,80,practice neem
+126,FEIBA,Fx larynx/trachea-closed,"Hahn, Lubowitz and Halvorson",904.77,General Sales List,0,21,69,do tulsi
+127,Cefdinir,Soft tissue anomaly NEC,"Fay, Hessel and Borer",78.46,Controlled List,1,11,36,do vegetarian
+128,ISOXSUPRINE HYDROCHLORIDE,Kidney hematoma-closed,"Bode, Deckow and Schuster",22.23,General Sales List,1,22,10,follow 8 hour sleep
+129,Acne Treatment Sulfur Wash,Disloc midtarsal-open,"Cremin, Rosenbaum and Bashirian",92.3,Controlled List,1,13,86,take neem
+130,METOPROLOL SUCCINATE,TB fem gen NEC-oth test,"Reinger, Langworth and Wunsch",44.93,General Sales List,0,24,11,take tulsi
+131,Lamotrigine Extended Release,Myalgia and myositis NOS,Johns-Lowe,13.46,General Sales List,1,10,56,do tulsi
+132,Ceftazidime,Hyphema,"Luettgen, Hayes and Ward",752.04,Pharmacy Medicine,1,25,38,follow 8 hour sleep
+133,LAMOTRIGINE,Disrupt perineum-unspec,Spinka-Crist,58.12,General Sales List,1,30,40,practice padma-assan
+134,Anti-Bacterial Hand,Toxic eff pesticides NEC,"Moen, Osinski and Weissnat",53.74,Controlled List,1,-1,73,take wake early
+135,MYTAB For GAS,Extrapyramidal dis NOS,"Paucek, Wehner and Kunde",21.69,Controlled List,1,25,66,use haldi
+136,Phenazopyridine HCl,Partial tear rotatr cuff,"Wiegand, Prohaska and Kub",62.22,Controlled List,0,1,52,practice haldi
+137,Pumpkin,Louse-borne relaps fever,Fay-Rau,16.08,Pharmacy Medicine,1,24,87,use haldi
+138,LISINOPRIL,Oth coll stnd obj-rider,"O'Conner, Kris and Schowalter",54.59,Pharmacy Medicine,0,-3,54,use vegetarian
+139,ropinirole,Poisoning-gi agent NOS,Ankunding Inc,20.05,General Sales List,1,12,48,take 8 hour sleep
+140,good sense tussin,Poisoning-gi agents NEC,Gerhold and Sons,58.81,General Sales List,1,30,31,follow padma-assan
+141,Methimazole,Infec otitis externa NOS,Kuhic Inc,72.99,Controlled List,1,17,23,use wake early
+142,Low Dose Aspirin,One eye-severe/oth-unknw,"Goyette, Daniel and Leannon",46.51,Controlled List,1,-1,5,use sav-assan
+143,VFEND,Contaminated drug NEC,Ebert and Sons,79.9,Controlled List,0,12,98,practice wake early
+144,TETRA-ABC,Deep vein thromb-antepar,Kreiger Group,497.55,Controlled List,1,29,37,use vegetarian
+145,Naproxen,Post-surgical forgn body,"Bode, Deckow and Schuster",43.81,Controlled List,1,12,10,take haldi
+146,cold relief,Cellulitis of neck,Hauck-Denesik,84.71,General Sales List,1,28,35,use padma-assan
+147,Stona,Chagas disease of heart,Mosciski Inc,81.16,Controlled List,0,10,20,take wake early
+148,Horse Fly,Excessive cold NEC,Feil-Mante,67.03,Pharmacy Medicine,0,8,96,use haldi
+149,Marqibo,Loss control mv-pers NEC,"Ortiz, Corkery and Koelpin",25.47,Pharmacy Medicine,1,24,67,use 8 hour sleep
+150,Enalapril Maleate,Oth vehicle acc NEC,"Maggio, Wehner and Ratke",657.42,Controlled List,1,17,83,use padma-assan
+151,Dr. Numb,Inf arthritis NEC-shlder,Emard Group,24.34,Controlled List,1,27,93,take haldi
+152,Bacto Plus HP,Ulcer of lower limb NOS,Bradtke-Heathcote,38.12,General Sales List,0,14,78,practice tulsi
+153,Risperidone,Toxic effect cyanides,Zemlak and Sons,71,General Sales List,0,27,70,take padma-assan
+154,PVP Prep,Fail mech induct-deliver,Kautzer LLC,21.61,General Sales List,1,29,61,follow 8 hour sleep
+155,Fluconazole,Late sympt syphilis NEC,"Hettinger, Becker and Walter",78.14,Pharmacy Medicine,0,18,26,do wake early
+156,Morphine Sulfate,Suprcondyl fx humerus-cl,"Douglas, Keeling and Murray",529.3,Controlled List,0,-4,42,practice wake early
+157,Trimethobenzamide Hydrochloride,Resolv idiopath scolios,"Maggio, Wehner and Ratke",55.73,General Sales List,1,-4,83,do haldi
+158,CARMEX original lip balm EXTERNAL ANALGESIC,Coxa vara,Gleichner-Legros,71.53,Controlled List,0,6,53,use vegetarian
+159,Necon 777,War inj:con warfare NOS,Langosh Inc,71.89,General Sales List,0,0,19,use wake early
+160,Turf Screen Crew Broad Spectrum Sunscreen,Mal neo soft tis abdomen,Harris-Beer,73.99,Pharmacy Medicine,1,24,32,practice boil water
+161,DOK,Chronic postop pain NEC,"Bode, Deckow and Schuster",40.65,General Sales List,0,24,10,do padma-assan
+162,Childrens Fever Reliever,Contaminated injection,Spinka-Crist,660.61,Pharmacy Medicine,1,0,40,do tulsi
+163,Cladosporium cladosporioides,Adv eff insulin/antidiab,Witting Inc,34.87,General Sales List,1,18,57,practice neem
+164,Cafe Au Lait,Adv eff antimycobac NEC,Wyman Inc,13.01,Controlled List,0,19,79,practice wake early
+165,VITALUMIERE,Helminth arthrit-unspec,Yost-Pouros,67.24,General Sales List,1,18,85,practice haldi
+166,Temazepam,Burn NOS leg-unspec,Harris-Lesch,96.31,Pharmacy Medicine,0,8,43,use wake early
+167,Omeprazole,Schizophrenia NEC-remiss,"Zieme, Lakin and Carter",88.94,Controlled List,1,28,55,follow haldi
+168,ANTIBACTERIAL FOAMING,Abo isoimmunization-unsp,Johnson Group,465.75,Controlled List,0,28,90,do wake early
+169,Opalescence Whitening Toothpaste,Behcet arthritis-ankle,Hettinger Inc,28.53,Controlled List,0,4,12,practice vegetarian
+170,CARDIGAN,Hodg nodul sclero inguin,Yost-Pouros,52.29,General Sales List,1,23,85,use padma-assan
+171,CARE ONE,Abrasion forearm-infect,"McGlynn, Hansen and Nicolas",32.81,General Sales List,0,-3,24,take 8 hour sleep
+172,Losartan Potassium and Hydrochlorothiazide,Ulcerative ileocolitis,DuBuque-Paucek,86.44,Controlled List,1,-4,14,practice padma-assan
+173,SALICYLIC ACID,Ovale malaria,"Cassin, Kuphal and Feeney",30.36,Controlled List,1,-3,2,follow 8 hour sleep
+174,Halibut,Closed skull vault fx,Daugherty-Olson,756.82,Pharmacy Medicine,0,1,30,take haldi
+175,Ibuprofen,Septic arterial embolism,Ebert and Sons,23.63,Pharmacy Medicine,1,-4,98,do tulsi
+176,Tramadol Hydrochloride,Polydactyly NOS,Hartmann-Brakus,42.54,General Sales List,0,8,62,take neem
+177,chlorpromazine hydrochloride,Contusion of elbow,"Predovic, Robel and Considine",11.52,General Sales List,0,-2,1,do neem
+178,Glipizide,Hx-endocr/meta/immun dis,"Schulist, Jerde and Romaguera",96.02,Pharmacy Medicine,1,0,91,do tulsi
+179,Day Time Cold Flu Relief,Oth coll stnd obj-mocycl,"Wiegand, Prohaska and Kub",99.81,Controlled List,1,18,52,practice 8 hour sleep
+180,Ciprofloxacin,Snow veh acc-driver,"Greenholt, Herman and Gislason",932.52,General Sales List,0,-1,92,use 8 hour sleep
+181,Penicillin V Potassium,Fx c7 vertebra-closed,"Ortiz, Corkery and Koelpin",70.3,Pharmacy Medicine,1,26,67,use vegetarian
+182,Glimepiride,Shigella flexneri,"Maggio, Wehner and Ratke",29.79,Pharmacy Medicine,0,29,83,do neem
+183,Heparin Sodium,Maxillary hypoplasia,Daugherty-Olson,95.72,Controlled List,0,3,30,follow sav-assan
+184,Moisture Therapy,Adv eff diphther vaccine,Goldner-Gottlieb,63.01,General Sales List,1,22,99,take neem
+185,Kapvay,Ac pept ulc hem/perf-obs,Ankunding Inc,38.21,General Sales List,1,26,48,practice tulsi
+186,Academy Continuous Sport,Generalized anxiety dis,Harris-Lesch,597.18,General Sales List,0,29,43,use wake early
+187,Dorzolamide Hydrochloride,Reiter arthritis-pelvis,Mosciski Inc,75.89,Pharmacy Medicine,1,14,20,use haldi
+188,Prilosec OTC,Pois-antineopl/immunosup,Anderson Group,38.51,Controlled List,0,5,77,take sav-assan
+189,TUMS,Mal neo cervix uteri NOS,DuBuque-Paucek,61.75,General Sales List,0,11,14,follow wake early
+190,Head Congestion Daytime and Nighttime Cold,Prolapse urethral mucosa,Johnson Group,55.84,Pharmacy Medicine,1,-5,90,take padma-assan
+191,ACER NEGUNDO POLLEN,Adjustment reaction NEC,"Luettgen, Hayes and Ward",30.18,Controlled List,1,28,38,follow vegetarian
+192,Nasal Decongestant PE,Miliary TB NEC-micro dx,Gleichner-Legros,491.62,General Sales List,0,27,53,use wake early
+193,Eye Itch Relief,Fx shaft fibula-closed,"Hermiston, Legros and Hand",50.66,Controlled List,0,3,13,follow sav-assan
+194,COLTALIN-ND,Derang post lat meniscus,Crona-Leannon,96.61,Pharmacy Medicine,1,15,6,follow wake early
+195,Methylprednisolone Acetate,Thyrotox NOS w crisis,"Hahn, Lubowitz and Halvorson",89,Pharmacy Medicine,1,22,69,practice wake early
+196,Tekturna HCT,Syph dissem retinitis,Nikolaus Inc,50.99,Pharmacy Medicine,0,5,60,follow haldi
+197,Tussin CF Multi-Symptom Cold,Prim pulm hypertension,"Hettinger, Becker and Walter",51.01,Pharmacy Medicine,0,27,26,take wake early
+198,XtraCare Foam Antibacterial Hand Wash,"Terrorism, biologicals",Daugherty-Olson,136.07,Pharmacy Medicine,0,16,30,use haldi
+199,Medique Medi-Phenyl,Mv-train coll-pasngr,Zemlak and Sons,12.53,General Sales List,1,7,70,do padma-assan
+200,Givenchy TEINT COUTURE Long Wearing Fluid Foundation with Sunscreen Broad Spectrum SPF 20 ELEGANT BROWN,Lumb/lumbosac disc degen,Rempel Inc,61.1,General Sales List,0,13,8,follow boil water
+201,Pecan Nut,Anemia NEC,Hartmann-Brakus,38.82,Pharmacy Medicine,0,0,62,use haldi
+202,ondansetron hydrochloride,2nd deg burn abdomn wall,Kuhic Inc,80.41,Pharmacy Medicine,0,1,23,do 8 hour sleep
+203,Gelato Homecare,Blind loop syndrome,Leffler Inc,58.97,Controlled List,0,-2,76,use boil water
+204,Phentermine Hydrochloride,Illeg ab w compl NEC-inc,"Ryan, Nader and Murphy",87.28,Controlled List,1,16,97,use sav-assan
+205,Golden Sunshine Herbal,Abnorm innervation synd,Nitzsche and Sons,10.02,Pharmacy Medicine,1,14,21,do vegetarian
+206,Ciprofloxacin,Inj post tibial artery,Zemlak and Sons,96.03,Controlled List,1,21,70,take boil water
+207,up and up lansoprazole,Cl skul base fx w/o coma,Gleichner-Legros,65.75,Pharmacy Medicine,0,2,53,take vegetarian
+208,Zolpidem Tartrate,TB of adrenal-no exam,Nikolaus Inc,83.24,General Sales List,0,23,60,follow padma-assan
+209,Throat Complex,Ancylostoma NEC,Anderson Group,37.38,General Sales List,0,4,77,take tulsi
+210,Vicks NyQuil,Adv eff topic/infil anes,Johns-Lowe,964.03,Pharmacy Medicine,0,15,56,do 8 hour sleep
+211,Aricept,Surgical convalescence,Dietrich-Denesik,19.14,Controlled List,1,13,63,use neem
+212,Handi-San,Tubal/broad lig anom NEC,"Reinger, Langworth and Wunsch",51.88,General Sales List,0,-3,11,do haldi
+213,Conjunct-a-Clear,Burkitt's tumor spleen,"Cassin, Kuphal and Feeney",58.03,Pharmacy Medicine,0,28,2,practice padma-assan
+214,NATURAL FINISH,Pulmonary TB NEC-no exam,Langosh Inc,20.36,General Sales List,0,1,19,do haldi
+215,Skin Tag Relief,Bladder/urethra inj-open,Kub-Aufderhar,58.71,Controlled List,0,30,72,follow haldi
+216,Mesquite,TB skin/subcut-histo dx,Johns-Lowe,285.97,Controlled List,1,9,56,use wake early
+217,COMMON BIG SAGEBRUSH POLLEN,Screen mal neop-oral cav,"Reinger, Langworth and Wunsch",52.73,Controlled List,1,22,11,practice boil water
+218,SSD,Comb treatment convales,Zemlak and Sons,76.82,Pharmacy Medicine,1,3,70,use boil water
+219,Gabapentin,Twin NOS-nonhosp,Harris LLC,86.06,General Sales List,0,9,95,do vegetarian
+220,Erythromycin,Mod hypox-ischem enceph,"Fay, Hessel and Borer",39.45,General Sales List,0,2,36,take neem
+221,Motion Sickness,Pinta late lesions,"Moen, Osinski and Weissnat",52.3,Pharmacy Medicine,1,11,73,follow tulsi
+222,Aloe Scent A B Hand Sanitizing,Excess blood-alcohol lev,"Zieme, Lakin and Carter",40.36,Pharmacy Medicine,1,16,55,do neem
+223,Lysol,Cnsl prnt-chld prob NOS,Crona-Leannon,33.74,General Sales List,0,-4,6,do padma-assan
+224,RITE AID RENEWAL,Mastitis-antepartum,Green-Harris,47.22,Controlled List,1,-2,34,do haldi
+225,"Standardized Grass Pollen, Orchard Grass",Vincent's angina,Gerhold and Sons,62.9,Pharmacy Medicine,1,21,31,practice tulsi
+226,Healthy Accents,Recur manic dis-mild,Koch-Graham,13.94,General Sales List,1,9,39,follow neem
+227,Alprazolam,Stomach ulcer NOS-obstr,Mayert LLC,45.65,Controlled List,1,13,41,follow tulsi
+228,Mary Kay Tinted Moisturizer Sunscreen SPF 20 Beige 2 (Drug Facts),Subarach hem-mod coma,Spinka-Crist,136.07,Pharmacy Medicine,0,14,40,do tulsi
+229,ABATUSS DMX,Urinostomy status NEC,"Douglas, Keeling and Murray",99.19,Pharmacy Medicine,0,7,42,use sav-assan
+230,Danazol,Acq absence of hip joint,Langosh Inc,32.65,General Sales List,0,15,19,follow padma-assan
+231,Fluticasone Propionate,Mult ges w fet loss-unsp,Mosciski Inc,46.77,Pharmacy Medicine,1,9,20,take haldi
+232,Nabumetone,Disl metacarpophalan-opn,Langosh Inc,42.09,General Sales List,0,26,19,do vegetarian
+233,ISTODAX,Unsp hemiplga domnt side,"Dare, O'Reilly and Purdy",78.46,General Sales List,0,21,50,do boil water
+234,Clemastine Fumarate,Amebic skin ulceration,Nitzsche and Sons,465.57,Pharmacy Medicine,1,26,21,use neem
+235,Dollar General,Esoph varice oth dis NOS,"Wiegand, Prohaska and Kub",50.13,Pharmacy Medicine,0,4,52,follow vegetarian
+236,Misoprostol,Amniotic prob NEC-unspec,Hane-Doyle,94.56,Controlled List,0,3,51,follow wake early
+237,PURELL Advanced Skin Nourishing Instant Hand Sanitizer,Spleen capsular tear,"Ortiz, Corkery and Koelpin",44.42,General Sales List,1,12,67,follow sav-assan
+238,Amoxicillin,Osteomyelitis NOS-pelvis,Gerhold and Sons,43.34,Controlled List,1,24,31,practice boil water
+239,VECURONIUM BROMIDE,Int derangement knee NEC,Kuhic Inc,52.06,Pharmacy Medicine,0,28,23,use sav-assan
+240,MDSolarSciences,Mult defects of retina,Kuphal LLC,275.27,Pharmacy Medicine,1,0,29,do neem
+241,Hazelnut,Neonatal nasolacrml obst,"Moen, Osinski and Weissnat",20.42,Pharmacy Medicine,1,15,73,practice padma-assan
+242,Infants Ibuprofen,Screening for ear dis,Daugherty-Olson,87.88,Pharmacy Medicine,0,11,30,follow boil water
+243,"Molds, Rusts and Smuts, Rhizopus nigricans",Brain hem open-mod coma,"Dare, O'Reilly and Purdy",17.52,General Sales List,1,-1,50,use tulsi
+244,Aurum Equisetum A,Ot VD chlm trch prtoneum,Leffler Inc,83.97,Pharmacy Medicine,1,8,76,do haldi
+245,Degree,Fx sacrum-op/crd inj NEC,"Predovic, Robel and Considine",39.32,Pharmacy Medicine,0,3,1,practice sav-assan
+246,Topco Arthritis 8 Hour,Galactorrhea-delivered,Stamm-Littel,918.86,Pharmacy Medicine,0,16,27,use padma-assan
+247,Nasal Decongestant PE,Insect bite finger,Zemlak and Sons,59.94,General Sales List,0,30,70,follow sav-assan
+248,Bladder - Kidney,Benign neoplasm pleura,"Hettinger, Becker and Walter",67.47,Pharmacy Medicine,0,3,26,practice tulsi
+249,Petroleum,Matern cardioresp aff NB,Ferry Group,95.35,General Sales List,1,11,74,practice neem
+250,Breast Care - Fibrocystic,Foster-kennedy syndrome,"Ryan, Nader and Murphy",74.69,Pharmacy Medicine,0,-4,97,use neem
+251,Lunesta,Kwashiorkor,"Padberg, Heidenreich and Predovic",26.66,General Sales List,1,22,84,follow padma-assan
+252,Tinnitus Relief,Kaschin-beck dis-up/arm,"Cummings, Smith and O'Connell",204.75,Pharmacy Medicine,0,28,33,practice padma-assan
+253,Sciatic Rescue,No vaccin-prev disease,Kub-Aufderhar,26.16,Pharmacy Medicine,1,12,72,practice tulsi
+254,Biaxin,TB of hip-no exam,Kuphal LLC,12.39,Controlled List,1,-5,29,follow padma-assan
+255,Picot Plus,Burn NOS finger w thumb,Hane-Doyle,43.64,Controlled List,1,20,51,follow neem
+256,Triamterene and Hydrochlorothiazide,Hdgk grn unsp xtrndl org,DuBuque-Paucek,20.88,General Sales List,0,9,14,practice boil water
+257,AUGMENTIN,"Paranoid state, simple",Mosciski Inc,72.91,General Sales List,0,0,20,follow haldi
+258,Pramipexole Dihydrochloride,Prolong labor NOS-antepa,Feil-Mante,428.41,Controlled List,0,12,96,do 8 hour sleep
+259,Diclofenac Sodium,TB of spleen-no exam,"Predovic, Robel and Considine",97.37,General Sales List,0,7,1,practice neem
+260,Shad Scale Pollen,Nontraum tendon rupt NOS,Wolff-Hand,53.02,Controlled List,1,20,3,do sav-assan
+261,Western Family Itch Relief,Ch leu uns cl in relapse,Harris-Maggio,66.82,General Sales List,0,26,22,do boil water
+262,Sensodyne,Ventricular sept defect,"Ryan, Nader and Murphy",43.51,Controlled List,0,29,97,do padma-assan
+263,Amoxicillin and Clavulanate Potassium,Mantle cell lymph axilla,Dietrich-Denesik,39.08,Pharmacy Medicine,1,7,63,practice wake early
+264,Personal Care Sensitive Skin Deep Cleaning Astringent,Leprosy NEC,Hettinger Inc,43.02,Controlled List,0,-5,12,use wake early
+265,Guaifenesin,War inj:acc own munition,Zemlak and Sons,67.13,General Sales List,1,26,70,practice haldi
+266,Pantoprazole Sodium,Malig neo submandibular,"Dare, O'Reilly and Purdy",90.09,General Sales List,0,8,50,do vegetarian
+267,Nicotine,Extreme immatur wtNOS,Kreiger Group,61.51,Controlled List,0,-4,37,do haldi
+268,Glimepiride,Adv eff medicinal NOS,"O'Conner, Kris and Schowalter",19.36,Pharmacy Medicine,0,28,54,practice neem
+269,Tormentilla Cochlearia Menstrual Support,Acute uri NOS,"Moen, Osinski and Weissnat",36.67,Pharmacy Medicine,0,19,73,use tulsi
+270,Terrasil Fast and Natural Wart Removal,Hiv-2 infection oth dis,"Bechtelar, Connelly and Boehm",128.64,Controlled List,1,26,82,practice neem
+271,Neova DNA Damage Control - Everyday,Excess fluid in infusion,Wolff-Hand,82.75,Pharmacy Medicine,1,7,3,use haldi
+272,GermFree24 Health-care Personnel Handwash,Wrestling,Hamill-Goyette,83.85,Pharmacy Medicine,0,18,59,do haldi
+273,LIDODERM,Deep 3rd burn trunk NEC,Witting Inc,93.76,General Sales List,1,-1,57,follow 8 hour sleep
+274,Potassium Chloride in Dextrose,Dis magnesium metabolism,Muller Group,43.4,Controlled List,0,11,88,practice boil water
+275,Clear Cell Cleanser,FB trach/bronch/lung NEC,Wolf-Price,46.74,Pharmacy Medicine,0,30,47,practice neem
+276,Bisque Foundation SPF 20,Prolapsed arm-delivered,"O'Conner, Kris and Schowalter",130.21,Controlled List,1,0,54,practice boil water
+277,Amoxicillin,Preg compl NEC-postpart,"Prosacco, Cronin and Wilderman",99.1,Pharmacy Medicine,0,18,25,take neem
+278,Sertraline Hydrochloride,Cong valgus foot def NEC,Carter Inc,29.71,Controlled List,0,7,100,practice neem
+279,Burweed Marsh Elder,Mucosits d/t antineo rx,Senger-Stamm,33.52,General Sales List,0,15,65,take neem
+280,Day Time,Acc poison-lead paints,"Bechtelar, Connelly and Boehm",24.58,Controlled List,0,20,82,practice tulsi
+281,Allergy Relief,Ac supp OM w drum rupt,Gleichner-Legros,49.35,Controlled List,0,3,53,practice haldi
+282,Rheumatoid Arthritis Pain Management,Vrnt mgrn wo ntr mgr NEC,Breitenberg-Kulas,274.92,General Sales List,1,1,28,do haldi
+283,Myung Han Miindo Make Up Base,Benign neo nerv sys NEC,"Reinger, Langworth and Wunsch",23.28,Pharmacy Medicine,0,-2,11,follow padma-assan
+284,Xyntha,Abrasion-enamel,"Fay, Hessel and Borer",45.27,General Sales List,1,-5,36,use boil water
+285,LEVETIRACETAM,Intestin TB NEC-cult dx,Braun-Bartoletti,24.05,General Sales List,1,15,64,follow haldi
+286,Protriptyline Hydrochloride,Gingival recess-general,"Ziemann, Carter and Crona",23.12,Controlled List,0,26,49,follow tulsi
+287,Antibacterial Hand Cranberry Spice,Lung anomaly NEC,Nikolaus Inc,96.03,Pharmacy Medicine,0,24,60,practice wake early
+288,Amoxicillin,Uns myl leuk w rmsion,Ankunding Inc,349.58,Pharmacy Medicine,0,18,48,do tulsi
+289,Captopril,Gc prostatitis (acute),Lemke LLC,31.45,Controlled List,1,12,18,take wake early
+290,TRAMADOL HYDROCHLORIDE,Leucocoria,"Hermiston, Legros and Hand",40.33,General Sales List,0,25,13,do tulsi
+291,Epsom Salt,Undet pois-med agnt NOS,Harris LLC,37.42,General Sales List,1,14,95,practice haldi
+292,DR. MERCOLA Sunscreen Broad Spectrum SPF-15,Conjunctival deposits,"Greenholt, Herman and Gislason",64.61,Pharmacy Medicine,1,-2,92,do sav-assan
+293,Povidone-Iodine,Congenital rubella,Harris-Lesch,52.03,General Sales List,0,-4,43,follow sav-assan
+294,Atenolol,Mat comp in utero-p/p,"O'Conner, Kris and Schowalter",413.94,Pharmacy Medicine,1,16,54,do tulsi
+295,ENALAPRIL MALEATE,Accretions on teeth,Yundt-Price,60.46,General Sales List,1,13,15,do tulsi
+296,Injury - Rescue,Adv eff antidepressants,Gottlieb-Kemmer,18,Pharmacy Medicine,0,24,45,do boil water
+297,Raspberry Guava Antibacterial,Ulcer of ankle,Gottlieb-Kemmer,55.32,General Sales List,0,27,45,do vegetarian
+298,Skin So Soft Bug Guard Plus IR3535,Maternal injury aff NB,Yost-Pouros,21.1,General Sales List,1,19,85,use haldi
+299,Hand Sanitizer,Roller coaster riding,"Cummings, Smith and O'Connell",26.31,Pharmacy Medicine,0,3,33,follow haldi
+300,FAIR and SQUARE ANTIBACTERIAL HAND SANITIZER with ALOE VERA,Idiopathic scoliosis,Koch-Graham,731.82,Controlled List,0,-5,39,take tulsi
+301,Head and Shoulders Conditioner,Screening for measles,Green-Harris,70.98,General Sales List,0,0,34,practice boil water
+302,Zap APF,Cong elevation-scapula,"Hettinger, Becker and Walter",72.42,General Sales List,0,2,26,follow wake early
+303,TussiCaps,Epil par cont w/o int ep,"Luettgen, Hayes and Ward",33.91,Pharmacy Medicine,0,22,38,practice 8 hour sleep
+304,NITROUS OXIDE,Sec malig neo sm bowel,"Ryan, Nader and Murphy",20.74,Controlled List,0,30,97,practice haldi
+305,Brewers Yeast,Streptococcus group a,Muller Group,88.87,Controlled List,1,7,88,use wake early
+306,Cold and Flu,Trauma comp synd low ext,Kuphal LLC,111.46,Controlled List,1,10,29,do 8 hour sleep
+307,CD DIOR PRESTIGE WHITE COLLECTION SATIN BRIGHTENING UVB BASE WITH SUNSCREEN SPF 50,Cholesterin granuloma,Kautzer LLC,23.66,Controlled List,1,20,61,do 8 hour sleep
+308,Gas Relief,Prolong labor NOS-antepa,Ferry Group,48.14,Pharmacy Medicine,0,12,74,use 8 hour sleep
+309,Belladonna,Adrenal disorder NOS,Hane-Doyle,81.88,Pharmacy Medicine,1,29,51,do padma-assan
+310,Trichoderma harzianam,Housing/econo circum NEC,Mosciski Inc,58.14,Pharmacy Medicine,0,4,20,take vegetarian
+311,Epzicom,Ganglion of joint,Goldner-Gottlieb,36.25,Controlled List,0,13,99,practice neem
+312,Pepto-Bismol,Lumbar root injury,Emard Group,754.49,General Sales List,0,4,93,use boil water
+313,Optiray,Int inf norwalk virus,"Ortiz, Corkery and Koelpin",19.74,Controlled List,1,16,67,take vegetarian
+314,Nicotine polacrilex,Malig melanoma skin NEC,Senger-Stamm,50.48,General Sales List,1,9,65,do haldi
+315,AVALIDE,Tubrclma meninges-unspec,Johns-Lowe,56.3,Controlled List,0,6,56,practice padma-assan
+316,Halls,Eating disorder NOS,Lynch-Hyatt,56.17,Controlled List,0,8,17,follow sav-assan
+317,Topamax,Infec dermatitis lid NEC,Harris LLC,67.89,Pharmacy Medicine,0,-1,95,take wake early
+318,MORUS RUBRA POLLEN,Hx combat/stress reactn,"Padberg, Heidenreich and Predovic",227.91,Controlled List,1,3,84,take padma-assan
+319,Treatment Set TS329915,Acute peptic ulcer NOS,Kris-Jacobson,82.45,Pharmacy Medicine,0,28,9,practice vegetarian
+320,NU-DERM STARTER SET NORMAL-OILY,TB ovary & tube-micro dx,"Maggio, Wehner and Ratke",91.73,Pharmacy Medicine,0,4,83,take haldi
+321,Fentanyl Citrate,Cerebral palsy NOS,Dietrich-Denesik,37.28,General Sales List,0,0,63,practice 8 hour sleep
+322,Captopril,Family hx osteoporosis,Goldner-Gottlieb,87.8,Pharmacy Medicine,0,4,99,take tulsi
+323,Levothyroxine Sodium,Consanguinity,"Paucek, Wehner and Kunde",36.22,General Sales List,0,6,66,follow tulsi
+324,Oxaprozin,Subjective tinnitus,Wolff-Hand,715.96,Pharmacy Medicine,1,-1,3,follow haldi
+325,Day Relief Night Relief Free,Opn skul base fx-concuss,Hauck-Denesik,88.47,Pharmacy Medicine,1,7,35,do 8 hour sleep
+326,Calcium Chloride,Ureteric obstruction NEC,Daugherty-Olson,71.16,General Sales List,1,23,30,do vegetarian
+327,NATURES SMILE,"Del-mult birth, all live",Walter and Sons,55.24,Pharmacy Medicine,0,10,44,follow 8 hour sleep
+328,Nizatidine,Periph T cell lymph head,Tillman-Waelchi,99.34,General Sales List,1,25,4,do vegetarian
+329,Warfarin Sodium,Mal neo breast low-outer,Hauck-Denesik,99.56,Controlled List,0,10,35,do neem
+330,True Essentials,Wound botulism,Johns-Lowe,298.77,Controlled List,1,15,56,take tulsi
+331,Russian Olive,Toxic effect alcohol NEC,"McGlynn, Hansen and Nicolas",33.29,General Sales List,1,1,24,take padma-assan
+332,ck one waterfresh face makeup spf 15,Mult nb/sb-before adm,"Wiegand, Prohaska and Kub",13.64,General Sales List,0,21,52,take wake early
+333,Hydrogen Peroxide,Vulval varices,Dietrich-Denesik,74.47,Controlled List,0,0,63,do 8 hour sleep
+334,Maximum Strength Zantac,C5-c7 fx-op/cord inj NEC,Goldner-Gottlieb,30.29,General Sales List,1,3,99,take tulsi
+335,Morphine Sulfate,Pulmonary TB NOS-unspec,"Goyette, Daniel and Leannon",57.41,Controlled List,0,28,5,use sav-assan
+336,Dexamethasone Sodium Phosphate,Stevens-Johnson-TEN syn,Wolff-Hand,804.54,Pharmacy Medicine,1,-2,3,do vegetarian
+337,Minocycline Hydrochloride,Spon abort w hemorr-inc,DuBuque-Paucek,95.09,Controlled List,1,5,14,take tulsi
+338,Clozaril,Louse-borne typhus,Dietrich-Denesik,94.58,General Sales List,1,7,63,use padma-assan
+339,Androbalance,Problem w aged parent,Witting Inc,81.54,Pharmacy Medicine,1,8,57,use boil water
+340,Instant Hand Sanitizer and Moisterizer,Abn react-fluid aspirat,Kuhic Inc,52.85,General Sales List,1,19,23,do sav-assan
+341,CARBIDOPA AND LEVODOPA,Dentofac funct abnor NOS,"Maggio, Wehner and Ratke",17.67,General Sales List,0,26,83,do tulsi
+342,Haran 40 (Number 78),Fetal comp in utero-del,"Ziemann, Carter and Crona",845.2,Controlled List,0,2,49,do haldi
+343,Night Time Cough,Secondary malig neo skin,"Paucek, Wehner and Kunde",80.74,Pharmacy Medicine,1,27,66,use boil water
+344,Oxygen,Artic cartil dis-mult jt,Koch-Graham,40.62,Pharmacy Medicine,1,0,39,take haldi
+345,Atenolol,Ac peptic ulc w hem/perf,Lynch-Hyatt,67.85,Controlled List,1,16,17,do boil water
+346,TRAMADOL HYDROCHLORIDE,Gonococcal infec pharynx,Dietrich-Denesik,20.39,General Sales List,1,25,63,take sav-assan
+347,Cold and Flu,Acc pois-petroleum solid,Koch-Graham,43.98,Controlled List,1,5,39,follow wake early
+348,Acute Asthma Relief,Family hx-anemia,Harris-Maggio,56,Controlled List,0,27,22,take sav-assan
+349,Lansoprazole,Congenital chordee,"Reinger, Langworth and Wunsch",84.37,Pharmacy Medicine,1,23,11,do padma-assan
+350,DDF Mattifying Oil Control Moisturizer,TB male genit NEC-unspec,Hamill-Goyette,18,General Sales List,0,22,59,do boil water
+351,Lisinopril,Abn cervix NEC-antepart,"Greenholt, Herman and Gislason",88.17,Controlled List,1,15,92,do 8 hour sleep
+352,Lisinopril,Autistic disord-residual,Lemke LLC,84.59,Pharmacy Medicine,0,14,18,use boil water
+353,Levothyroxine Sodium,Drug withdrawal,Fay-Rau,22,General Sales List,1,29,87,use tulsi
+354,Vitamin K1,Schizophrenia NEC-remiss,Johnson Group,5.63,Pharmacy Medicine,0,4,90,practice neem
+355,Alprazolam,Kyasanur forest disease,"Predovic, Robel and Considine",40.46,Controlled List,1,17,1,do neem
+356,Teacher Collection Anti Bacterial,Cicatricial lagophthalm,Ebert and Sons,42.3,Pharmacy Medicine,0,-3,98,do tulsi
+357,Fair Foundation SPF 15,Intestinal abscess,"Goyette, Daniel and Leannon",76.88,Controlled List,0,26,5,do wake early
+358,Carvedilol,Soccer,McKenzie Group,30.27,Controlled List,0,15,7,do 8 hour sleep
+359,Burkhart,Screening for alcoholism,Stamm-Littel,23.36,General Sales List,0,22,27,do vegetarian
+360,Protopic,War inj:aircrft collisn,Mosciski Inc,984.25,Pharmacy Medicine,0,30,20,practice wake early
+361,Minocycline hydrochloride,Acute bronchospasm,Ullrich LLC,20.51,General Sales List,0,8,81,take tulsi
+362,Laxative pills,Joint dis NOS-shlder,Johns-Lowe,79.23,General Sales List,1,25,56,do 8 hour sleep
+363,Clear Eyes Maximum Redness Relief,Abscess of eyelid,Hettinger Inc,15.9,Controlled List,1,9,12,follow tulsi
+364,Flecainide Acetate,Prolapse urethral mucosa,Mosciski Inc,99.38,General Sales List,1,26,20,use haldi
+365,ZIT ZAPPER,Injury accessory nerve,Leffler Inc,39.16,Pharmacy Medicine,1,17,76,practice tulsi
+366,Poverty Weed Pollen,Fourth nerve palsy,Wolf-Price,178,General Sales List,0,20,47,take 8 hour sleep
+367,Dr. Scholls,Post disloc humerus-open,Ullrich LLC,38.2,General Sales List,1,27,81,follow vegetarian
+368,fexo fenadine,Hx of contraception,Johns-Lowe,70.54,Controlled List,0,23,56,practice boil water
+369,"Standardized Grass Pollen, Fescue, Meadow",Act lymp leuk in relapse,"Ortiz, Corkery and Koelpin",53.79,General Sales List,0,0,67,follow padma-assan
+370,Ginger Lime Hand Sanitizer,Cl skull fx NEC w/o coma,"Bechtelar, Connelly and Boehm",49.01,Controlled List,1,12,82,take sav-assan
+371,Chlorhexidine Gluconate,Diverticulum of bladder,Kris-Jacobson,37.78,General Sales List,0,4,9,practice tulsi
+372,Tahitian Noni Original Lip Balm,Schizoafftv dis-chr/exac,Ferry Group,980.87,Pharmacy Medicine,1,11,74,practice vegetarian
+373,ACER NEGUNDO POLLEN,Speech del d/t hear loss,"Hermiston, Legros and Hand",98.79,Pharmacy Medicine,1,20,13,practice boil water
+374,Prialt,Sbac mono leuk w rmsion,Ankunding Inc,69.93,General Sales List,0,27,48,follow padma-assan
+375,Levetiracetam,Babesiosis,Ullrich LLC,68.38,Pharmacy Medicine,0,1,81,practice vegetarian
+376,Trazodone Hydrochloride,Liver hematoma/contusion,"Hermiston, Legros and Hand",61.71,Controlled List,0,11,13,do boil water
+377,Lovenox,Joint symptom NEC-shlder,"Hahn, Lubowitz and Halvorson",40.49,Controlled List,1,29,69,take vegetarian
+378,YOUTH SURGE,Hx inhaled steroid thrpy,Kreiger Group,38.87,Controlled List,1,11,37,practice tulsi
+379,oxycodone hydrochloride,Ac alcoholic hepatitis,"Thompson, Lang and Crist",25.26,General Sales List,1,10,75,practice neem
+380,AMARANTHUS TUBERCULATUS POLLEN,General medical exam NEC,Carter Inc,93.79,Controlled List,0,13,100,follow vegetarian
+381,Ferrum rosatum Graphites Special Order,Empyema w/o fistula,Gleichner-Legros,21.35,Controlled List,1,12,53,practice boil water
+382,Omeprazole,Histrionic person NOS,Nitzsche and Sons,95.34,Pharmacy Medicine,0,3,21,practice padma-assan
+383,Mountain Cedar,Sprain sternoclavicular,Yundt-Price,41.44,Controlled List,0,1,15,use vegetarian
+384,Luffeel,Inlet contraction-unspec,"Hahn, Lubowitz and Halvorson",114.72,General Sales List,0,-4,69,take tulsi
+385,Rexall Vanishing Scent Pain Relieving,Deficiency anemia NOS,Goldner-Gottlieb,18.32,Controlled List,1,19,99,take neem
+386,Dexferrum,Contusion of hip,Ebert and Sons,12.82,General Sales List,1,16,98,practice boil water
+387,SINGULAIR,Congenital anemia,Hamill-Goyette,62.18,Controlled List,1,12,59,use padma-assan
+388,Aminophylline,Eye replacement NEC,Kuphal LLC,45.85,General Sales List,0,24,29,practice neem
+389,Myoview,Non-abo incomp react NEC,Leffler Inc,35.35,Controlled List,0,-5,76,do tulsi
+390,Propranolol Hydrochloride,Tick-borne enceph NOS,Witting Inc,177.25,General Sales List,0,24,57,practice haldi
+391,Milrinone Lactate,Acu brnchlts d/t oth org,Carter Inc,58.82,Controlled List,0,-2,100,do tulsi
+392,Nevirapine,Malign neopl prepuce,"Padberg, Heidenreich and Predovic",99.1,General Sales List,0,24,84,use wake early
+393,Minocycline Hydrochloride,Acute nephritis NOS,Ullrich LLC,89.62,Controlled List,0,7,81,use padma-assan
+394,Cold Sores and Herpes,Sezary's disease axilla,"Wiegand, Prohaska and Kub",23.81,Pharmacy Medicine,0,6,52,take haldi
+395,Calcium Chloride,Blister shoulder & arm,Green-Harris,69.74,General Sales List,0,13,34,take wake early
+396,GUNA-HYPERTENSION,Pulmonary actinomycosis,"Simonis, Kling and Mraz",120.09,Pharmacy Medicine,0,26,71,take tulsi
+397,PRAVASTATIN SODIUM,Scr fetl malfrm-ultrasnd,"Maggio, Wehner and Ratke",49.27,Controlled List,0,-2,83,follow wake early
+398,benefit BIG EASY BROAD SPECTRUM SPF 35 SUNSCREEN multi-balancing complexion perfector - 06 DEEP BEIGE,Cns compl in del-antepar,Zemlak and Sons,82.43,Pharmacy Medicine,0,15,70,do sav-assan
+399,Amoxicillin and Clavulanate Potassium,Complete les cord/c5-c7,Harvey and Sons,29.41,General Sales List,0,4,46,practice vegetarian
+400,Allium Cepa Kit Refill,Eye movemnt disorder NOS,Kreiger Group,12.38,Pharmacy Medicine,0,24,37,use haldi
+401,Micardis HCT,H zoster nerv syst NEC,"Thompson, Lang and Crist",58.63,Controlled List,1,13,75,use 8 hour sleep
+402,Selan Plus Zinc Oxide,Comp-int prost devic NEC,Langosh Inc,465.59,Pharmacy Medicine,1,-1,19,take wake early
+403,Nettle,Mal neo bladder-dome,Kreiger Group,47.61,General Sales List,1,1,37,do boil water
+404,Salt Grass,Sprain of knee & leg NOS,"Luettgen, Hayes and Ward",39.97,Controlled List,1,22,38,use boil water
+405,RISPERIDONE,Hairy-cell leukem inguin,Cummings-Labadie,56.89,Pharmacy Medicine,0,3,68,follow vegetarian
+406,Conquest,Reg enterit sm/lg intest,Breitenberg-Kulas,86.13,Pharmacy Medicine,0,24,28,use vegetarian
+407,Eastern Cottonwood,Aseptic necrosis of jaw,Langosh Inc,56.05,Controlled List,1,-4,19,use haldi
+408,LOreal Paris Sublime Sun,Periph retina degen NOS,"Bechtelar, Connelly and Boehm",486.17,Controlled List,0,20,82,take tulsi
+409,Game Day MSC Mainstreet Collection Hand Sanitizer,Muscular calcificat NOS,"Greenholt, Herman and Gislason",26.33,General Sales List,0,5,92,practice boil water
+410,Foscavir,Salivary gland dis NEC,Harvey and Sons,98.07,Controlled List,1,27,46,do boil water
+411,Degree for Men Sport,Recurrent pterygium,"McGlynn, Hansen and Nicolas",55.42,Pharmacy Medicine,0,11,24,use boil water
+412,Naloxone Hydrochloride,Opn wnd eustach tb-compl,Hamill-Goyette,59.38,Controlled List,0,0,59,follow 8 hour sleep
+413,Sick Stopper,Bursitis NEC,Kuphal LLC,74.15,General Sales List,1,28,29,do wake early
+414,Hydralazine Hydrochloride,Open wound of larynx,Ullrich LLC,591.26,Controlled List,1,1,81,practice padma-assan
+415,Dr. Jart Rejuvenating Beauty Balm,Screen-respir cond NEC,"Wiegand, Prohaska and Kub",94.81,Pharmacy Medicine,0,25,52,do neem
+416,Lamotrigine,Pois tricyclc antidepres,Rempel Inc,29.58,Pharmacy Medicine,1,18,8,take neem
+417,Earwax Removal Kit,TB of bronchus-micro dx,Emard Group,49.76,General Sales List,1,10,93,take neem
+418,Osmitrol,Observ-work accident,Hane-Doyle,16.51,Controlled List,0,15,51,follow sav-assan
+419,LBEL LEDERM 45plus Jour,Articular disc disorder,"Prosacco, Cronin and Wilderman",61.05,General Sales List,0,3,25,do padma-assan
+420,Cyclo/Mag 10mg/200mg,Adv eff loc anes NEC/NOS,"Moen, Osinski and Weissnat",788.11,Controlled List,1,11,73,do neem
+421,Hydroxyzine Hydrochloride,Polio osteopathy-up/arm,"Thompson, Lang and Crist",68.3,General Sales List,1,28,75,do sav-assan
+422,Suave,Adv eff antitussives,Nitzsche and Sons,67.47,Pharmacy Medicine,0,19,21,do tulsi
+423,Diovan HCT,Gu TB NOS-cult dx,Hane-Doyle,63.33,Pharmacy Medicine,1,24,51,take vegetarian
+424,Cortisone Acetate,Tick-borne ricketts NEC,Walter and Sons,81.79,Pharmacy Medicine,1,10,44,follow 8 hour sleep
+425,SPAI-SONS,Amebiasis carrier,Fay-Rau,42.64,General Sales List,1,24,87,follow padma-assan
+426,ANTIBACTERIAL MINI WIPES Fresh Aloe,Adhesive mid ear dis NOS,Johns-Lowe,561.12,General Sales List,0,11,56,do boil water
+427,Warfarin Sodium,Mal neo temporal lobe,Hartmann-Brakus,91.86,Pharmacy Medicine,0,10,62,take padma-assan
+428,NATRUM SULPHURICUM,Acc d/t avalanche,Mosciski Inc,92.36,Controlled List,0,7,20,practice neem
+429,Blue Rasberry Hand Sanitizer,Family history glaucoma,"Wiegand, Prohaska and Kub",24.85,Controlled List,0,8,52,follow vegetarian
+430,Red Oak,Bipol I cur mix-part rem,Wyman Inc,70.86,General Sales List,0,13,79,follow haldi
+431,Lisinopril,Poisoning-barbiturates,Yost-Pouros,67.02,Controlled List,1,9,85,take tulsi
+432,Lasix,Chr gc upper gu NEC,"Cassin, Kuphal and Feeney",774.81,Controlled List,1,26,2,use 8 hour sleep
+433,Childrens Mucinex,Fail sterile catheter,"Schulist, Jerde and Romaguera",57.14,General Sales List,0,10,91,take tulsi
+434,Morphine Sulfate,Hy ht/kd NOS I-IV w/o hf,Koch-Graham,81.44,Pharmacy Medicine,0,16,39,take neem
+435,sunmark nasal,Matern hypoten-del w p/p,Wyman Inc,38.28,Controlled List,1,14,79,use 8 hour sleep
+436,ARNICA MONTANA (WHOLE PLANT),Secondary syph skin,"Welch, Turner and O'Reilly",13,Pharmacy Medicine,1,25,89,follow vegetarian
+437,Day Time Cold Multi-Symptom,Chondrocalc NOS-forearm,"Bode, Deckow and Schuster",29.72,Controlled List,0,-5,10,practice tulsi
+438,CLE DE PEAU BEAUTE CR COMPACT FOUNDATION,Ulc esophagus w/o bleed,"Bode, Deckow and Schuster",734.94,Pharmacy Medicine,1,22,10,practice neem
+439,Slash Pine,Wheelchair dependence,"Hermiston, Legros and Hand",12.02,Controlled List,1,7,13,use vegetarian
+440,Rx Act Heartburn Prevention,Paralysis agitans,"Ziemann, Carter and Crona",76.81,General Sales List,0,16,49,practice tulsi
+441,ProAmatine,Submers NEC-person NOS,Harris-Maggio,80.65,Pharmacy Medicine,1,3,22,do boil water
+442,topiramate,Postvaricella myelitis,Carter Inc,62.99,General Sales List,0,13,100,take boil water
+443,Jasmine Water Cover Cushion,Contracept surveill NOS,"Schulist, Jerde and Romaguera",55.68,General Sales List,0,23,91,practice wake early
+444,RUTA GRAV,Bipol I single manic rem,Hauck-Denesik,176.89,Controlled List,0,29,35,follow padma-assan
+445,Calcitriol,Broken tooth-uncomplic,"Maggio, Wehner and Ratke",81.25,General Sales List,1,27,83,follow boil water
+446,Glytone Acne Back,Sec uterine inert-unspec,"Douglas, Keeling and Murray",66.41,Pharmacy Medicine,1,-3,42,follow tulsi
+447,bareMinerals bareSkin Pure Brightening Serum Foundation Broad Spectrum SPF 20,Monoc exotrop w x/y pat,"Luettgen, Hayes and Ward",10.13,General Sales List,0,15,38,use neem
+448,Exchange Select Sport Sunscreen,Cryst arthrop NEC-hand,"Wiegand, Prohaska and Kub",36.02,Controlled List,1,18,52,follow boil water
+449,Diclofenac Potassium,"Cellulitis, site NEC",Leffler Inc,35.17,Controlled List,1,15,76,practice haldi
+450,Sulfacetamide Sodium,Spon ab w compl NEC-comp,"Dare, O'Reilly and Purdy",335.78,Pharmacy Medicine,1,17,50,practice padma-assan
+451,CASUARINA EQUISETIFOLIA POLLEN,Adv eff alcohol deter,"Schulist, Jerde and Romaguera",94.7,Controlled List,1,-3,91,use boil water
+452,Warfarin Sodium,Hx-bronchogenic malignan,McKenzie Group,59.11,Controlled List,1,0,7,practice boil water
+453,LBEL divine lip gloss SPF 15,Torsion of ovary or tube,"Hettinger, Becker and Walter",47.9,Pharmacy Medicine,1,23,26,follow 8 hour sleep
+454,CYCLOPHOSPHAMIDE,Mv board/alight-motcycl,Breitenberg-Kulas,19.34,General Sales List,0,-3,28,do 8 hour sleep
+455,Allopurinol,Hx of alcoholism,Daugherty-Olson,81.98,Pharmacy Medicine,1,28,30,follow wake early
+456,Claforan,Inj thoracic vessel NOS,Kreiger Group,965.86,General Sales List,1,7,37,use tulsi
+457,Bengay Ultra Strength,Acc poison-plants NEC,Harris-Beer,56.59,Pharmacy Medicine,1,24,32,take padma-assan
+458,Warfarin Sodium,Inlet contraction-deliv,Harris-Beer,46.1,General Sales List,1,14,32,take padma-assan
+459,Carvedilol,Mal neo urinary NEC,Lemke LLC,37.73,Controlled List,1,2,18,take 8 hour sleep
+460,Pancuronium Bromide,Gingival recess-general,Dietrich-Denesik,59.76,General Sales List,1,11,63,do sav-assan
+461,Trepoxen-250,Late eff inj periph vess,Gottlieb-Kemmer,53.93,General Sales List,1,29,45,do sav-assan
+462,Oxytocin,Hx of alcoholism,"Hermiston, Legros and Hand",408.13,General Sales List,1,11,13,take wake early
+463,Micardis,Cryst arthrop NOS-ankle,Johns-Lowe,27.41,Controlled List,1,21,56,follow vegetarian
+464,Thyroidinum,Ch DVT/embl prox low ext,"McGlynn, Hansen and Nicolas",47.44,General Sales List,0,-2,24,follow haldi
+465,bisacodyl,TB pneumothorax-no exam,Johnson Group,42.85,Controlled List,1,22,90,take padma-assan
+466,Childrens Plus Multi-Symptom Grape,Pyogen arthritis-hand,Zemlak and Sons,58.82,Controlled List,0,2,70,do tulsi
+467,HYZAAR,Acc poison-alcohol NOS,Nikolaus Inc,83.9,General Sales List,1,11,60,use haldi
+468,MLK Kit F2,Neurologic neglect syndr,"Padberg, Heidenreich and Predovic",714.26,Controlled List,0,8,84,use tulsi
+469,CORTISONE ACETATE,Loc osteoart NOS-forearm,"Maggio, Wehner and Ratke",33.66,Controlled List,0,19,83,use wake early
+470,Trandolapril and Verapamil Hydrochloride,Flccd hmiplga unspf side,Daugherty-Olson,15.86,Controlled List,0,26,30,practice haldi
+471,bareMinerals bareSkin Pure Brightening Serum Foundation Broad Spectrum SPF 20,Pois-antiallrg/antiemet,Koch-Graham,52.97,General Sales List,0,21,39,practice 8 hour sleep
+472,Amcinonide,TB fem gen NEC-cult dx,"Schulist, Jerde and Romaguera",47.96,General Sales List,1,29,91,follow haldi
+473,Gabapentin,Fam hx-lymph neoplas NEC,"Maggio, Wehner and Ratke",35.03,Pharmacy Medicine,0,24,83,use neem
+474,SHISEIDO RADIANT LIFTING FOUNDATION,Sec malig neo nerve NEC,Goldner-Gottlieb,631.75,Pharmacy Medicine,1,9,99,take neem
+475,Lantiseptic,Gas gangrene,Zemlak and Sons,48.42,Pharmacy Medicine,1,29,70,practice padma-assan
+476,Hill Country Essentials,"Amputation foot, bilat",Emard Group,85.12,General Sales List,1,2,93,take sav-assan
+477,Treatment Set TS336682,Subcondyl fx mandib-open,Kuphal LLC,94.93,Pharmacy Medicine,0,29,29,use neem
+478,THERA Moisturizing Body,Toxic epidrml necrolysis,"Prosacco, Cronin and Wilderman",16.17,Pharmacy Medicine,0,6,25,do wake early
+479,healthy accents allergy relief,Anphylct react crstacns,Leffler Inc,40.04,Controlled List,0,21,76,use wake early
+480,citroma,Housing/econo circum NOS,"Hermiston, Legros and Hand",669.51,Controlled List,0,13,13,do tulsi
+481,Whoo Gongjinhyang Seol Whitening Jin Essence,Renal dis NOS-postpartum,Johns-Lowe,56.26,General Sales List,1,22,56,do 8 hour sleep
+482,Phisoderm Clear Confidence Face Scrub,T1-t6 fx-cl/cord inj NOS,"Welch, Turner and O'Reilly",88.92,General Sales List,1,9,89,follow vegetarian
+483,Gold Bond Intensive Healing Anti Itch Skin Protectant,Intrinsc sphnctr dficncy,Witting Inc,62.39,Pharmacy Medicine,0,27,57,do boil water
+484,Lorazepam,Cryst arthrop NEC-l/leg,Nikolaus Inc,44.01,Pharmacy Medicine,1,-1,60,follow sav-assan
+485,UV LOCK ULTRA MILK SUN,Await organ transplnt st,Senger-Stamm,28.98,Controlled List,0,7,65,do vegetarian
+486,BETULA LENTA POLLEN,Poison-gas/vapor NEC,"Prosacco, Cronin and Wilderman",972.71,Controlled List,0,26,25,practice padma-assan
+487,Perfect Choice,Hx-lymphatic malign NEC,Witting Inc,79.57,Pharmacy Medicine,0,-3,57,follow padma-assan
+488,allergy relief,Diffus interstit keratit,"Greenholt, Herman and Gislason",69.13,General Sales List,1,29,92,use haldi
+489,EROS AQUA SENSATIONS,Varicos leg ulcer/inflam,Lynch-Hyatt,46.62,General Sales List,0,2,17,take vegetarian
+490,Nabumetone,Hourglass stricture stom,Harris-Beer,59.18,Controlled List,0,11,32,follow vegetarian
+491,VITALUMIERE AQUA,War inj:explosion NOS,"Reinger, Langworth and Wunsch",56.27,General Sales List,0,7,11,follow neem
+492,Orajel Instant Relief for Teething Pain,"BMI 28.0-28.9,adult",Wyman Inc,339.27,Pharmacy Medicine,0,20,79,follow vegetarian
+493,Pac-Dent Top Gel,Breast impl remov status,"Goyette, Daniel and Leannon",12.35,Pharmacy Medicine,1,20,5,follow boil water
+494,Naproxen Sodium,Mal neo resp system NOS,Spinka-Crist,49.43,General Sales List,1,30,40,practice tulsi
+495,Fusion Beauty ColorCeuticals Acne Control Primer,"AMI anterior wall,subseq",Senger-Stamm,91.75,Pharmacy Medicine,1,23,65,do wake early
+496,Vitiligo,Anaplastic lymph inguin,"Simonis, Kling and Mraz",45.99,General Sales List,1,25,71,take tulsi
+497,Potassium Chloride in Dextrose and Sodium Chloride,War inj:nucl weapon NOS,"Welch, Turner and O'Reilly",15.38,General Sales List,0,21,89,do boil water
+498,"Acetaminophen, Dextromethorphan Hydrobromide, Guaifenesin, Phenylephrine Hydrochloride",Oth vrl hpat wo hpt coma,Feil-Mante,70.37,Pharmacy Medicine,1,12,96,use vegetarian
+499,ESSENTIAL BODY RELAXING ESSENCE,Inj superior mesent vein,Ankunding Inc,49.65,Pharmacy Medicine,0,14,48,take sav-assan
+500,FLUOXETINE,Abnormal findings NEC,Johnson Group,22.96,Pharmacy Medicine,1,28,90,do padma-assan
+501,Derma Blemish Balm,Overexert reptv mvmt NOS,Koch-Graham,53.38,General Sales List,1,-5,39,practice 8 hour sleep
+502,NBE Cool Mint,Fetal hematologic-deliv,Kub-Aufderhar,52.23,Pharmacy Medicine,1,9,72,take 8 hour sleep
+503,Fluphenazine Hydrochloride,Heart compl in del-deliv,"Ryan, Nader and Murphy",66.83,Pharmacy Medicine,0,8,97,use haldi
+504,Tasigna,NB hemolyt dis-abo isoim,"Paucek, Wehner and Kunde",525.91,Pharmacy Medicine,0,21,66,use vegetarian
+505,Captopril,Submers NEC-person NOS,Goldner-Gottlieb,97.92,General Sales List,1,1,99,practice wake early
+506,Ibuprofen,Boat acc inj NEC-docker,"Douglas, Keeling and Murray",68.9,General Sales List,1,24,42,use haldi
+507,Aspirin,Abrasion trunk,"Bode, Deckow and Schuster",89.13,General Sales List,0,25,10,practice neem
+508,Ondansetron Hydrochloride,Deep dermatophytosis,Wyman Inc,89.14,Pharmacy Medicine,0,28,79,follow tulsi
+509,PENTOXIFYLLINE,Malign neopl clitoris,"Zieme, Lakin and Carter",97.6,Controlled List,0,-5,55,do padma-assan
+510,Creations Garden,Abdmnal pain rt upr quad,Mosciski Inc,240.11,General Sales List,0,19,20,take sav-assan
+511,I 123 Mini,Hypertrichosis of eyelid,"Bode, Deckow and Schuster",47.86,Controlled List,0,4,10,take wake early
+512,Lovastatin,Gu infection-antepartum,"Hahn, Lubowitz and Halvorson",84.92,Pharmacy Medicine,1,13,69,do tulsi
+513,Non Aspirin PM,Periapical absc w sinus,Yundt-Price,63.37,Pharmacy Medicine,1,4,15,take 8 hour sleep
+514,Lyrica,Aftrce traum fx bone NEC,Johns-Lowe,65.69,Pharmacy Medicine,0,17,56,follow sav-assan
+515,Fluconazole,80-89% bdy brn/70-79% 3d,Lynch-Hyatt,74.71,Pharmacy Medicine,0,-2,17,practice haldi
+516,PLANTAGO LANCEOLATA POLLEN,Cl skl vlt fx-proln coma,Hane-Doyle,27.31,Pharmacy Medicine,0,5,51,follow neem
+517,Phendimetrazine Tartrate,Hx sudden cardiac arrest,Hettinger Inc,66.41,General Sales List,1,16,12,use wake early
+518,Hydrochlorothiazide,Congenital cataract NOS,"Greenholt, Herman and Gislason",95.15,Controlled List,1,-4,92,use vegetarian
+519,Topamax,Ot VD chlm trch unspf gu,"Hyatt, Fisher and Crooks",35.05,General Sales List,1,17,16,follow wake early
+520,Sinus and Allergy Releif PE,Femoral epiphysiolysis,Wolf-Price,57.81,General Sales List,0,9,47,follow 8 hour sleep
+521,IOPE RETIGEN LUMINOUS BASE,Legal abor w hemorr-comp,Wolf-Price,17.48,Pharmacy Medicine,1,7,47,take sav-assan
+522,Hemorrhoidal,Unilat cleft palate-inc,"Bechtelar, Connelly and Boehm",466.31,Controlled List,1,25,82,practice haldi
+523,MANGO BEBE LIP ESSENCE,Sickle-cell trait,Yost-Pouros,22.55,Controlled List,0,25,85,take haldi
+524,Cleocin Phosphate,Concussion NOS,Langosh Inc,73.96,Controlled List,1,26,19,follow vegetarian
+525,A and D,Contusion face/scalp/nck,"Zieme, Lakin and Carter",38.09,Controlled List,1,7,55,practice vegetarian
+526,CLINIMIX E,Dislocation ear ossicle,Bradtke-Heathcote,72.45,Controlled List,1,4,78,use boil water
+527,azithromycin,Mal neo nervous syst NOS,"Raynor, Walker and Jakubowski",34,Pharmacy Medicine,0,30,58,do boil water
+528,Atenolol and Chlorthalidone,Vaccin for diphtheria,"Cremin, Rosenbaum and Bashirian",893.78,Pharmacy Medicine,1,23,86,take vegetarian
+529,Oxygen,Cl skl/oth fx/br inj NEC,Wyman Inc,67.66,General Sales List,1,-4,79,take wake early
+530,Morphine Sulfate,Mild/NOS preeclamp-p/p,"Simonis, Kling and Mraz",29.37,Controlled List,0,3,71,follow boil water
+531,Creomulsion,Thoracoscop conv to open,"Hermiston, Legros and Hand",28.94,General Sales List,1,24,13,practice tulsi
+532,Esgic,"BMI 26.0-26.9,adult",Dietrich-Denesik,74.33,Pharmacy Medicine,1,-5,63,follow boil water
+533,Oxazepam,Opn skul fx NEC w/o coma,Nikolaus Inc,54.07,Controlled List,1,13,60,take boil water
+534,Neomycin and Polymyxin B Sulfates and Dexamethasone,Obsv-adolesc antisoc beh,Lynch-Hyatt,948.55,Pharmacy Medicine,1,5,17,practice wake early
+535,acetaminophen,Fx base femoral nck-clos,Kuhic Inc,93.19,Controlled List,1,17,23,do wake early
+536,Be-Dry,Snow veh acc-pedest,Daugherty-Olson,26.22,Pharmacy Medicine,0,29,30,follow tulsi
+537,Keppra,Dis plas protein met NEC,Gerhold and Sons,82.34,Controlled List,1,24,31,take boil water
+538,Zicam,Prelab rupt uter-antepar,"Schulist, Jerde and Romaguera",23.26,General Sales List,0,-5,91,do padma-assan
+539,Hydralazine Hydrochloride,FB entering oth orifice,Walter and Sons,73.27,Pharmacy Medicine,0,20,44,use wake early
+540,Dexamethasone,Meningococcemia,"Maggio, Wehner and Ratke",256.22,Pharmacy Medicine,1,27,83,do sav-assan
+541,Leflunomide,DMII hprosmlr uncontrold,"McGlynn, Hansen and Nicolas",40.25,General Sales List,1,0,24,follow boil water
+542,VERTICILLIUM ALBO ATRUM,Transverse colon inj-cl,Senger-Stamm,33.64,Controlled List,0,12,65,take vegetarian
+543,Ketorolac Tromethamine,Round hole of retina,Gerhold and Sons,89.28,Pharmacy Medicine,1,-1,31,follow 8 hour sleep
+544,Naproxen Sodium,Fx ramus NOS-closed,Johnson Group,56.52,General Sales List,0,9,90,practice sav-assan
+545,RYZOLT,TB of organ NEC-cult dx,Yundt-Price,42.33,Controlled List,1,1,15,use sav-assan
+546,Curad Alcohol,Umbilical artery absence,Lemke LLC,879,Controlled List,1,8,18,follow padma-assan
+547,SHISEIDO SHEER MATIFYING COMPACT (REFILL),Old bucket tear lat men,Walter and Sons,21.64,Controlled List,0,9,44,do boil water
+548,Mydriacyl,Screen - osteoporosis,Daugherty-Olson,14.42,General Sales List,0,4,30,use 8 hour sleep
+549,Ropinirole Hydrochloride,Visual percept w/o fusn,"Moen, Osinski and Weissnat",47.35,Pharmacy Medicine,1,21,73,use wake early
+550,pioglitazone hydrochloride,Talipes cavus,Zemlak and Sons,43.34,General Sales List,1,16,70,practice vegetarian
+551,Methyldopa,Enteritis d/t calicivirs,Braun-Bartoletti,13.56,Pharmacy Medicine,1,16,64,follow vegetarian
+552,Gemcitabine Hydrochloride,Degenerative globe NEC,"Zieme, Lakin and Carter",372.46,Pharmacy Medicine,0,12,55,take wake early
+553,Youngevity,Infect NOS-postpartum,"Prosacco, Cronin and Wilderman",21.41,Controlled List,0,25,25,follow neem
+554,Listerine Naturals Antiseptic - Herbal Mint,Vasc lesion cord-unspec,"Bechtelar, Connelly and Boehm",92.26,Pharmacy Medicine,1,23,82,take haldi
+555,Xalatan,Deficiencies neck/trunk,"O'Conner, Kris and Schowalter",86.18,General Sales List,0,20,54,use neem
+556,ZAFIRLUKAST,Radiat fetal damag-unsp,Ferry Group,73.01,General Sales List,1,0,74,practice 8 hour sleep
+557,Fluphenazine Hydrochloride,Inj abdominal vessel NOS,Kub-Aufderhar,31.32,Controlled List,1,24,72,follow vegetarian
+558,NEO-POLY-DEX,Pyelonephrit in oth dis,"Ziemann, Carter and Crona",282.87,Pharmacy Medicine,0,7,49,take wake early
+559,Levofloxacin,Louse-borne typhus,"Cremin, Rosenbaum and Bashirian",27,Controlled List,0,30,86,use boil water
+560,Penicillin V Potassium,Allergy dental res mat,"Hyatt, Fisher and Crooks",58.43,General Sales List,0,1,16,take tulsi
+561,Simvastatin,Hepatorenal syndrome,Green-Harris,12.55,Pharmacy Medicine,0,25,34,follow padma-assan
+562,Gris-PEG,Mal neo lingual tonsil,"Paucek, Wehner and Kunde",75.18,Controlled List,1,27,66,take wake early
+563,Senna-S Laxative,Hemrrhoid NOS w comp NEC,"Bode, Deckow and Schuster",78.76,Controlled List,1,25,10,take haldi
+564,meijer,"Amput above knee, unilat",Goldner-Gottlieb,272.02,General Sales List,1,17,99,use sav-assan
+565,Primidone,Ben neo ribs/stern/clav,"Goyette, Daniel and Leannon",44.67,Pharmacy Medicine,1,26,5,take 8 hour sleep
+566,Acute Viro Reliever,Aircraft acc-ground crew,"Bode, Deckow and Schuster",14.3,General Sales List,1,27,10,take boil water
+567,sumatriptan succinate,Mal histiocytosis axilla,Carter Inc,41.49,Controlled List,0,1,100,take boil water
+568,Quetiapine fumarate,Malposition NEC-deliver,Hane-Doyle,53.71,General Sales List,0,13,51,follow boil water
+569,QUERCUS VIRGINIANA POLLEN,Polio osteopathy-forearm,Yundt-Price,11.12,General Sales List,1,21,15,take haldi
+570,Cefazolin,Gonorrhea in preg-unspec,Kautzer LLC,639.87,Pharmacy Medicine,0,9,61,practice vegetarian
+571,Synthroid,Pulmon art coarct/atres,Koch-Graham,34.81,Controlled List,1,23,39,use padma-assan
+572,Clear Proof Acne System The Go Set,Pathol dislocat-unspec,Harvey and Sons,59.9,General Sales List,0,20,46,use sav-assan
+573,Sandostatin LAR Depot,H zoster complicated NEC,"Thompson, Lang and Crist",97.41,General Sales List,0,17,75,take neem
+574,Motion Sickness,Chr ischemic hrt dis NEC,Kuhic Inc,11.44,Controlled List,1,16,23,practice neem
+575,Eve Lom Radiance Lift Foundation SPF 15,Histoplasm dub pneumonia,"Paucek, Wehner and Kunde",80.83,Pharmacy Medicine,1,9,66,practice sav-assan
+576,Burweed Marsh Elder,Traum pneumothorax-close,Nitzsche and Sons,228.79,Controlled List,1,26,21,take boil water
+577,CLARINS Broad Spectrum SPF 15 Everlasting Foundation Tint 116,2nd deg burn lip,Goldner-Gottlieb,83.39,Controlled List,0,2,99,use wake early
+578,REVITALIZING FACIAL FOAM,Stat obj w sub fall NEC,Goldner-Gottlieb,92.48,Controlled List,0,2,99,practice boil water
+579,Bactoshield,Cl skul fx NEC-deep coma,"Schulist, Jerde and Romaguera",81.21,General Sales List,0,14,91,take neem
+580,ONGLYZA,Allerg arthritis-ankle,Kuhic Inc,70.15,General Sales List,0,8,23,use boil water
+581,Iodine Bush,Chronic lymphadenitis,McKenzie Group,15.53,Controlled List,1,9,7,use padma-assan
+582,Metformin Hydrochloride,Traumatic brain hem NEC,"Bode, Deckow and Schuster",656.18,General Sales List,1,18,10,take sav-assan
+583,BICILLIN L-A,Athscl extrm bps gft NOS,"Ortiz, Corkery and Koelpin",87.23,General Sales List,1,19,67,follow haldi
+584,Alprazolam,Oth mult lb-in hosp w cs,Gerhold and Sons,20.94,Controlled List,0,18,31,do haldi
+585,Atenolol and Chlorthalidone,Hem early preg NEC-deliv,Spinka-Crist,68.94,General Sales List,1,14,40,do boil water
+586,QUETIAPINE FUMARATE,Fx c1 vertebra-closed,Yundt-Price,16.96,Controlled List,1,15,15,take neem
+587,SEROQUEL,Muscle weakness-general,DuBuque-Paucek,88.12,Pharmacy Medicine,0,0,14,do sav-assan
+588,Pamidronate Disodium,Fx humerus NOS-open,Ebert and Sons,247.89,General Sales List,0,8,98,practice 8 hour sleep
+589,Lamotrigine,Open wound of back,"Wiegand, Prohaska and Kub",57.81,Pharmacy Medicine,0,15,52,take haldi
+590,Chlorpromazine Hydrochloride,Polio osteopathy-l/leg,Kautzer LLC,25.59,Pharmacy Medicine,0,4,61,take vegetarian
+591,Cerezyme,React-cardiac dev/graft,"Maggio, Wehner and Ratke",32.97,Pharmacy Medicine,1,15,83,do neem
+592,Night Time Original,"Dysphagia, oral phase","Zieme, Lakin and Carter",29.16,Controlled List,0,2,55,practice haldi
+593,Mineral Oil,Pelvic varices,Hettinger Inc,11.46,General Sales List,0,23,12,practice tulsi
+594,ATORVASTATIN CALCIUM,Flu dt novel A w oth man,"Goyette, Daniel and Leannon",304.14,General Sales List,1,27,5,follow wake early
+595,Zolpidem Tartrate,Poisoning-blood agt NEC,DuBuque-Paucek,45.72,General Sales List,1,7,14,do vegetarian
+596,Atenolol,Jt derangement NEC-l/leg,"Ortiz, Corkery and Koelpin",12.82,Pharmacy Medicine,0,24,67,practice neem
+597,Tomato,"Amputat bk, unilat-compl",Lemke LLC,31.29,Pharmacy Medicine,1,25,18,practice haldi
+598,ALKERAN,Boat acc inj NEC-power,"Ortiz, Corkery and Koelpin",48.76,General Sales List,0,12,67,use padma-assan
+599,Aspirin,Cl skul w oth fx-concuss,"Greenholt, Herman and Gislason",54.89,Pharmacy Medicine,1,27,92,take boil water
+600,DiorSkin Nude 030 Medium Beige,Dietary surveil/counsel,"Prosacco, Cronin and Wilderman",785.55,General Sales List,1,6,25,practice haldi
+601,Instant Hand sanitizer,Carbuncle NOS,Breitenberg-Kulas,70.25,Pharmacy Medicine,1,-3,28,use boil water
+602,Prestige Snail Lip Treatment,Unilat femoral hernia,Nitzsche and Sons,53.01,Pharmacy Medicine,1,4,21,practice boil water
+603,Crayola,Opn skul fx NEC-brf coma,Hettinger Inc,24.05,Controlled List,1,-3,12,follow padma-assan
+604,Pioglitazone hydrochloride and glimepiride,Chr ischemic hrt dis NEC,Kuphal LLC,43.43,Controlled List,1,0,29,follow haldi
+605,XIFAXAN,Broke prosthtc jt implnt,"Ryan, Nader and Murphy",68.05,Controlled List,1,-2,97,take tulsi
+606,Revlimid,Var mgr NEC wo ntc mgr,Mayert LLC,15.21,General Sales List,1,-1,41,take wake early
+607,Crest Wild Expressions,Disproportion NOS-deliv,Carter Inc,18.92,Controlled List,1,9,100,take neem
+608,Rizatriptan Benzoate,Artif rupt memb-antepart,Wyman Inc,94.92,General Sales List,0,28,79,follow vegetarian
+609,Denorex Extra Strength,Tox eff noxious food NOS,Herman-Marks,44.96,Controlled List,0,27,94,take wake early
+610,Lisinopril,Poisoning-gi agent NOS,"Luettgen, Hayes and Ward",37.27,General Sales List,0,7,38,practice haldi
+611,Lady Speed Stick,Bsl cell ca scalp/skn nk,Herman-Marks,94.66,Pharmacy Medicine,0,16,94,follow wake early
+612,Pleo Muc,Syst/diast hrt fail NOS,Fay-Rau,656.79,Controlled List,0,23,87,use tulsi
+613,Walgreen Vanishing Scent Muscle and Joint,"Subendo infarct, initial","Fay, Hessel and Borer",20.06,Pharmacy Medicine,0,28,36,follow 8 hour sleep
+614,Condylox,TB of knee-no exam,"Welch, Turner and O'Reilly",57.33,Pharmacy Medicine,1,23,89,practice sav-assan
+615,Simvastatin,Cl skl w oth fx-mod coma,Ebert and Sons,83.23,Controlled List,1,30,98,do boil water
+616,Cough Runny Nose,Machine accident-swim,"Cremin, Rosenbaum and Bashirian",90.81,Pharmacy Medicine,1,1,86,follow 8 hour sleep
+617,Ketorolac Tromethamine,Vomit compl preg-antepar,"Maggio, Wehner and Ratke",34.53,Controlled List,0,24,83,practice 8 hour sleep
+618,Denti-Care Denti-Freeze,Paralytic ileus,"Ziemann, Carter and Crona",572.98,Controlled List,1,-4,49,follow boil water
+619,HYDROCODONE BITARTRATE AND ACETAMINOPHEN,Prelab rupt uter-antepar,McKenzie Group,13.92,Controlled List,1,24,7,do boil water
+620,Rejuvity moisturizing day cream BROAD SPECTRUM SPF 15 SUNSCREEN,Metatarsus primus varus,Hauck-Denesik,96.29,Pharmacy Medicine,0,-5,35,follow wake early
+621,Lens Scale Pollen,Queensland tick typhus,DuBuque-Paucek,93.35,General Sales List,1,10,14,follow wake early
+622,ACD Solution Modified,Adhesion tympanum-incus,Anderson Group,44.35,Controlled List,1,-1,77,use haldi
+623,Mercurius Vivus Kit Refill,Superf inj foot/toe NEC,Hettinger Inc,87.94,Pharmacy Medicine,0,28,12,take 8 hour sleep
+624,Diazepam,Fx facial bone NEC-open,"Welch, Turner and O'Reilly",784.4,Pharmacy Medicine,0,11,89,use haldi
+625,Dextroamphetamine Saccharate and Amphetamine Aspartate and Dextroamphetamine Sulfate and Amphetamine Sulfate,<24 comp wks gestation,Yost-Pouros,47.66,Controlled List,0,17,85,practice neem
+626,Revlimid,Lacrimal mucocele,"Cassin, Kuphal and Feeney",61.79,General Sales List,0,13,2,take 8 hour sleep
+627,Glytone Acne Back,Amniocentesis affect NB,Yost-Pouros,57.34,Pharmacy Medicine,0,15,85,use neem
+628,fexo fenadine,Menst mgr wo ntrc wo st,Ullrich LLC,96.69,Pharmacy Medicine,0,12,81,use tulsi
+629,Aveeno Active Naturals Positively Radiant Tinted Moisturizer,Cereb degeneration NOS,Hamill-Goyette,75.32,Pharmacy Medicine,1,16,59,practice vegetarian
+630,Glyburide,Sec uterine inert-antepa,Yost-Pouros,990.7,General Sales List,0,1,85,practice neem
+631,ADVANCED CELL BOOSTING EX TONER,Cong def clot factor NEC,Rempel Inc,77.26,Pharmacy Medicine,1,-4,8,do tulsi
+632,Kroger Sport sunscreen,Mental disorder-deliver,Ebert and Sons,69.93,Controlled List,1,6,98,practice vegetarian
+633,ALOE UP LIL KIDS CONTINUOUS SUNSCREEN,Parasitic endophthal NOS,"Hettinger, Becker and Walter",28.49,Pharmacy Medicine,1,24,26,do padma-assan
+634,DOUBLE PERFECTION LUMIERE,Therap radiation overdos,Langosh Inc,25.75,Controlled List,0,16,19,practice neem
+635,Aspergillus repens,Orthopoxvirus infect NEC,"Zieme, Lakin and Carter",51.88,Controlled List,1,-4,55,follow vegetarian
+636,Zidovudine,Common ventricle,"Ortiz, Corkery and Koelpin",816.77,Controlled List,0,28,67,use boil water
+637,citroma,Benign neoplasm bladder,Lynch-Hyatt,86.69,Pharmacy Medicine,0,19,17,take 8 hour sleep
+638,Levothyroxine Sodium,Vitreous hemorrhage,"Ortiz, Corkery and Koelpin",48.68,General Sales List,1,-3,67,practice wake early
+639,AMLODIPINE BESYLATE,Ankylosis-hand,Langosh Inc,43.72,Pharmacy Medicine,1,30,19,follow vegetarian
+640,Stomach Spleen Meridian Formula,Delay p/part hem-unspec,"Hermiston, Legros and Hand",80.04,General Sales List,1,-3,13,follow boil water
+641,Nifedical,Stress fx femoral neck,"Prosacco, Cronin and Wilderman",15.81,General Sales List,0,12,25,do haldi
+642,Metronidazole,Cryst arthrop NEC-pelvis,"Hettinger, Becker and Walter",563.74,Pharmacy Medicine,1,23,26,follow neem
+643,Currant,Thalassemia NEC,"Maggio, Wehner and Ratke",52.31,General Sales List,0,5,83,practice wake early
+644,Prednisone,Ch leu uns cl in relapse,Ankunding Inc,53.13,Pharmacy Medicine,0,-3,48,follow padma-assan
+645,Childrens Ibuprofen,Selective ig defic NEC,Leffler Inc,74.19,General Sales List,0,25,76,use haldi
+646,Pleo Lat,Primary syphilis NEC,"Hettinger, Becker and Walter",81.72,Controlled List,0,14,26,take sav-assan
+647,Oxygen,Graft-versus-host NOS,Kub-Aufderhar,34.2,Pharmacy Medicine,1,12,72,practice tulsi
+648,GOOD NEIGHBOR PHARMACY DIAPER RASH,"Fx humer, condyl NOS-opn",Zemlak and Sons,635.8,General Sales List,0,28,70,take wake early
+649,Zyprexa,2nd deg burn thigh,Goldner-Gottlieb,70.38,General Sales List,1,22,99,follow wake early
+650,XEROSTOM,Traum pneumothorax-close,Kuphal LLC,54.4,Pharmacy Medicine,1,12,29,do wake early
+651,risperidone,Illeg abort uncompl-unsp,"Hermiston, Legros and Hand",20.46,General Sales List,1,6,13,do 8 hour sleep
+652,Milk of Magnesia Original,Snow veh acc-pers NOS,Green-Harris,72.45,Controlled List,1,20,34,follow wake early
+653,Anticavity Fluoride Rinse,Post-osse biol fail impl,"Fay, Hessel and Borer",69.92,Pharmacy Medicine,0,-2,36,do haldi
+654,SOLAR SENSE CLEAR ZINC SUNSCREEN SPORT BROAD SPECTRUM SPF 50 Plus,Spina bifida occulta,Zemlak and Sons,717.4,Pharmacy Medicine,1,9,70,follow sav-assan
+655,UREA,DMII oth uncntrld,Kreiger Group,71.12,General Sales List,0,16,37,do 8 hour sleep
+656,Pantoprazole Sodium,Ac stomac ulc w hem/perf,"Padberg, Heidenreich and Predovic",93.46,Controlled List,0,-5,84,follow neem
+657,Cimetidine,Deep 3rd burn genitalia,Harris LLC,55.23,General Sales List,1,6,95,use 8 hour sleep
+658,Erythromycin,Mitr/aortic mult involv,"Zieme, Lakin and Carter",20.56,Controlled List,0,14,55,take padma-assan
+659,Carbidopa and levodopa,Allerg rhinitis-cat/dog,Nitzsche and Sons,60.42,Controlled List,0,5,21,use boil water
+660,CD DiorSkin Forever Compact Flawless Perfection Fusion Wear Makeup SPF 25 - 040,Hebephrenia-unspec,"Maggio, Wehner and Ratke",245.88,Pharmacy Medicine,1,-5,83,use padma-assan
+661,Sulphur 30C,Ac osteomyelitis-hand,Herman-Marks,22.86,General Sales List,1,22,94,take boil water
+662,Russian Thistle,Sleep disturbances NEC,Gerhold and Sons,54.66,Pharmacy Medicine,0,24,31,do vegetarian
+663,Rosanil,Watercraft explos-skier,Kuhic Inc,81.87,Controlled List,0,29,23,do sav-assan
+664,Blackberry,Acute otitis externa NEC,McKenzie Group,94.96,General Sales List,1,6,7,practice sav-assan
+665,Clozapine,Acq pyloric stenosis,Yundt-Price,29.76,Controlled List,1,27,15,practice vegetarian
+666,temazepam,Emphysematous bleb,Kautzer LLC,100.72,Controlled List,0,21,61,take sav-assan
+667,Medi-First,Prim pulm hypertension,"Ortiz, Corkery and Koelpin",38,Pharmacy Medicine,0,15,67,use sav-assan
+668,Cough,Chondrocalc NOS-forearm,"Fay, Hessel and Borer",99.89,Pharmacy Medicine,1,24,36,use wake early
+669,Oxygen,Sec DM unsp nt st uncon,Carter Inc,62.6,Pharmacy Medicine,0,25,100,take neem
+670,Mouth Rinse,Hx of colonic malignancy,Kris-Jacobson,14.19,Pharmacy Medicine,0,26,9,do vegetarian
+671,Calm Drops,Ventricular flutter,"Simonis, Kling and Mraz",88.95,Pharmacy Medicine,0,22,71,take tulsi
+672,AZITHROMYCIN,Malfunc card dev/grf NEC,Kreiger Group,508.98,Pharmacy Medicine,0,-3,37,practice sav-assan
+673,Elta MD UV Clear,Psychophysic visual dist,"Raynor, Walker and Jakubowski",17.93,General Sales List,0,1,58,follow sav-assan
+674,Isopropyl Alcohol,Blasting materials accid,Emard Group,14.72,Pharmacy Medicine,0,-1,93,use vegetarian
+675,ATORVASTATIN CALCIUM,Organic insomnia NOS,"Moen, Osinski and Weissnat",94.58,Pharmacy Medicine,1,29,73,take haldi
+676,Loperamide HCl Anti-Diarrheal,Unsp ds conjuc chlamydia,"Maggio, Wehner and Ratke",37.58,General Sales List,0,19,83,practice tulsi
+677,Lamotrigine,Ac stom ulc hem/perf-obs,Spinka-Crist,33.4,Pharmacy Medicine,0,8,40,follow sav-assan
+678,Bayer Genuine Aspirin,Ben endomet hyperplasia,Spinka-Crist,495.23,General Sales List,0,13,40,take neem
+679,fentanyl citrate,Galactorrhea-delivered,Feil-Mante,35.81,Controlled List,0,15,96,use boil water
+680,Metoprolol Tartrate,Sec malig neo nerve NEC,Mayert LLC,87.16,Controlled List,0,7,41,practice neem
+681,GARAMYCIN,2nd deg burn breast,Harris LLC,21.17,Controlled List,0,-5,95,use padma-assan
+682,Black Willow,TB of eye-cult dx,Kuhic Inc,92.09,Controlled List,1,29,23,practice boil water
+683,Nighttime Cold and Flu,Candidal otitis externa,"Dare, O'Reilly and Purdy",24.5,General Sales List,0,23,50,follow neem
+684,LBEL Couleur Luxe Rouge Amplifier XP amplifying SPF 15,Hx-health hazard NOS,Hauck-Denesik,865.95,Controlled List,0,4,35,follow neem
+685,NITROGEN,Sbac lym leuk in relapse,Lemke LLC,47.99,Pharmacy Medicine,1,-2,18,practice padma-assan
+686,Ibuprofen,Phlbts sprfc vn up extrm,Stamm-Littel,47.36,General Sales List,0,29,27,take haldi
+687,Gemcitabine Hydrochloride,Other pulmonary insuff,"Hermiston, Legros and Hand",36.13,Controlled List,0,24,13,do tulsi
+688,BETULA NIGRA POLLEN,Opn brain inj-mod coma,Yost-Pouros,36.73,Controlled List,0,-1,85,follow tulsi
+689,Children Acetaminophen,Erythem nodos tb-no exam,"Schulist, Jerde and Romaguera",48.54,Pharmacy Medicine,1,-5,91,do boil water
+690,Maximum Strength One Step Wart Remover Strips,Ankylosis-unspec,"Hettinger, Becker and Walter",994.43,General Sales List,1,30,26,practice wake early
+691,GOODSENSE LUBRICATING EYE DROPS,Sec DM ketoacd uncntrld,Harvey and Sons,66.42,Controlled List,1,16,46,take boil water
+692,Teething,Postcoital bleeding,Anderson Group,13.52,Controlled List,1,28,77,use tulsi
+693,Ivy-Dry Super,Spon abort uncompl-inc,Hettinger Inc,45.7,General Sales List,0,3,12,follow tulsi
+694,Risperidone,Breast infect NEC-deliv,Ferry Group,55.89,General Sales List,0,14,74,do 8 hour sleep
+695,Metformin Hydrochloride,Retinoshisis or cyst NEC,"Hermiston, Legros and Hand",92.19,Controlled List,1,17,13,practice 8 hour sleep
+696,Suphedrine,Ocl bslr art w infrct,Gottlieb-Kemmer,51.79,General Sales List,1,12,45,follow 8 hour sleep
+697,EcoCare 270,Climact arthritis-l/leg,Goldner-Gottlieb,28.8,Controlled List,0,19,99,do vegetarian
+698,A and D Original,Pyogen arthritis NEC,"Schulist, Jerde and Romaguera",84.97,General Sales List,1,7,91,use neem
+699,Booty Goo,Mech loosening pros jt,"Cummings, Smith and O'Connell",70.54,General Sales List,0,2,33,practice padma-assan
+700,DIPHENHYDRAMINE HYDROCHLORIDE,Calculus of kidney,Kris-Jacobson,69.61,Pharmacy Medicine,0,18,9,use vegetarian
+701,Methotrexate,Loose body in knee,Hartmann-Brakus,15.57,General Sales List,0,13,62,use vegetarian
+702,Ovidrel,Bursitis NEC,Kub-Aufderhar,596.95,Controlled List,0,12,72,follow padma-assan
+703,Metoprolol Tartrate,Oth mono leuk in relapse,"Cremin, Rosenbaum and Bashirian",17.63,Controlled List,1,-3,86,do padma-assan
+704,METHOTREXATE SODIUM,Hodgkins granulom thorax,Dietrich-Denesik,36.51,Pharmacy Medicine,1,13,63,take neem
+705,Zonegran,Dis of gallbladder NOS,Wolff-Hand,47.89,General Sales List,1,15,3,do sav-assan
+706,Omeprazole,Disc degeneration NOS,Crona-Leannon,25.82,Pharmacy Medicine,0,30,6,do boil water
+707,INFeD,Diphtheritic cystitis,Langosh Inc,10.17,General Sales List,1,16,19,use boil water
+708,Gelato Neutral PH,Injury hypogastric vein,"Hermiston, Legros and Hand",928.3,Pharmacy Medicine,0,27,13,do boil water
+709,Breakout Clearing All Over Toner,Mal neo lower lobe lung,Zemlak and Sons,91.44,Pharmacy Medicine,1,11,70,do tulsi
+710,Bac Stop,Gangrene,Muller Group,26.67,Controlled List,1,27,88,do haldi
+711,Acid Controller,NB pulmonary hemorrhage,Herman-Marks,27.98,General Sales List,1,23,94,use padma-assan
+712,Ciprofloxacin,Injury sciatic nerve,Johns-Lowe,33.63,Pharmacy Medicine,1,16,56,do boil water
+713,Monsels Solution,DMI oth uncntrld,"Reinger, Langworth and Wunsch",10.2,Pharmacy Medicine,1,24,11,do 8 hour sleep
+714,Flatulence,Eye anomalies NEC,Leffler Inc,135.44,Pharmacy Medicine,0,23,76,practice boil water
+715,Night Time Cherry,Venom sea animals/plants,"O'Conner, Kris and Schowalter",84.85,General Sales List,0,25,54,follow 8 hour sleep
+716,Degree,Aortic valve disorder,Kuhic Inc,97.26,Pharmacy Medicine,0,19,23,use haldi
+717,Fluticasone Propionate,Cl skul base fx-brf coma,Langosh Inc,86.45,Pharmacy Medicine,1,20,19,take wake early
+718,Neutrogena Nourishing Eye Quad,Toxoplasmosis site NEC,"Schulist, Jerde and Romaguera",53.85,Pharmacy Medicine,0,8,91,practice wake early
+719,DiorSkin Nude 023 Peach,Drug-induced mood disord,"Cummings, Smith and O'Connell",14.91,General Sales List,0,14,33,use neem
+720,KOMBIGLYZE,Opioid/other dep-unspec,Stamm-Littel,567.62,General Sales List,0,27,27,practice tulsi
+721,ACETAMINOPHEN AND DIPHENHYDRAMINE HYDROCHLORIDE,Sev intellect disability,"Welch, Turner and O'Reilly",89.96,General Sales List,1,0,89,do vegetarian
+722,NITROSTAT,Irritable bowel syndrome,Zemlak and Sons,68.31,Controlled List,1,8,70,take vegetarian
+723,aspirin,Visceral herpes simplex,Stamm-Littel,54.71,Pharmacy Medicine,0,8,27,follow tulsi
+724,Childrens TYLENOL,Leptospiral infect NEC,"Goyette, Daniel and Leannon",52.4,Pharmacy Medicine,1,12,5,use boil water
+725,Curad Alcohol,Chr lym leuk w rmsion,Rempel Inc,64.07,General Sales List,1,15,8,take vegetarian
+726,Warfarin Sodium,Acute HTR NOS,Kris-Jacobson,243.04,Controlled List,0,8,9,follow 8 hour sleep
+727,Sport Mate Non-Alcohol Foaming Instant Hand Sanitizer,Malfunc vasc device/graf,"O'Conner, Kris and Schowalter",89.79,General Sales List,0,3,54,do vegetarian
+728,Otoflam,Adv eff psychotropic NEC,Harris-Beer,49.62,General Sales List,1,3,32,follow padma-assan
+729,MOMETASONE FUROATE,Cardioresp exercise NEC,Herman-Marks,14.9,Pharmacy Medicine,0,1,94,take sav-assan
+730,OXYCODONE HYDROCHLORIDE,Opn skul/oth fx-brf coma,Anderson Group,14.73,Pharmacy Medicine,1,16,77,practice neem
+731,Doxazosin Mesylate,Acc-power hand tool NEC,Ebert and Sons,10.44,Controlled List,0,0,98,practice boil water
+732,galantamine hydrobromide,Disloc thoracic vert-opn,Hamill-Goyette,690.96,Pharmacy Medicine,0,7,59,take tulsi
+733,Salonpas pain relieving GEL-PATCH HOT,Dislocat foot NEC-closed,Ankunding Inc,78.54,Pharmacy Medicine,1,21,48,take tulsi
+734,Sertraline,Vacuum extrac del aff NB,Bradtke-Heathcote,99.52,Controlled List,1,29,78,use tulsi
+735,SENNA TIME,Benign neoplasm eye NEC,Kreiger Group,56.48,General Sales List,1,7,37,follow wake early
+736,Guaifenesin,Disorder of ear NOS,"Simonis, Kling and Mraz",85.72,Controlled List,1,29,71,practice boil water
+737,Ciprofloxacin,Alzheimer's disease,Kuhic Inc,25.82,Pharmacy Medicine,1,-5,23,use boil water
+738,ClotrimazOil Antifungal,Cor ath unsp vsl ntv/gft,Yundt-Price,195.95,Pharmacy Medicine,0,11,15,take padma-assan
+739,Pantoprazole Sodium,Longitudinal defic femur,Tillman-Waelchi,50.22,General Sales List,0,22,4,practice tulsi
+740,Fresh Med Solution,Pap smear vagina w HGSIL,Nitzsche and Sons,98.14,Controlled List,0,3,21,take boil water
+741,CLARINS BROAD SPECTRUM SPF 15 - Sunscreen Multi-Active Day Early wrinkle correcting,Primary CNS lymph spleen,"Hettinger, Becker and Walter",83.75,General Sales List,1,13,26,follow 8 hour sleep
+742,JIANZE ALCOHOL PREP PAD MEDIUM,Inadv radiat exp-medical,Kris-Jacobson,56.73,Controlled List,0,19,9,take haldi
+743,PHENTERMINE HYDROCHLORIDE,Conn's syndrome,Lynch-Hyatt,84.93,Pharmacy Medicine,0,3,17,do sav-assan
+744,Mucor racemosus,Abn glucose-postpartum,Leffler Inc,655.86,Pharmacy Medicine,1,12,76,practice 8 hour sleep
+745,Medicated Apricot Scrub,Idiopathic urticaria,"Dare, O'Reilly and Purdy",39.67,General Sales List,0,28,50,practice wake early
+746,Gastrografin,Complx febrile convulsns,Stamm-Littel,51.81,General Sales List,0,29,27,follow tulsi
+747,Gabapentin,Senile degenerat brain,Kuhic Inc,25.99,Pharmacy Medicine,1,29,23,use sav-assan
+748,Lodgepole Pine,Cerebvas dis-deliv w p/p,"Greenholt, Herman and Gislason",74.28,Pharmacy Medicine,0,-1,92,use tulsi
+749,Celery,Contraceptive mangmt NEC,"Maggio, Wehner and Ratke",72.25,Pharmacy Medicine,1,15,83,practice padma-assan
+750,MooreBrand Ibuprofen,Lacerat of cervix-unspec,"Hermiston, Legros and Hand",390.52,General Sales List,1,14,13,practice 8 hour sleep
+751,Sunmark nite time,Benign neo bronchus/lung,Mayert LLC,64.68,Pharmacy Medicine,1,4,41,use sav-assan
+752,Topcare infants pain relief,Heart assist dev replace,"Goyette, Daniel and Leannon",67.93,Pharmacy Medicine,0,12,5,do wake early
+753,Oral Analgesic,Cl skull fx NEC-coma NOS,"Predovic, Robel and Considine",97.14,General Sales List,0,9,1,practice sav-assan
+754,Namenda,Fit/adj non-vsc cath NEC,Fay-Rau,69.75,Controlled List,1,23,87,take tulsi
+755,NITROUS OXIDE,Cl skull vlt fx-coma NOS,Muller Group,12.31,Pharmacy Medicine,0,16,88,follow sav-assan
+756,Hydrogen Peroxide,Vascular comp vessel NEC,Kris-Jacobson,952.34,General Sales List,1,7,9,take padma-assan
+757,COLGATE,Irritability,"Schulist, Jerde and Romaguera",67.66,Pharmacy Medicine,1,24,91,use tulsi
+758,SHISEIDO SUN PROTECTION COMPACT FOUNDATION (REFILL),2nd degree burn NOS,"Hahn, Lubowitz and Halvorson",63.44,General Sales List,0,25,69,do padma-assan
+759,Daytime Nighttime,"Comp edentulism,class IV",Harris-Lesch,63.7,Pharmacy Medicine,1,13,43,take sav-assan
+760,Clobetasol Propionate,East equine encephalitis,Wolf-Price,11.29,Pharmacy Medicine,1,17,47,practice tulsi
+761,Fluconazole,Screening-eye cond NEC,Witting Inc,30.67,Pharmacy Medicine,1,-4,57,take 8 hour sleep
+762,Relpax,Spon ab w compl NEC-comp,Wolf-Price,176.05,Pharmacy Medicine,0,24,47,follow 8 hour sleep
+763,Amoxicillin,Rupt abd aortic aneurysm,Green-Harris,26.8,Pharmacy Medicine,0,15,34,take haldi
+764,Dr. Young 2P Pearl Brightening Balm SPF35 PA,Damage pelvic jt-postpar,Tillman-Waelchi,55.89,Pharmacy Medicine,0,12,4,use wake early
+765,MEDICAL AIR,Superf inj forearm NEC,"Cremin, Rosenbaum and Bashirian",56.28,Pharmacy Medicine,1,-4,86,practice neem
+766,CLARINS BB Skin Perfecting Broad Spectrum SPF 25 Sunscreen 02 Medium,Constrictiv pericarditis,"Hyatt, Fisher and Crooks",12.71,Pharmacy Medicine,0,8,16,take sav-assan
+767,Heparin Sodium in Dextrose,Actinomycosis NEC,DuBuque-Paucek,39.52,General Sales List,0,5,14,take haldi
+768,Sodium Chloride,Thrombophlebitis NOS,Harris-Lesch,719.05,Controlled List,1,-5,43,take wake early
+769,SuperPlus Beblesh Balm Triple Functions SPF25 PA 2Plus,Screen malig neop-vagina,Fay-Rau,82.69,Pharmacy Medicine,1,12,87,use vegetarian
+770,Coppertone Tanning Dry Oil,Artific rupt membr-unsp,"Greenholt, Herman and Gislason",14.99,Controlled List,0,21,92,take sav-assan
+771,Fycompa,Mal neo intrahepat ducts,Witting Inc,57.26,Controlled List,0,22,57,do neem
+772,TOMATO,Tubrcloma brain-histo dx,"Simonis, Kling and Mraz",54.8,General Sales List,0,10,71,do sav-assan
+773,Hydroxyzine Hydrochloride,Anphylct react milk prod,"Hahn, Lubowitz and Halvorson",26.46,General Sales List,0,11,69,do sav-assan
+774,Aplenzin,Hx of poisoning,Herman-Marks,698.61,Controlled List,1,-3,94,use wake early
+775,Exjade,Gc infect joint NEC,Ankunding Inc,32.77,Pharmacy Medicine,1,9,48,follow 8 hour sleep
+776,The Original Mane n Tail Daily Control Anti Dandruff Conditioner,Cephal vers NOS-antepart,Hartmann-Brakus,75.24,General Sales List,0,-2,62,take haldi
+777,PMS Tone,Outlet dysfnc constption,Yundt-Price,91.63,Pharmacy Medicine,1,17,15,take neem
+778,Hand Sanitizer,Ca in situ bronchus/lung,"Hettinger, Becker and Walter",34.75,General Sales List,0,10,26,take wake early
+779,Propylthiouracil,Subarach hem-concussion,"Ortiz, Corkery and Koelpin",53.71,Controlled List,0,10,67,use haldi
+780,Skintegrity Antibacterial Hand,Psychiatric follow-up,Fay-Rau,280.8,Pharmacy Medicine,1,3,87,take padma-assan
+781,Stool Softener,Contusion of forearm,Hamill-Goyette,74.88,Pharmacy Medicine,1,15,59,take haldi
+782,Stool Softener,Ac resp flr fol trma/srg,Yost-Pouros,88.41,General Sales List,0,23,85,take 8 hour sleep
+783,Piperacillin and Tazobactam,Elev ca antigen 125,Ankunding Inc,32.91,General Sales List,1,0,48,use wake early
+784,EAD,Cl skul base fx-coma NOS,Goldner-Gottlieb,89.04,General Sales List,1,3,99,take neem
+785,Capzasin P Arthritis Pain Relief,Ac duodenal ulcer w perf,"Douglas, Keeling and Murray",21.21,General Sales List,0,15,42,do vegetarian
+786,pravastatin sodium,Antepartum hem NEC-deliv,Langosh Inc,831.55,Controlled List,0,12,19,practice neem
+787,Gallic Acid,Erythema multiforme maj,Stamm-Littel,75.03,General Sales List,1,15,27,follow 8 hour sleep
+788,Tretinoin,Mal neo lower vermilion,"Padberg, Heidenreich and Predovic",19.24,General Sales List,0,-5,84,take vegetarian
+789,Norgestimate and Ethinyl Estradiol,Tuberculoid leprosy,Hartmann-Brakus,59.87,General Sales List,0,27,62,follow tulsi
+790,"Pollens - Weeds and Garden Plants, Nettle Urtica dioica",Erythromelalgia,Langosh Inc,70.54,Pharmacy Medicine,1,1,19,practice haldi
+791,Promescent,Trichomonal vaginitis,McKenzie Group,83.72,Pharmacy Medicine,1,27,7,follow neem
+792,DG Health Dual Action Complete,Resp TB NEC-unspec,"Bode, Deckow and Schuster",648.87,General Sales List,1,-3,10,practice vegetarian
+793,Losartan Potassium,Tongue disorder NEC,Nitzsche and Sons,89.84,Pharmacy Medicine,0,29,21,take tulsi
+794,Hanip Gargle apple fragrance,Open wound of palate,Rempel Inc,48.44,Pharmacy Medicine,0,25,8,use neem
+795,Cyclopentolate Hydrochloride,Adv eff GI agent NEC,"Luettgen, Hayes and Ward",68.54,Controlled List,1,24,38,follow sav-assan
+796,Finasteride,Thrombophlebit-antepart,"Hettinger, Becker and Walter",90.71,Controlled List,1,22,26,follow 8 hour sleep
+797,Amitriptyline Hydrochloride,Multiple contusion trunk,"Hyatt, Fisher and Crooks",61.71,General Sales List,0,22,16,follow sav-assan
+798,Citalopram,Tick-borne ricketts NEC,Hamill-Goyette,213.85,Controlled List,0,-4,59,use tulsi
+799,Finasteride,Hx estrogen therapy,"Cassin, Kuphal and Feeney",59.79,Controlled List,1,20,2,practice tulsi
+800,Allergy Composition,Ac ischemic hrt dis NEC,Walter and Sons,41.79,General Sales List,1,14,44,practice haldi
+801,Always Color Stay on Makeup Broad Spectrum SPF 15,Norml pressure hydroceph,"McGlynn, Hansen and Nicolas",96.84,Controlled List,0,1,24,take haldi
+802,REYATAZ,C1-c4 spin cord inj NOS,Fay-Rau,82.82,Controlled List,0,16,87,use 8 hour sleep
+803,Se-Care Chewable,Foreign body middle ear,"Schulist, Jerde and Romaguera",76.99,General Sales List,0,9,91,use boil water
+804,BareMinerals Medium Tan matte,Fracture four ribs-open,"Douglas, Keeling and Murray",993.02,General Sales List,1,-3,42,use boil water
+805,ZYPREXA,"Twin, mate lb-nonhosp",Hettinger Inc,56.21,Controlled List,0,26,12,practice vegetarian
+806,Medicated Heat,TB periph lymph-oth test,Hartmann-Brakus,50.74,Pharmacy Medicine,0,11,62,do padma-assan
+807,Pravastatin,Dislocat knee NEC-open,Emard Group,57.7,General Sales List,1,24,93,use tulsi
+808,Treatment Set TS330533,Water sliding,"Bode, Deckow and Schuster",84.73,General Sales List,1,14,10,use padma-assan
+809,PEACH SAKE PORE BB,Opioid dependence-unspec,Lemke LLC,71.38,Controlled List,0,10,18,do wake early
+810,Coppertone KIDS,"Keratoconus, ac hydrops",Wyman Inc,953.83,Pharmacy Medicine,0,26,79,do padma-assan
+811,Allergy Relief,Benign neoplasm skin NEC,Nitzsche and Sons,97.09,General Sales List,1,6,21,take tulsi
+812,Bodycology,Breast abscess-delivered,Bradtke-Heathcote,34.84,Pharmacy Medicine,0,15,78,practice boil water
+813,Moore Medical Antacid,Ankylosis-unspec,"Padberg, Heidenreich and Predovic",17.97,Controlled List,1,22,84,follow tulsi
+814,Ifosfamide,T7-t12 fx-op/ant crd syn,"Schulist, Jerde and Romaguera",54.84,Pharmacy Medicine,1,25,91,use haldi
+815,Natural Pain Relieving Lavender Breeze,Intermit monoc exotropia,"Predovic, Robel and Considine",14.82,Controlled List,0,20,1,use padma-assan
+816,SKIN MEDICA Purifying Foaming Wash,Juv osteochondros pelvis,Lemke LLC,226.27,Controlled List,1,18,18,practice neem
+817,Levetiracetam,"Blindness NOS, both eyes",Langosh Inc,13.38,Pharmacy Medicine,1,28,19,do vegetarian
+818,good sense simethicone,Periostitis-shlder,Rempel Inc,29.77,Pharmacy Medicine,0,30,8,practice wake early
+819,LBEL COULEUR LUXE AMPLIFIER XP,Hodg nodul sclero head,Hauck-Denesik,92.44,General Sales List,0,6,35,do wake early
+820,Instant Hand Sanitizer Vanilla Noel,Ant nasal diphtheria,"Schulist, Jerde and Romaguera",12.63,Controlled List,0,7,91,use haldi
+821,Miconazole Nitrate,Schmorl's nodes NOS,"McGlynn, Hansen and Nicolas",59.31,Controlled List,0,15,24,use wake early
+822,Baby Daily Moisturizing Fragrance Free,Furniture acc w sub fall,"Simonis, Kling and Mraz",906.14,Controlled List,1,16,71,practice boil water
+823,Nuvel Softy Roll-on Antiperspirant Deodorant,Mech strab w oth conditn,Bradtke-Heathcote,75.97,Controlled List,0,-1,78,follow boil water
+824,ELF Super Glossy Lip Shine SPF 15,Malig neo pancreas NOS,Harris LLC,54.58,General Sales List,1,-1,95,use tulsi
+825,Cyclosporine,Basal cell ca skin ear,McKenzie Group,72.1,Controlled List,0,22,7,practice boil water
+826,Fluoxetine,Family hx-blindness,"Raynor, Walker and Jakubowski",59.7,Pharmacy Medicine,1,23,58,use boil water
+827,Homeopathic Acne Formula,Abrasion hip/leg-infect,Mosciski Inc,27.48,General Sales List,1,15,20,use padma-assan
+828,Losartan Potassium,Cong heart anomaly NEC,"Maggio, Wehner and Ratke",785.73,Controlled List,1,18,83,follow tulsi
+829,Midol Complete,Subdural hem-prolng coma,Harris-Beer,17.42,Pharmacy Medicine,1,30,32,take neem
+830,Calcium Chloride,Opn skl fx NEC-deep coma,Harris LLC,11.26,Pharmacy Medicine,1,20,95,do boil water
+831,Desert Bambu,Microscopic hematuria,Leffler Inc,13.07,General Sales List,1,17,76,follow sav-assan
+832,Snow Skin Sunscreen Lip Balm,Mal hypert hrt dis w hf,Lemke LLC,95.09,Pharmacy Medicine,0,15,18,follow tulsi
+833,Levetiracetam,Opn wnd lat abdomen-comp,"Cummings, Smith and O'Connell",25.91,Pharmacy Medicine,0,10,33,take tulsi
+834,LEVOTHYROXINE SODIUM,Venomous bite/sting NOS,Hane-Doyle,353.22,Pharmacy Medicine,0,0,51,follow haldi
+835,XtraCare Skin Relief Oatmeal Daily Moisturizing,Neutropenia NOS,Harris-Lesch,71.59,General Sales List,0,3,43,take padma-assan
+836,Hydralazine Hydrochloride,Anter pituitary dis NEC,Kuphal LLC,83.99,Pharmacy Medicine,0,-1,29,practice padma-assan
+837,Fentanyl Citrate,Fetal disprop NOS-unspec,Langosh Inc,15.57,Controlled List,1,-4,19,use haldi
+838,Mixture of Standardized and Non-Standardized Southeastern Grasses,Aftercare joint replace,"Reinger, Langworth and Wunsch",76.51,Controlled List,0,28,11,do neem
+839,Allergy Desensitization,Transient visual loss,Harris LLC,93.81,Pharmacy Medicine,1,30,95,follow 8 hour sleep
+840,Promethazine Hydrochloride,Vit A bitot's spot,Goldner-Gottlieb,584.19,Pharmacy Medicine,1,-2,99,follow tulsi
+841,VANICREAM,Staph food poisoning,Langosh Inc,95.36,Controlled List,0,22,19,use tulsi
+842,Pure Finish Mineral Powder Foundation SPF 20 Pure Finish 3,Skin/scuba diving acc,"Simonis, Kling and Mraz",31.79,Controlled List,1,3,71,do wake early
+843,Lyrica,Open wound nasal sinus,"Prosacco, Cronin and Wilderman",93.67,General Sales List,0,16,25,do neem
+844,Precose,Opn skul vlt fx-brf coma,Anderson Group,55.42,General Sales List,1,29,77,do padma-assan
+845,Arroyo Willow,Q fever,Emard Group,12.18,General Sales List,1,26,93,follow wake early
+846,Cefdinir,Mv coll w oth obj-mocycl,Wyman Inc,353.92,General Sales List,0,-3,79,use boil water
+847,Hydrocodone Bitartrate and Acetaminophen,Unarmed fight or brawl,Crona-Leannon,52.14,Pharmacy Medicine,0,17,6,do wake early
+848,Solmeet denti doctor,Oth umbil cord compress,Braun-Bartoletti,68.99,Pharmacy Medicine,0,-4,64,do boil water
+849,Hasol Revitalizing,Spina bifida occulta,"Hermiston, Legros and Hand",49.9,General Sales List,1,29,13,take tulsi
+850,Oxygen,Acute necrosis of liver,Mayert LLC,95.72,Controlled List,0,5,41,practice neem
+851,Chestal Berry,Cong esoph fistula/atres,Mayert LLC,68.58,Controlled List,0,18,41,take tulsi
+852,Levetiracetam,Autoimmune disease NEC,Mosciski Inc,882.48,General Sales List,0,25,20,use padma-assan
+853,SAFEWAY,Mal neo lower vermilion,Stamm-Littel,68.11,Pharmacy Medicine,1,29,27,follow sav-assan
+854,Ondansetron,Aircrft acc NEC-crew,"Cremin, Rosenbaum and Bashirian",24.04,Controlled List,0,15,86,do vegetarian
+855,Atovaquone and Proguanil Hydrochloride,"Cong hip sublux, bilat",Daugherty-Olson,78.51,Pharmacy Medicine,1,29,30,take wake early
+856,EltaMD UV,Zygomatic hyperplasia,Harris-Beer,17.23,Controlled List,0,3,32,take neem
+857,AMBROSIA TRIFIDA POLLEN,TB pleurisy-histolog dx,Schimmel-Hoeger,23.09,Pharmacy Medicine,1,15,80,take 8 hour sleep
+858,Danazol,Microglossia,Lynch-Hyatt,102.92,Pharmacy Medicine,1,4,17,follow wake early
+859,Tizanidine,Artic cartil dis-ankle,"Luettgen, Hayes and Ward",28.84,Controlled List,1,11,38,follow sav-assan
+860,Advanced Hand Sanitizer,Ab NOS w compl NEC-comp,"Simonis, Kling and Mraz",46,General Sales List,0,18,71,take boil water
+861,Zolpidem Tartrate,Oral aphthae,Harvey and Sons,44.62,General Sales List,0,1,46,take boil water
+862,Allegra Cooling Relief Anti-Itch,Preop cardiovsclr exam,Anderson Group,87.44,General Sales List,0,24,77,use sav-assan
+863,Phenylalanine,Paraphrenia,Crona-Leannon,12.37,Pharmacy Medicine,1,18,6,follow 8 hour sleep
+864,NANOMIX NANO CLEAN,Overxrt-sudn stren mvmt,Hane-Doyle,867.06,General Sales List,0,0,51,practice haldi
+865,itch relief,Nephritis NEC,"Bechtelar, Connelly and Boehm",98.84,Controlled List,0,10,82,do 8 hour sleep
+866,Topcare Cold Remedy,Eye problems NEC,Lynch-Hyatt,92.42,General Sales List,1,-3,17,do neem
+867,Minastrin 24 Fe,Ac erth/erlk wo ach rmsn,Stamm-Littel,44.93,Controlled List,0,-3,27,do wake early
+868,Furosemide,Schizophr dis resid-chr,Braun-Bartoletti,28.12,Pharmacy Medicine,1,22,64,practice padma-assan
+869,TERRACOTTA BRONZING MIST WITH SUNSCREEN SPF 10 LIGHT 01,Toxic erythema,Witting Inc,93.53,Pharmacy Medicine,0,17,57,take wake early
+870,SHISEIDO THE MAKEUP FOUNDATION,Special symptom NEC/NOS,Ankunding Inc,444.59,General Sales List,0,3,48,follow tulsi
+871,Dopamine,Abort NOS w shock-unsp,Crona-Leannon,90.78,Controlled List,0,27,6,use vegetarian
+872,Concerta,Mal neo oral/pharynx NEC,"Ortiz, Corkery and Koelpin",34.67,Pharmacy Medicine,1,23,67,practice padma-assan
+873,Pepbis,RR acc w derail-pers NOS,"O'Conner, Kris and Schowalter",76.24,Pharmacy Medicine,1,28,54,practice padma-assan
+874,RECOTHROM,Ac systolic hrt failure,Gerhold and Sons,38.71,Pharmacy Medicine,0,16,31,practice padma-assan
+875,Octreotide Acetate,Prem rupt memb-antepart,"Schulist, Jerde and Romaguera",73.31,Controlled List,1,11,91,take tulsi
+876,Venlafaxine Hydrochloride,Lipoma NEC,Lemke LLC,712.56,Pharmacy Medicine,0,13,18,use tulsi
+877,Escitalopram,Poison-spinal anesthetic,"Maggio, Wehner and Ratke",28.14,Controlled List,1,17,83,use tulsi
+878,Signature Body,Hypertens NOS-delivered,Senger-Stamm,91.71,Controlled List,0,11,65,use haldi
+879,Hydroxyzine Hydrochloride,TB bone/jt NOS-exam unkn,Stamm-Littel,12.61,Pharmacy Medicine,0,22,27,take padma-assan
+880,Cold Multi-Symptom Daytime Non-Drowsy,Large cell lymph multip,Wyman Inc,90.31,General Sales List,0,-3,79,follow sav-assan
+881,diltiazem hydrochloride,Joint dis NOS-pelvis,Daugherty-Olson,79.92,General Sales List,1,15,30,practice tulsi
+882,Isopropyl Alcohol,Vocal paral unilat part,Crona-Leannon,790.43,General Sales List,0,17,6,practice sav-assan
+883,Groundsel,Mal neo lacrimal duct,Lynch-Hyatt,72.41,General Sales List,0,17,17,follow wake early
+884,Nitrofurantoin Monohydrate/Macrocrystals,Adv eff intraven anesth,Gerhold and Sons,70.21,Controlled List,1,19,31,take tulsi
+885,Painful Urination,Lt-for-date w/mal 2500+g,"Paucek, Wehner and Kunde",77.93,General Sales List,1,27,66,use padma-assan
+886,RUSSIAN THISTLE POLLEN,Rubella encephalitis,Kuhic Inc,38.68,General Sales List,0,22,23,do vegetarian
+887,Treatment Set TS332509,Allerg rhinitis-cat/dog,DuBuque-Paucek,98.25,General Sales List,0,21,14,practice haldi
+888,"Pollens - Trees, Cypress, Arizona Cupressus arizonica",Mult gest-fet reduct del,Kuhic Inc,148.48,Controlled List,1,30,23,use boil water
+889,Topcare Naproxen Sodium,Oral soft tissue dis NEC,"Fay, Hessel and Borer",57.74,Controlled List,0,7,36,do boil water
+890,Antacid,Animal bite NEC,"Ortiz, Corkery and Koelpin",57.05,Pharmacy Medicine,1,4,67,use neem
+891,Extra Strength Pain Relief,Screening-poliomyelitis,Stamm-Littel,39.15,General Sales List,1,5,27,practice wake early
+892,Topotecan,Colic,Goldner-Gottlieb,76.83,Pharmacy Medicine,1,-2,99,practice wake early
+893,FluGo,Lacrim passage granuloma,"McGlynn, Hansen and Nicolas",97.39,General Sales List,0,18,24,do wake early
+894,Hydrochlorothiazide,3rd deg burn chest wall,Wyman Inc,268.09,Pharmacy Medicine,0,30,79,follow wake early
+895,Allopurinol,Deep vein thromb-postpar,"O'Conner, Kris and Schowalter",58.64,Pharmacy Medicine,1,21,54,practice sav-assan
+896,Tolterodine Tartrate,Amphetamin depend-contin,Ankunding Inc,62.79,Controlled List,0,12,48,take tulsi
+897,Amoxicillin,Vis path dis w vasc dis,Hauck-Denesik,17.32,Pharmacy Medicine,1,24,35,do 8 hour sleep
+898,Acetylcysteine,Adv eff coagulants,Gottlieb-Kemmer,56.94,General Sales List,1,21,45,take wake early
+899,Duloxetine,Sialolithiasis,Dietrich-Denesik,66.67,Controlled List,0,1,63,do padma-assan
+900,HYDROCODONE BITARTRATE AND ACETAMINOPHEN,Hypercementosis,"Wiegand, Prohaska and Kub",301.47,Controlled List,1,-1,52,follow padma-assan
+901,Haloperidol,Speech disturbance NEC,Ullrich LLC,98.71,General Sales List,0,27,81,use tulsi
+902,CHENOPODIUM ALBUM POLLEN,Glycogenosis,Yundt-Price,89.8,General Sales List,1,-2,15,follow haldi
+903,Keppra,Vaccin for diphtheria,Witting Inc,49.16,General Sales List,0,15,57,follow boil water
+904,Clopidogrel,Matern distres-del w p/p,Johns-Lowe,82.38,Pharmacy Medicine,1,-4,56,do haldi
+905,ariSulfur,Drug depend NEC-unspec,"Douglas, Keeling and Murray",76.49,Pharmacy Medicine,0,5,42,do wake early
+906,AMITRIPTYLINE HYDROCHLORIDE,Avoidant personality dis,Langosh Inc,217.17,Controlled List,1,12,19,do sav-assan
+907,Oxy Daily Defense Exfoliating Body Scrub,Optic atrph w retin dyst,Cummings-Labadie,52.05,Controlled List,1,29,68,practice tulsi
+908,Diazepam,Chr post-trauma headache,Wyman Inc,81.35,Pharmacy Medicine,1,11,79,do wake early
+909,Levofloxacin,Kyphoscoliotic heart dis,Gerhold and Sons,71.51,Controlled List,1,2,31,follow tulsi
+910,METOPROLOL SUCCINATE,Postoperative air leak,Nitzsche and Sons,52.52,Pharmacy Medicine,1,22,21,take tulsi
+911,Axe,Viral arthritis-pelvis,Muller Group,22.39,Pharmacy Medicine,1,9,88,practice vegetarian
+912,TAMNAMO ESSENTIAL HAIR,Late ef-hemiplga non-dom,Ankunding Inc,231.03,Pharmacy Medicine,1,10,48,use padma-assan
+913,POLYPHENOL C15 BROAD SPECTRUM SPF20 ANTI-WRINKLE PROTECT FLUID,TB pneumonia-micro dx,Kuphal LLC,57.09,Controlled List,1,18,29,do vegetarian
+914,Aveeno Baby Natural Protection MineralBlock Sunblock,Stress fx pelvis,Koch-Graham,48.66,Controlled List,1,15,39,practice sav-assan
+915,DG Health Fast Acting Mucus Relief,Orthopoxvirus infect NOS,Kub-Aufderhar,31.55,Pharmacy Medicine,1,2,72,use haldi
+916,Rugby Heartburn Treatment,Water sliding,Emard Group,24.26,Controlled List,1,-3,93,do wake early
+917,HGH Vitality,Sleep organic disord NEC,"Hyatt, Fisher and Crooks",81.77,General Sales List,0,-4,16,do vegetarian
+918,Naproxen,Pulmon TB NOS-exam unkn,DuBuque-Paucek,382.44,Controlled List,1,29,14,use neem
+919,GPS Topical Anesthetic,Epilepsy-delivered w p/p,Wolf-Price,33.94,Controlled List,1,10,47,practice haldi
+920,Diabecline,Screen-bronch/emphysema,McKenzie Group,58.07,Pharmacy Medicine,0,30,7,practice wake early
+921,HYDRALAZINE HYDROCHLORIDE,Unsp ds conjuc viruses,"Moen, Osinski and Weissnat",93.87,Controlled List,1,5,73,take padma-assan
+922,Sunscreen,Fet damg d/t virus-unsp,"O'Conner, Kris and Schowalter",28.25,General Sales List,0,15,54,take vegetarian
+923,COREGCR,Pathol dislocat-shlder,"Cassin, Kuphal and Feeney",59.08,General Sales List,1,2,2,follow tulsi
+924,Gabapentin,Open brain lacer-concuss,Spinka-Crist,234.92,Pharmacy Medicine,0,27,40,do neem
+925,OPANA,Persistent vegtv state,"Prosacco, Cronin and Wilderman",37.1,Pharmacy Medicine,1,0,25,follow tulsi
+926,Fluoxetine Hydrochloride,DMI unspf nt st uncntrld,Walter and Sons,95.34,Controlled List,1,24,44,follow sav-assan
+927,Berberis Larix Urinary Tract Relief,Chr marginal ulc w perf,Hartmann-Brakus,52.86,General Sales List,1,16,62,use boil water
+928,LISINOPRIL AND HYDROCHLOROTHIAZIDE,Assault-poisoning NOS,Rempel Inc,21.42,General Sales List,1,2,8,follow vegetarian
+929,Lovastatin,Mal neo parietal lobe,"Moen, Osinski and Weissnat",70.42,Pharmacy Medicine,1,11,73,do vegetarian
+930,DepressionComposition,Obstruction of bile duct,DuBuque-Paucek,321.61,Controlled List,0,14,14,practice 8 hour sleep
+931,oxaliplatin,Acquire absnce intestine,"Welch, Turner and O'Reilly",98.2,Controlled List,1,5,89,practice sav-assan
+932,Tarceva,Mult crushing injury leg,Johnson Group,10.13,Pharmacy Medicine,1,20,90,take neem
+933,Oxybutynin Chloride,Mycotic arthritis-shlder,Gottlieb-Kemmer,71.33,Pharmacy Medicine,0,23,45,follow haldi
+934,Diphenhist,Comb deg cord in oth dis,"Maggio, Wehner and Ratke",40.17,General Sales List,1,24,83,use padma-assan
+935,Alprazolam,Throat pain,Zemlak and Sons,66.08,Pharmacy Medicine,0,6,70,use neem
+936,Claforan,Disturbances of vision,Feil-Mante,209.99,Pharmacy Medicine,0,13,96,take sav-assan
+937,CoTZ SPF 58,Dislocat knee NOS-closed,Walter and Sons,35.48,Controlled List,0,4,44,do tulsi
+938,triamcinolone acetonide,Mal neo upper vermilion,Kub-Aufderhar,93,General Sales List,0,3,72,follow sav-assan
+939,elimite,Tox w old hyper-antepart,DuBuque-Paucek,88.15,Pharmacy Medicine,1,1,14,practice vegetarian
+940,mapap,Fx femur intrcap NOS-opn,Crona-Leannon,33.45,General Sales List,1,5,6,take sav-assan
+941,KHUSKIA ORYZAE,Thlasema Hb-S w/o crisis,"Douglas, Keeling and Murray",75.6,Pharmacy Medicine,1,25,42,practice padma-assan
+942,Tussi Pres B,Del w 1 deg lac-postpart,Harris-Beer,772.43,General Sales List,1,16,32,practice wake early
+943,Adult Tussin DM Max,Benign neoplasm ovary,Feil-Mante,68.47,Controlled List,1,-1,96,use boil water
+944,Fentanyl,Drug dependence-deliver,Wolf-Price,13.15,Pharmacy Medicine,1,9,47,practice wake early
+945,EGF UV SHIELD,Unsp lym unsp xtrndl org,Crona-Leannon,19.22,General Sales List,1,-5,6,practice tulsi
+946,Hand Cleanse,Edema in preg-delivered,McKenzie Group,68.07,Controlled List,0,6,7,do haldi
+947,LEVAQUIN,Mal neo retroperitoneum,Breitenberg-Kulas,21.52,Pharmacy Medicine,0,6,28,follow tulsi
+948,Ranitidine 75,Neutropenia d/t infectn,Schimmel-Hoeger,635.93,Controlled List,1,23,80,use sav-assan
+949,ALCOHOL FREE HAND SANITIZER,Bone infect NOS-shlder,"Greenholt, Herman and Gislason",14.57,Pharmacy Medicine,1,22,92,practice neem
+950,CARE ONE,Hodgkins mix cell spleen,Kris-Jacobson,66.54,Controlled List,0,22,9,do haldi
+951,Halibut,Fx arm mult/NOS-closed,"Maggio, Wehner and Ratke",83.2,Controlled List,1,-1,83,follow padma-assan
+952,Major Camphor and Phenol,Kidney disruption-open,"Douglas, Keeling and Murray",91.76,General Sales List,0,28,42,do vegetarian
+953,Metoprolol Tartrate and Hydrochlorothiazide,Threat labor NEC-unspec,"Goyette, Daniel and Leannon",53.86,Pharmacy Medicine,0,18,5,take vegetarian
+954,Giant Ragweed Pollen,Anal or rectal pain,Rempel Inc,940.34,General Sales List,1,30,8,follow padma-assan
+955,Ketorolac Tromethamine,Crowd w/o sub fall,"Douglas, Keeling and Murray",63.26,Pharmacy Medicine,0,14,42,practice wake early
+956,Azithromycin,Disfigurements of head,Nitzsche and Sons,88.07,Pharmacy Medicine,1,30,21,use haldi
+957,SunMark Allergy Relief,Lower extremity aneurysm,"Cremin, Rosenbaum and Bashirian",32.38,General Sales List,0,8,86,follow sav-assan
+958,NATRUM PHOSPHORICUM,Injur carotid artery NOS,Green-Harris,98.19,General Sales List,1,8,34,follow boil water
+959,Divalproex Sodium,Prim thrombocytopen NOS,Koch-Graham,44.07,Pharmacy Medicine,1,14,39,take boil water
+960,Buprenorphine HCl,Myelodysplastic synd NOS,Gottlieb-Kemmer,231.98,Pharmacy Medicine,1,-2,45,follow 8 hour sleep
+961,Lamotrigine,Ven compl preg NEC-unsp,Leffler Inc,87.11,General Sales List,1,6,76,practice vegetarian
+962,Old Spice High Endurance Clear,Monoc esotrop w x/y pat,"Zieme, Lakin and Carter",25.75,Controlled List,0,4,55,use wake early
+963,aspirin,Prev c-delivery-delivrd,Breitenberg-Kulas,79.31,General Sales List,1,19,28,follow boil water
+964,Peptic Relief,T7-t12 fx-op/crd inj NOS,"Reinger, Langworth and Wunsch",38.22,Controlled List,1,22,11,follow vegetarian
+965,Noxzema,Chronic meningitis,Nikolaus Inc,74.88,Controlled List,0,23,60,do vegetarian
+966,soCALM Pain Relieving,Lipoma spermatic cord,"Thompson, Lang and Crist",426.24,General Sales List,1,3,75,take wake early
+967,Nutra Nail FUNGI FREE Antifungal Treatment,Fit/adj non-vsc cath NEC,Hettinger Inc,34.05,Controlled List,0,19,12,use sav-assan
+968,CD DIORSKIN NUDE SKIN-GLOWING MAKEUP SUNSCREEN BROAD SPECTRUM SPF 15 031 Sand,Injury-jump fm residence,Yundt-Price,57.82,Controlled List,1,25,15,follow wake early
+969,Amidate,Poisoning-antibiotic NOS,"Luettgen, Hayes and Ward",36.49,Controlled List,1,25,38,follow boil water
+970,Treatment Set TS332626,Congenital ureterocele,Kuphal LLC,61.83,General Sales List,0,5,29,practice wake early
+971,Premier Value Hemorrhoidal,Periostitis-shlder,Ferry Group,12.9,Pharmacy Medicine,0,28,74,practice sav-assan
+972,HYQVIA,Sarcoidosis,Goldner-Gottlieb,150.49,General Sales List,0,-5,99,do tulsi
+973,good neighbor pharmacy miconazole 3,Anaerobic meningitis,"Hermiston, Legros and Hand",21.36,Controlled List,1,29,13,do boil water
+974,Bacitracin Zinc,Renal dis NOS-del w p/p,Tillman-Waelchi,33.73,Pharmacy Medicine,0,-5,4,practice sav-assan
+975,Injury,Spina bifida-dorsal,Herman-Marks,97.82,General Sales List,0,12,94,take 8 hour sleep
+976,equate Nicotine,Bacteriuria preg-unspec,Nikolaus Inc,24.28,Pharmacy Medicine,1,18,60,practice haldi
+977,Neutrogena Healthy Skin Compact Makeup,Abn pelv NEC-deliv w p/p,Kautzer LLC,47.85,Controlled List,0,0,61,take boil water
+978,Leflunomide,Insect bite finger-infec,Hane-Doyle,794.21,General Sales List,1,20,51,take neem
+979,ExeFen DMX,Abnormal labor NOS-deliv,"Cremin, Rosenbaum and Bashirian",50.48,Controlled List,1,13,86,practice boil water
+980,Wal-Sporin,Opn skl/oth fx-deep coma,"McGlynn, Hansen and Nicolas",50.88,Pharmacy Medicine,1,8,24,follow 8 hour sleep
+981,Senna,Schizoaffectve dis-remis,Feil-Mante,55.2,Pharmacy Medicine,0,14,96,take sav-assan
+982,Levetiracetam,Sebrrheic dermatitis NOS,"Simonis, Kling and Mraz",47.35,General Sales List,1,1,71,practice tulsi
+983,Hydroxyzine Pamoate,Abdmnal pain lt lwr quad,Kub-Aufderhar,59.45,General Sales List,0,22,72,practice sav-assan
+984,enema,Pingueculitis,Wolf-Price,898.68,General Sales List,0,1,47,do wake early
+985,methylergonovine maleate,Preterm infant NEC wtNOS,Bradtke-Heathcote,11.36,General Sales List,1,-3,78,take boil water
+986,JiDeSheng,Prader-willi syndrome,Johnson Group,99.04,Controlled List,0,27,90,practice vegetarian
+987,equaline ibuprofen pm,Intestinal obstruct NOS,"Bode, Deckow and Schuster",41.83,Pharmacy Medicine,1,19,10,take sav-assan
+988,Bioelements,Transv/obliq lie-unspec,"Hahn, Lubowitz and Halvorson",26.8,Pharmacy Medicine,1,-5,69,take boil water
+989,Spooky Vanilla Antibacterial Hand Sanitizer,Heart chamber lacer-opn,Johnson Group,14.76,General Sales List,0,17,90,practice neem
+990,Lice Treatment,Sec neuroendo tu-periton,Kautzer LLC,180.12,Controlled List,1,11,61,do tulsi
+991,Isopropyl Rubbing Alcohol 50% With Wintergreen,Somat dysfunc pelvic reg,Harris-Maggio,89.17,General Sales List,0,24,22,do tulsi
+992,Wart Free,Fracture NOS-closed,Ferry Group,50.9,General Sales List,0,0,74,follow wake early
+993,ELF Mineral Foundation SPF 15,Furnit w/o sub fall,"Thompson, Lang and Crist",34.5,Pharmacy Medicine,1,24,75,practice boil water
+994,Casein,Poisoning-gi agents NEC,Nikolaus Inc,51.73,Controlled List,0,20,60,take tulsi
+995,Cipro,Dicalc phos cry-site NEC,Johnson Group,69.75,General Sales List,1,15,90,practice vegetarian
+996,Ambix First Aid,Bullous keratopathy,Spinka-Crist,264.46,Controlled List,0,9,40,practice padma-assan
+997,PLAGENTRA INTENSIVE CARE,Compl labor NEC-antepart,"Bechtelar, Connelly and Boehm",28.94,Controlled List,1,8,82,follow wake early
+998,voriconazole,Mult birth NOS-hosp w cs,Harris-Beer,54.57,Controlled List,1,14,32,follow vegetarian
+999,Venlafaxine,Poison-antivaricose drug,Witting Inc,88.2,Controlled List,1,2,57,take haldi
+1000,Carboplatin,Dysplasia of prostate,Tillman-Waelchi,77.01,General Sales List,1,16,4,do tulsi

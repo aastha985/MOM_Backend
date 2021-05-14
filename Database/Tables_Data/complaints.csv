@@ -1,0 +1,351 @@
+ComplaintsID,Description,RelatedTo,ComplaintDate,UserID,OrderID_If_Applicable,Pending
+1,Point 12 of T&C not clear,Membership,2021-01-04,963,,0
+2,Wrong order delivered,Order,2021-02-18,310,998,1
+3,"Medicine is marked prescribed, but is just a normal cold medicine",Medicine,2021-01-08,92,,0
+4,How to initiate Refund,Subscription,2021-02-05,295,,1
+5,"Need cap on password lenght, I was able to login with a single character password",User Experience,2021-01-09,220,,1
+6,"Purchsed subscription, but not showing activated in Profile",Subscription,2021-02-14,789,,0
+7,Medicine should be sold loose (Don't need all 20 tablets),Medicine,2021-02-02,853,,0
+8,Color scheme sucks,User Experience,2021-02-17,887,,1
+9,Covid-19 protocols not followed by Delivery Boy,Order,2021-03-30,193,1733,0
+10,Customer Care executive was rude,Miscellaneous,2021-03-10,387,,1
+11,Duration of Membership shown in Profile is incorrect,Membership,2021-03-07,927,,1
+12,Paymement gateway is too time consuming,Miscellaneous,2021-02-03,834,,1
+13,Medicine should be sold loose (Don't need all 20 tablets),Medicine,2021-01-27,953,,1
+14,Direct google authenciation would be nice,User Experience,2021-02-21,287,,1
+15,UI can be improved,User Experience,2021-01-26,290,,0
+16,Unable to select 28 days subscription,Subscription,2021-01-04,577,,1
+17,Wrong order delivered,Order,2021-01-31,127,1558,0
+18,Paymement gateway is too time consuming,Miscellaneous,2021-03-27,615,,1
+19,Point 3 of T&C not clear,Subscription,2021-02-08,141,,0
+20,Unable to select 28 days subscription,Subscription,2021-01-09,584,,0
+21,"Medicine is marked prescribed, but is just a normal cold medicine",Medicine,2021-03-04,529,,1
+22,Customer Care executive was rude,Miscellaneous,2021-03-14,196,,0
+23,Too much whitespace,User Experience,2021-01-03,332,,0
+24,Customer Care executive was rude,Miscellaneous,2021-02-13,382,,1
+25,UI can be improved,User Experience,2021-02-18,818,,0
+26,Color scheme sucks,User Experience,2021-03-01,450,,1
+27,Duration of subscription shown in Profile is incorrect,Subscription,2021-02-12,624,,0
+28,How to initiate Refund,Subscription,2021-01-30,247,,0
+29,Duration of Membership shown in Profile is incorrect,Membership,2021-03-11,696,,0
+30,False description of medicine provided,Medicine,2021-02-24,670,,0
+31,Point 3 of T&C not clear,Subscription,2021-03-03,815,,1
+32,Point 3 of T&C not clear,Subscription,2021-02-21,832,,1
+33,Point 12 of T&C not clear,Membership,2021-03-02,654,,0
+34,"Purchsed Membership, but not showing the same in Profile",Membership,2021-03-27,41,,1
+35,"Purchsed Membership, but not showing the same in Profile",Membership,2021-03-23,696,,1
+36,Color scheme sucks,User Experience,2021-03-13,980,,0
+37,UI can be improved,User Experience,2021-02-05,713,,0
+38,Recieved critical order after very much delay,Order,2021-01-27,49,882,0
+39,Medicine should be sold loose (Don't need all 20 tablets),Medicine,2021-02-09,861,,0
+40,"Purchsed Membership, but not showing the same in Profile",Membership,2021-03-25,597,,1
+41,Duration of subscription shown in Profile is incorrect,Subscription,2021-01-16,698,,1
+42,"Order not complete, missing few items",Order,2021-02-12,209,1405,0
+43,"Purchsed subscription, but not showing activated in Profile",Subscription,2021-01-09,950,,0
+44,"Medicine is marked prescribed, but is just a normal cold medicine",Medicine,2021-01-03,232,,1
+45,False description of medicine provided,Medicine,2021-02-08,351,,1
+46,Paymement gateway is too time consuming,Miscellaneous,2021-03-19,377,,1
+47,Medicine should be sold loose (Don't need all 20 tablets),Medicine,2021-03-31,262,,1
+48,Order didn't arrived on the requested time,Order,2021-01-09,979,881,0
+49,False description of medicine provided,Medicine,2021-02-20,217,,1
+50,Unable to select 28 days subscription,Subscription,2021-01-27,364,,1
+51,Duration of Membership shown in Profile is incorrect,Membership,2021-01-02,55,,0
+52,UI can be improved,User Experience,2021-03-11,639,,0
+53,Customer Care executive was rude,Miscellaneous,2021-03-19,347,,1
+54,Point 3 of T&C not clear,Subscription,2021-01-14,411,,1
+55,Point 12 of T&C not clear,Membership,2021-01-22,442,,0
+56,"Order not complete, missing few items",Order,2021-02-08,9,1833,0
+57,Point 12 of T&C not clear,Membership,2021-02-20,787,,1
+58,"Purchsed Membership, but not showing the same in Profile",Membership,2021-01-04,795,,1
+59,"Order not complete, missing few items",Order,2021-03-01,609,829,0
+60,Point 3 of T&C not clear,Subscription,2021-01-17,980,,0
+61,Point 3 of T&C not clear,Subscription,2021-03-21,587,,1
+62,Direct google authenciation would be nice,User Experience,2021-01-24,662,,1
+63,"Medicine is marked prescribed, but is just a normal cold medicine",Medicine,2021-01-22,70,,1
+64,False description of medicine provided,Medicine,2021-01-11,499,,0
+65,"Medicine is marked prescribed, but is just a normal cold medicine",Medicine,2021-03-12,516,,0
+66,Medicine should be sold loose (Don't need all 20 tablets),Medicine,2021-02-05,344,,0
+67,"Order not complete, missing few items",Order,2021-01-12,423,1904,1
+68,"Purchsed Membership, but not showing the same in Profile",Membership,2021-02-10,532,,1
+69,Point 12 of T&C not clear,Membership,2021-03-10,185,,1
+70,Point 3 of T&C not clear,Subscription,2021-03-25,398,,0
+71,Duration of Membership shown in Profile is incorrect,Membership,2021-03-27,273,,1
+72,UI can be improved,User Experience,2021-02-02,375,,1
+73,Point 3 of T&C not clear,Subscription,2021-02-20,191,,1
+74,"Need cap on password lenght, I was able to login with a single character password",User Experience,2021-01-27,645,,0
+75,Customer Care executive was rude,Miscellaneous,2021-02-28,133,,1
+76,"Order not complete, missing few items",Order,2021-01-02,866,1065,0
+77,Customer Care executive was rude,Miscellaneous,2021-03-19,958,,0
+78,Direct google authenciation would be nice,User Experience,2021-01-11,527,,1
+79,Customer Care executive was rude,Miscellaneous,2021-01-10,375,,0
+80,Paymement gateway is too time consuming,Miscellaneous,2021-01-31,873,,0
+81,Duration of subscription shown in Profile is incorrect,Subscription,2021-01-06,586,,0
+82,Customer Care executive was rude,Miscellaneous,2021-02-22,676,,1
+83,Medicine should be sold loose (Don't need all 20 tablets),Medicine,2021-01-17,375,,0
+84,"Purchsed Membership, but not showing the same in Profile",Membership,2021-01-26,854,,1
+85,Recieved critical order after very much delay,Order,2021-02-06,127,1558,0
+86,Medicine should be sold loose (Don't need all 20 tablets),Medicine,2021-01-31,702,,0
+87,"Medicine is marked prescribed, but is just a normal cold medicine",Medicine,2021-03-01,387,,1
+88,"Medicine is marked prescribed, but is just a normal cold medicine",Medicine,2021-03-08,201,,0
+89,Medicine should be sold loose (Don't need all 20 tablets),Medicine,2021-03-02,957,,0
+90,How to initiate Refund,Subscription,2021-03-09,713,,1
+91,False description of medicine provided,Medicine,2021-02-01,414,,1
+92,Unable to remove saved Credit card,Miscellaneous,2021-03-28,123,,0
+93,"Need cap on password lenght, I was able to login with a single character password",User Experience,2021-03-26,591,,0
+94,UI can be improved,User Experience,2021-01-11,806,,1
+95,Unable to remove saved Credit card,Miscellaneous,2021-02-17,734,,0
+96,False description of medicine provided,Medicine,2021-02-18,776,,0
+97,Duration of Membership shown in Profile is incorrect,Membership,2021-03-17,209,,0
+98,Point 12 of T&C not clear,Membership,2021-01-17,656,,0
+99,Color scheme sucks,User Experience,2021-03-09,953,,0
+100,Recieved critical order after very much delay,Order,2021-02-09,881,1601,1
+101,"Medicine is marked prescribed, but is just a normal cold medicine",Medicine,2021-02-08,975,,1
+102,Paymement gateway is too time consuming,Miscellaneous,2021-03-09,177,,0
+103,"Medicine is marked prescribed, but is just a normal cold medicine",Medicine,2021-01-26,787,,0
+104,"Purchsed Membership, but not showing the same in Profile",Membership,2021-01-27,699,,1
+105,Covid-19 protocols not followed by Delivery Boy,Order,2021-02-18,793,1767,0
+106,Paymement gateway is too time consuming,Miscellaneous,2021-01-28,791,,1
+107,Too much whitespace,User Experience,2021-02-02,59,,0
+108,Too much whitespace,User Experience,2021-02-19,42,,0
+109,Unable to remove saved Credit card,Miscellaneous,2021-03-27,543,,0
+110,How to initiate Refund,Subscription,2021-03-07,979,,1
+111,How to initiate Refund,Subscription,2021-03-30,434,,1
+112,Unable to remove saved Credit card,Miscellaneous,2021-01-05,336,,0
+113,False description of medicine provided,Medicine,2021-01-30,244,,1
+114,Too much whitespace,User Experience,2021-03-15,245,,1
+115,Point 12 of T&C not clear,Membership,2021-03-06,150,,1
+116,Point 3 of T&C not clear,Subscription,2021-01-08,230,,0
+117,How to initiate Refund,Membership,2021-03-30,876,,0
+118,"Medicine is marked prescribed, but is just a normal cold medicine",Medicine,2021-01-05,82,,1
+119,"Purchsed subscription, but not showing activated in Profile",Subscription,2021-01-13,707,,0
+120,"Medicine is marked prescribed, but is just a normal cold medicine",Medicine,2021-03-12,751,,1
+121,False description of medicine provided,Medicine,2021-03-27,342,,0
+122,Duration of Membership shown in Profile is incorrect,Membership,2021-02-10,389,,0
+123,Customer Care executive was rude,Miscellaneous,2021-02-20,901,,1
+124,Order didn't arrived on the requested time,Order,2021-01-05,498,1230,1
+125,"Medicine is marked prescribed, but is just a normal cold medicine",Medicine,2021-02-09,514,,0
+126,Recieved critical order after very much delay,Order,2021-01-24,815,1860,1
+127,Color scheme sucks,User Experience,2021-03-07,233,,0
+128,Unable to select 28 days subscription,Subscription,2021-02-20,801,,1
+129,UI can be improved,User Experience,2021-02-24,46,,1
+130,Duration of subscription shown in Profile is incorrect,Subscription,2021-01-22,511,,0
+131,Unable to remove saved Credit card,Miscellaneous,2021-02-12,843,,0
+132,Covid-19 protocols not followed by Delivery Boy,Order,2021-01-01,738,1620,0
+133,How to initiate Refund,Membership,2021-03-08,109,,0
+134,"Purchsed Membership, but not showing the same in Profile",Membership,2021-01-29,830,,1
+135,"Purchsed Membership, but not showing the same in Profile",Membership,2021-03-11,7,,0
+136,How to initiate Refund,Subscription,2021-01-22,981,,0
+137,Direct google authenciation would be nice,User Experience,2021-01-01,169,,0
+138,Customer Care executive was rude,Miscellaneous,2021-01-02,792,,1
+139,Customer Care executive was rude,Miscellaneous,2021-02-20,880,,0
+140,How to initiate Refund,Subscription,2021-01-22,453,,0
+141,Unable to remove saved Credit card,Miscellaneous,2021-01-20,840,,0
+142,Duration of Membership shown in Profile is incorrect,Membership,2021-03-01,343,,1
+143,Duration of Membership shown in Profile is incorrect,Membership,2021-02-02,906,,0
+144,How to initiate Refund,Membership,2021-03-01,283,,0
+145,False description of medicine provided,Medicine,2021-02-06,295,,1
+146,Point 3 of T&C not clear,Subscription,2021-03-30,480,,1
+147,False description of medicine provided,Medicine,2021-03-24,204,,1
+148,Point 12 of T&C not clear,Membership,2021-02-26,195,,0
+149,Order didn't arrived on the requested time,Order,2021-03-15,451,394,0
+150,Medicine should be sold loose (Don't need all 20 tablets),Medicine,2021-03-25,593,,0
+151,UI can be improved,User Experience,2021-01-08,308,,0
+152,"Medicine is marked prescribed, but is just a normal cold medicine",Medicine,2021-01-30,165,,1
+153,Unable to select 28 days subscription,Subscription,2021-02-10,647,,0
+154,Paymement gateway is too time consuming,Miscellaneous,2021-01-19,356,,1
+155,Recieved critical order after very much delay,Order,2021-03-03,709,1110,0
+156,Point 12 of T&C not clear,Membership,2021-02-23,918,,0
+157,"Need cap on password lenght, I was able to login with a single character password",User Experience,2021-02-20,468,,0
+158,Duration of Membership shown in Profile is incorrect,Membership,2021-02-19,151,,0
+159,False description of medicine provided,Medicine,2021-01-06,970,,1
+160,Color scheme sucks,User Experience,2021-01-24,269,,0
+161,Wrong order delivered,Order,2021-01-13,712,1794,1
+162,Recieved critical order after very much delay,Order,2021-02-28,848,1575,1
+163,Customer Care executive was rude,Miscellaneous,2021-02-05,875,,0
+164,Recieved critical order after very much delay,Order,2021-01-28,555,1616,0
+165,UI can be improved,User Experience,2021-03-16,740,,1
+166,False description of medicine provided,Medicine,2021-02-13,229,,0
+167,"Medicine is marked prescribed, but is just a normal cold medicine",Medicine,2021-01-19,861,,0
+168,Direct google authenciation would be nice,User Experience,2021-03-03,243,,1
+169,Paymement gateway is too time consuming,Miscellaneous,2021-03-26,559,,0
+170,Direct google authenciation would be nice,User Experience,2021-03-14,968,,1
+171,"Need cap on password lenght, I was able to login with a single character password",User Experience,2021-01-26,418,,0
+172,Point 12 of T&C not clear,Membership,2021-02-26,891,,0
+173,Direct google authenciation would be nice,User Experience,2021-02-26,973,,1
+174,Medicine should be sold loose (Don't need all 20 tablets),Medicine,2021-03-13,528,,1
+175,Paymement gateway is too time consuming,Miscellaneous,2021-02-05,481,,1
+176,UI can be improved,User Experience,2021-02-12,266,,0
+177,Duration of subscription shown in Profile is incorrect,Subscription,2021-01-04,563,,0
+178,"Purchsed subscription, but not showing activated in Profile",Subscription,2021-01-24,814,,0
+179,How to initiate Refund,Membership,2021-02-27,470,,1
+180,Unable to select 28 days subscription,Subscription,2021-01-10,458,,0
+181,Customer Care executive was rude,Miscellaneous,2021-02-20,968,,1
+182,How to initiate Refund,Subscription,2021-03-16,552,,1
+183,Medicine should be sold loose (Don't need all 20 tablets),Medicine,2021-02-01,224,,1
+184,UI can be improved,User Experience,2021-03-03,975,,0
+185,Paymement gateway is too time consuming,Miscellaneous,2021-02-27,608,,0
+186,Point 3 of T&C not clear,Subscription,2021-01-19,678,,0
+187,Medicine should be sold loose (Don't need all 20 tablets),Medicine,2021-03-17,587,,0
+188,False description of medicine provided,Medicine,2021-01-28,810,,0
+189,False description of medicine provided,Medicine,2021-02-19,142,,1
+190,"Need cap on password lenght, I was able to login with a single character password",User Experience,2021-01-08,257,,0
+191,Duration of Membership shown in Profile is incorrect,Membership,2021-03-19,311,,1
+192,Paymement gateway is too time consuming,Miscellaneous,2021-01-11,11,,1
+193,False description of medicine provided,Medicine,2021-01-18,26,,0
+194,Direct google authenciation would be nice,User Experience,2021-03-16,303,,1
+195,Order didn't arrived on the requested time,Order,2021-02-20,714,760,1
+196,Too much whitespace,User Experience,2021-03-24,410,,1
+197,Color scheme sucks,User Experience,2021-01-14,347,,0
+198,Order didn't arrived on the requested time,Order,2021-02-07,162,1654,1
+199,Wrong order delivered,Order,2021-01-19,686,1570,1
+200,Direct google authenciation would be nice,User Experience,2021-01-27,688,,0
+201,Customer Care executive was rude,Miscellaneous,2021-03-11,229,,1
+202,Unable to select 28 days subscription,Subscription,2021-01-25,937,,0
+203,How to initiate Refund,Membership,2021-01-23,507,,1
+204,False description of medicine provided,Medicine,2021-02-09,17,,1
+205,UI can be improved,User Experience,2021-03-22,257,,0
+206,Unable to remove saved Credit card,Miscellaneous,2021-01-18,322,,1
+207,"Purchsed Membership, but not showing the same in Profile",Membership,2021-01-23,648,,1
+208,Paymement gateway is too time consuming,Miscellaneous,2021-01-19,399,,1
+209,Direct google authenciation would be nice,User Experience,2021-03-04,959,,1
+210,Paymement gateway is too time consuming,Miscellaneous,2021-01-27,347,,1
+211,Unable to remove saved Credit card,Miscellaneous,2021-02-19,105,,1
+212,Customer Care executive was rude,Miscellaneous,2021-01-28,494,,0
+213,Unable to select 28 days subscription,Subscription,2021-02-03,624,,1
+214,Duration of subscription shown in Profile is incorrect,Subscription,2021-01-03,380,,0
+215,"Need cap on password lenght, I was able to login with a single character password",User Experience,2021-02-05,423,,0
+216,Recieved critical order after very much delay,Order,2021-02-26,851,812,0
+217,How to initiate Refund,Subscription,2021-02-12,942,,1
+218,Point 12 of T&C not clear,Membership,2021-01-26,818,,1
+219,Paymement gateway is too time consuming,Miscellaneous,2021-01-06,760,,0
+220,Duration of Membership shown in Profile is incorrect,Membership,2021-01-11,442,,1
+221,Duration of subscription shown in Profile is incorrect,Subscription,2021-02-18,849,,1
+222,False description of medicine provided,Medicine,2021-02-09,283,,0
+223,Customer Care executive was rude,Miscellaneous,2021-01-12,146,,1
+224,Order didn't arrived on the requested time,Order,2021-03-10,950,1751,1
+225,Customer Care executive was rude,Miscellaneous,2021-02-05,252,,1
+226,Customer Care executive was rude,Miscellaneous,2021-01-21,542,,1
+227,Point 12 of T&C not clear,Membership,2021-01-14,501,,0
+228,UI can be improved,User Experience,2021-01-13,83,,0
+229,Unable to remove saved Credit card,Miscellaneous,2021-01-27,706,,0
+230,Paymement gateway is too time consuming,Miscellaneous,2021-01-26,924,,1
+231,Recieved critical order after very much delay,Order,2021-02-20,77,1185,0
+232,Paymement gateway is too time consuming,Miscellaneous,2021-01-12,709,,1
+233,False description of medicine provided,Medicine,2021-01-04,81,,1
+234,Order didn't arrived on the requested time,Order,2021-01-09,330,136,0
+235,"Purchsed Membership, but not showing the same in Profile",Membership,2021-01-11,629,,0
+236,Paymement gateway is too time consuming,Miscellaneous,2021-03-24,879,,1
+237,False description of medicine provided,Medicine,2021-02-01,925,,1
+238,Paymement gateway is too time consuming,Miscellaneous,2021-03-10,575,,1
+239,Medicine should be sold loose (Don't need all 20 tablets),Medicine,2021-03-25,451,,0
+240,How to initiate Refund,Membership,2021-03-21,45,,1
+241,"Purchsed Membership, but not showing the same in Profile",Membership,2021-03-07,22,,1
+242,Unable to remove saved Credit card,Miscellaneous,2021-03-30,67,,1
+243,How to initiate Refund,Membership,2021-01-29,706,,1
+244,Order didn't arrived on the requested time,Order,2021-02-21,381,1211,0
+245,Medicine should be sold loose (Don't need all 20 tablets),Medicine,2021-03-24,576,,1
+246,How to initiate Refund,Membership,2021-02-16,341,,0
+247,"Purchsed Membership, but not showing the same in Profile",Membership,2021-02-18,909,,0
+248,How to initiate Refund,Subscription,2021-03-13,938,,1
+249,Customer Care executive was rude,Miscellaneous,2021-02-09,684,,1
+250,False description of medicine provided,Medicine,2021-02-26,723,,1
+251,Point 3 of T&C not clear,Subscription,2021-02-17,973,,0
+252,Recieved critical order after very much delay,Order,2021-03-12,884,17,0
+253,Color scheme sucks,User Experience,2021-01-21,846,,1
+254,"Purchsed Membership, but not showing the same in Profile",Membership,2021-01-06,487,,1
+255,Customer Care executive was rude,Miscellaneous,2021-01-15,316,,1
+256,"Purchsed Membership, but not showing the same in Profile",Membership,2021-01-27,491,,1
+257,"Purchsed subscription, but not showing activated in Profile",Subscription,2021-02-22,167,,1
+258,Duration of subscription shown in Profile is incorrect,Subscription,2021-01-02,836,,0
+259,Unable to select 28 days subscription,Subscription,2021-02-11,212,,0
+260,Paymement gateway is too time consuming,Miscellaneous,2021-01-07,864,,0
+261,Unable to remove saved Credit card,Miscellaneous,2021-02-27,151,,1
+262,Direct google authenciation would be nice,User Experience,2021-02-09,984,,0
+263,"Purchsed subscription, but not showing activated in Profile",Subscription,2021-01-13,921,,0
+264,Customer Care executive was rude,Miscellaneous,2021-02-05,91,,0
+265,Point 12 of T&C not clear,Membership,2021-01-22,850,,0
+266,Point 12 of T&C not clear,Membership,2021-02-15,71,,0
+267,Recieved critical order after very much delay,Order,2021-02-25,981,952,0
+268,False description of medicine provided,Medicine,2021-03-21,624,,1
+269,Duration of Membership shown in Profile is incorrect,Membership,2021-02-10,174,,0
+270,Too much whitespace,User Experience,2021-03-06,440,,1
+271,Unable to remove saved Credit card,Miscellaneous,2021-02-14,245,,1
+272,"Medicine is marked prescribed, but is just a normal cold medicine",Medicine,2021-03-30,35,,0
+273,How to initiate Refund,Membership,2021-01-28,768,,1
+274,"Need cap on password lenght, I was able to login with a single character password",User Experience,2021-01-07,987,,1
+275,Covid-19 protocols not followed by Delivery Boy,Order,2021-02-13,372,1955,1
+276,"Medicine is marked prescribed, but is just a normal cold medicine",Medicine,2021-02-13,1,,1
+277,Point 12 of T&C not clear,Membership,2021-01-05,984,,0
+278,Too much whitespace,User Experience,2021-03-17,895,,0
+279,Order didn't arrived on the requested time,Order,2021-02-04,275,68,1
+280,Unable to remove saved Credit card,Miscellaneous,2021-03-02,470,,0
+281,"Purchsed Membership, but not showing the same in Profile",Membership,2021-02-12,891,,0
+282,"Purchsed Membership, but not showing the same in Profile",Membership,2021-02-06,640,,1
+283,Color scheme sucks,User Experience,2021-01-01,708,,0
+284,How to initiate Refund,Membership,2021-01-05,583,,1
+285,"Order not complete, missing few items",Order,2021-03-10,701,1009,1
+286,Covid-19 protocols not followed by Delivery Boy,Order,2021-01-14,628,809,0
+287,Color scheme sucks,User Experience,2021-03-04,846,,0
+288,False description of medicine provided,Medicine,2021-01-29,560,,1
+289,Covid-19 protocols not followed by Delivery Boy,Order,2021-01-10,694,1718,1
+290,Duration of Membership shown in Profile is incorrect,Membership,2021-03-27,792,,0
+291,Point 3 of T&C not clear,Subscription,2021-01-10,256,,1
+292,Recieved critical order after very much delay,Order,2021-01-16,671,1216,0
+293,Medicine should be sold loose (Don't need all 20 tablets),Medicine,2021-01-02,171,,0
+294,"Medicine is marked prescribed, but is just a normal cold medicine",Medicine,2021-03-25,624,,1
+295,Too much whitespace,User Experience,2021-01-23,944,,1
+296,Covid-19 protocols not followed by Delivery Boy,Order,2021-01-19,389,1903,0
+297,Direct google authenciation would be nice,User Experience,2021-03-15,282,,1
+298,Point 12 of T&C not clear,Membership,2021-01-03,230,,1
+299,Customer Care executive was rude,Miscellaneous,2021-01-12,893,,0
+300,Duration of Membership shown in Profile is incorrect,Membership,2021-03-29,740,,1
+301,Unable to remove saved Credit card,Miscellaneous,2021-01-11,391,,1
+302,Unable to select 28 days subscription,Subscription,2021-01-04,80,,0
+303,Direct google authenciation would be nice,User Experience,2021-02-18,125,,1
+304,Duration of Membership shown in Profile is incorrect,Membership,2021-01-18,915,,0
+305,Medicine should be sold loose (Don't need all 20 tablets),Medicine,2021-02-10,742,,1
+306,Covid-19 protocols not followed by Delivery Boy,Order,2021-01-14,629,1666,1
+307,Point 3 of T&C not clear,Subscription,2021-02-01,263,,0
+308,"Purchsed subscription, but not showing activated in Profile",Subscription,2021-01-17,397,,0
+309,False description of medicine provided,Medicine,2021-02-13,739,,1
+310,False description of medicine provided,Medicine,2021-03-22,506,,1
+311,Point 3 of T&C not clear,Subscription,2021-01-24,58,,0
+312,"Order not complete, missing few items",Order,2021-03-28,628,809,1
+313,"Purchsed Membership, but not showing the same in Profile",Membership,2021-01-13,773,,1
+314,Too much whitespace,User Experience,2021-01-21,102,,1
+315,"Medicine is marked prescribed, but is just a normal cold medicine",Medicine,2021-02-04,956,,1
+316,Medicine should be sold loose (Don't need all 20 tablets),Medicine,2021-03-11,509,,0
+317,Medicine should be sold loose (Don't need all 20 tablets),Medicine,2021-03-12,808,,1
+318,Color scheme sucks,User Experience,2021-02-18,475,,0
+319,How to initiate Refund,Subscription,2021-01-17,168,,0
+320,Color scheme sucks,User Experience,2021-02-20,505,,0
+321,How to initiate Refund,Membership,2021-02-11,775,,0
+322,Unable to remove saved Credit card,Miscellaneous,2021-03-01,501,,1
+323,"Need cap on password lenght, I was able to login with a single character password",User Experience,2021-03-07,584,,0
+324,Point 12 of T&C not clear,Membership,2021-03-19,269,,1
+325,Color scheme sucks,User Experience,2021-02-23,341,,0
+326,UI can be improved,User Experience,2021-03-17,953,,1
+327,Point 12 of T&C not clear,Membership,2021-01-06,840,,0
+328,Unable to remove saved Credit card,Miscellaneous,2021-03-01,364,,0
+329,Order didn't arrived on the requested time,Order,2021-01-19,683,702,0
+330,How to initiate Refund,Membership,2021-02-09,478,,0
+331,Point 3 of T&C not clear,Subscription,2021-02-03,802,,0
+332,How to initiate Refund,Subscription,2021-03-05,56,,1
+333,"Purchsed Membership, but not showing the same in Profile",Membership,2021-02-13,789,,1
+334,How to initiate Refund,Membership,2021-01-31,961,,0
+335,Recieved critical order after very much delay,Order,2021-01-01,709,1110,0
+336,Paymement gateway is too time consuming,Miscellaneous,2021-02-24,840,,1
+337,Color scheme sucks,User Experience,2021-01-26,54,,0
+338,How to initiate Refund,Subscription,2021-01-04,92,,0
+339,How to initiate Refund,Subscription,2021-03-13,818,,1
+340,Duration of subscription shown in Profile is incorrect,Subscription,2021-02-05,579,,1
+341,Paymement gateway is too time consuming,Miscellaneous,2021-01-27,469,,0
+342,"Purchsed Membership, but not showing the same in Profile",Membership,2021-02-28,436,,0
+343,"Purchsed Membership, but not showing the same in Profile",Membership,2021-02-05,518,,0
+344,Unable to remove saved Credit card,Miscellaneous,2021-02-28,516,,0
+345,Point 3 of T&C not clear,Subscription,2021-01-09,247,,1
+346,"Purchsed subscription, but not showing activated in Profile",Subscription,2021-02-22,326,,1
+347,"Purchsed Membership, but not showing the same in Profile",Membership,2021-03-18,331,,1
+348,Covid-19 protocols not followed by Delivery Boy,Order,2021-01-20,930,1862,1
+349,Unable to select 28 days subscription,Subscription,2021-03-13,115,,0
+350,Covid-19 protocols not followed by Delivery Boy,Order,2021-02-26,13,1891,0
