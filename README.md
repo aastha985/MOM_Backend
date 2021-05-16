@@ -2,7 +2,7 @@
 
 <a name="1"></a>
 ### API Documentation
-https://documenter.getpostman.com/view/11165950/TzCS6mRU
+https://documenter.getpostman.com/view/11165950/TzRX852r
 
 <a name="2"></a>
 ### Server URL
